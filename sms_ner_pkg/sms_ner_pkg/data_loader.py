@@ -59,6 +59,15 @@ def _read_store_files(dir_path):
 
     return df
 
+def _read_sms_file(file_path):
+    sentences = []
+    for line in open(file_path, encoding="utf-8"):
+        line = line.strip()
+        if line:
+            line = line.split('   ')
+            sentences.append(line[len(line) - 1])
+    return sentences
+
 def _read_data_file(file_path, train=True):
     sentences = []
     sentence = [[], [], []]
@@ -92,6 +101,11 @@ def store_loader_with_city(root_path, city):
     df = pd.read_csv(file_path)
     return df
 
+def sms_data_loader(root_path):
+    root_path += '\input'
+    file_path = os.path.join(root_path, 'sms_data.txt')
+    return _read_sms_file(file_path)
+
 def test_data_loader(root_path):
     # [ idx, ejeols, nemed_entitis ] each sentence
     file_path = os.path.join(root_path, 'test.txt')
@@ -101,6 +115,8 @@ def data_loader(root_path):
     # [ idx, ejeols, nemed_entitis ] each sentence
     file_path = os.path.join(root_path, 'train.txt')
     return _read_data_file(file_path)
+
+root_path = "data"
 
 if __name__ == "__main__":
     # os.chdir(r'C:\Users\ghio1\PycharmProjects\senior-project-2021\sms_ner_pkg\sms_ner_pkg\data')
