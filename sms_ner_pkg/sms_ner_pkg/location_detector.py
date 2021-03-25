@@ -3,6 +3,9 @@
 import re
 
 
+def loc_detector(massage):
+    print(massage)
+
 def rex_location(sentence):
     resert_sent = ""    #공백 문자열
     #시도, 시군구 정규표현식 이후에 나머지 도로명주소 정규표현식을 적용한다.
