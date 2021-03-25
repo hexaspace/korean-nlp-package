@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 
 import re
-
+import konlpy
+import os
+from konlpy.tag import Hannanum
 
 def loc_detector(massage):
     print(massage)
@@ -26,6 +28,40 @@ def rex_location(sentence):
         resert_sent += isro.group()
     #문자열 반환
     return resert_sent
+
+def konlpy_parsing(sentence):
+  x = han.analyze(sentence) #형태소 분석
+  nset = set()
+  #비서술성 명사, 기타일반명사 바로 추출
+  for word in x:
+    #print(word)
+    #if len(word)>=1:
+      #case = word[0]
+    for case in word:
+      for unit in case:
+        if unit[1] == 'nqq':  #unit[1] == 'ncn' or
+          #print(unit)
+          nset.add(unit[0])
+  # 부사격, 목적격 조사로 앞에 명사 찾기
+  jcset = set()
+  string = ""
+  for word in x:
+    #if len(word)>=1:
+    #  case = word[0]
+    for case in word:
+      for unit in case:
+        if unit[1] == 'jca' or unit[1] == 'jco':
+          #print(case)
+          joidx = case.index(unit)
+          #print(joidx)
+          for i in range(joidx):
+              string += case[i][0]
+      jcset.add(string)
+      string  = ""
+  #print(jcset)
+  jcset.remove('')
+  #print(nset | jcset)
+  return nset | jcset
 
 if __name__ == "__main__":
     massages = ["내일 만나서 뭐할까?",
