@@ -52,7 +52,7 @@ class DateDetector():
                     else: self.isPrevValid = False
 
 def getMessages():
-    messages = dataLoader._read_data_file()
+    messages = dataLoader.sms_data_loader()
     return messages
 
 if __name__ == "__main__":

@@ -61,7 +61,7 @@ def _read_store_files(dir_path):
 
 def _read_sms_file(file_path):
     sentences = []
-    for line in open(file_path, encoding="utf-8"):
+    for line in open(file_path, encoding="cp949"):
         line = line.strip()
         if line:
             line = line.split('   ')
@@ -88,7 +88,7 @@ def _read_data_file(file_path, train=True):
     return sentences
 
 def subway_loader(root_path, name):
-    file_path = os.path.join(root_path, 'subway_station_names.xlxs')
+    file_path = os.path.join(root_path, 'subway_station_names.xlsx')
     return _read_subway_file(file_path, name)
 
 def store_loader(root_path):
