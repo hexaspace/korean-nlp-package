@@ -68,24 +68,24 @@ def _read_sms_file(file_path):
             sentences.append(line[len(line) - 1])
     return sentences
 
-def _read_data_file(file_path, train=True):
-    sentences = []
-    sentence = [[], [], []]
-    for line in open(file_path, encoding="utf-8"):
-        line = line.strip()
-        if line == "":
-            sentences.append(sentence)
-            sentence = [[], [], []]
-        else:
-            idx, ejeol, ner_tag = line.split("\t")
-            sentence[0].append(int(idx))
-            sentence[1].append(ejeol)
-            if train:
-                sentence[2].append(ner_tag)
-            else:
-                sentence[2].append("-")
-
-    return sentences
+# def _read_data_file(file_path, train=True):
+#     sentences = []
+#     sentence = [[], [], []]
+#     for line in open(file_path, encoding="cp949"):
+#         line = line.strip()
+#         if line == "":
+#             sentences.append(sentence)
+#             sentence = [[], [], []]
+#         else:
+#             idx, ejeol, ner_tag = line.split("\t")
+#             sentence[0].append(int(idx))
+#             sentence[1].append(ejeol)
+#             if train:
+#                 sentence[2].append(ner_tag)
+#             else:
+#                 sentence[2].append("-")
+#
+#     return sentences
 
 def subway_loader(root_path, name):
     file_path = os.path.join(root_path, 'subway_station_names.xlsx')
@@ -106,24 +106,17 @@ def sms_data_loader(root_path):
     file_path = os.path.join(root_path, 'sms_data.txt')
     return _read_sms_file(file_path)
 
-def test_data_loader(root_path):
-    # [ idx, ejeols, nemed_entitis ] each sentence
-    file_path = os.path.join(root_path, 'test.txt')
-    return _read_data_file(file_path, False)
-
-def data_loader(root_path):
-    # [ idx, ejeols, nemed_entitis ] each sentence
-    file_path = os.path.join(root_path, 'train.txt')
-    return _read_data_file(file_path)
-
-root_path = "data"
+# def test_data_loader(root_path):
+#     # [ idx, ejeols, nemed_entitis ] each sentence
+#     file_path = os.path.join(root_path, 'test.txt')
+#     return _read_data_file(file_path, False)
+#
+# def data_loader(root_path):
+#     # [ idx, ejeols, nemed_entitis ] each sentence
+#     file_path = os.path.join(root_path, 'train.txt')
+#     return _read_data_file(file_path)
 
 if __name__ == "__main__":
     # os.chdir(r'C:\Users\ghio1\PycharmProjects\senior-project-2021\sms_ner_pkg\sms_ner_pkg\data')
     # current_path = os.getcwd()
-
-    # sentences = data_loader("data")
-    # print(len(sentences))
-    # sentences = test_data_loader("data")
-    # print(sentences[0])
     subway_loader("data\\dictionary", "마포")
