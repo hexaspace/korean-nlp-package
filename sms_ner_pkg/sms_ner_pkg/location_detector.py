@@ -4,21 +4,51 @@ import re
 import konlpy
 import os
 from konlpy.tag import Hannanum
-
-def _read_data_file(file_path, train=True): #해당 파이썬 내 로드함수 예비용
-    sentences = []
-    sentence = []
-    for line in open(file_path, encoding="utf-8"):
-        line = line.strip()
-        if line == "":
-            sentences.append(sentence)
-            sentence = []
-        else:
-            sentence.append(line)
-    return sentences
+import pandas as pd
 
 
-def loc_detector(messages):
+def get_subway_location(root_path, locations):
+
+    locations.sort()    # 초성이 바뀔때만 subway파일을 로드하기 위해
+
+    subways = []    # 찾은 지하철역 저장
+    save_chosung = ''  #이전 로드한 지하철역 초성을 저장
+
+    #print(subway_list[subway_list.str.contains(gang)])  #판다스 search함수, startswith, endswith함수도 이싿.
+
+    for location in locations:
+        if '가' <= location[0] <= '힣':   #한글로 시작하는 장소만 추출
+            chosung = find_chosung(location)    # 해당 location의 초성 찾기
+
+            if save_chosung != chosung: #다른 초성이 나왔을때만 subway데이터 로드
+                if (chosung == "ㄲ") | (chosung == "ㅃ") | (chosung == "ㅆ") | (chosung == "ㅉ") | (chosung == "ㅎ"):
+                    continue    #data_loader 오류 수정중... 우선 예외처리
+                subways_chosung = dataLoader.subway_loader(root_path + '\dictionary', location)
+                save_chosung = chosung
+
+            if location[-1] == '역': # 마지막이 역으로 끝나면 '역'제거
+                location = location[:-1]
+
+            if location in subways_chosung.values:  #리스트로 변환 후 search
+                subways.append(location + "역")  # subway 데이터에 생략된 '역'문자 추가
+
+    return subways
+
+
+def find_chosung(string):
+    # 첫글자 초성 추출
+    first_chosung = ""
+    CHOSUNG_LIST = ['ㄱ', 'ㄲ', 'ㄴ', 'ㄷ', 'ㄸ', 'ㄹ', 'ㅁ', 'ㅂ', 'ㅃ', 'ㅅ', 'ㅆ', 'ㅇ', 'ㅈ', 'ㅉ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ']
+    for w in list(string[0].strip()):
+        # 영어인 경우 구분해서 작성함.
+        if '가' <= w <= '힣':
+            # 588개 마다 초성이 바뀜.
+            ch = (ord(w) - ord('가')) // 588
+            first_chosung += CHOSUNG_LIST[ch]
+    # print(first_chosung)
+    return first_chosung
+
+def loc_detector(root_path, messages):
     han = Hannanum()
     rex_loc = []    #도로명주소 리스트
     konlp_loc = []  #형태소 파싱 후 주소후보 리스트
@@ -36,8 +66,8 @@ def loc_detector(messages):
         konlp_loc.extend(konlpy_location_list)
 
     konlp_loc.reverse() # 역순으로 정렬 (최근 message일수록 장소 확률 증가)
-
-    return rex_loc, konlp_loc
+    subway_loc = get_subway_location(root_path, konlp_loc)
+    return rex_loc, subway_loc
 
 def get_road_address(sentence):
     road_address = ""    #공백 문자열
@@ -89,7 +119,7 @@ def get_locations_by_konlpy(_sentence):
 def delete_jamo(_sentence):
     #자음으로, 또는 모음으로만 이뤄진 글자 제거(오타, 감정표현, 초성 등)
     sentence = ""  # 공백 문자열
-    not_jamo = re.compile("([^ㄱ-ㅎㅏ-ㅣ~^]+)")    #자음, 모음, 특수문자제거
+    not_jamo = re.compile("([^ㄱ-ㅎㅏ-ㅣ~^\"]+)")    #자음, 모음, 특수문자제거
     not_jamo_list = not_jamo.findall(_sentence)
     # 존재한다면 문자열에 추가 후 다음 문자열부터 탐색
     if not_jamo_list == None:
@@ -101,14 +131,28 @@ def delete_jamo(_sentence):
 
 
 if __name__ == "__main__":
+    import data_loader as dataLoader
+
     han = Hannanum()    # class 생성
 
-    input = _read_data_file('data/input.txt')
-    for i in input:
-        road_list, konlpy_list = loc_detector(i)
-        print("도로명주소 : ", road_list)
-        print("형태소 주소후소 : ", konlpy_list)
+    os.chdir(r'C:\Users\hexa6/Desktop/git/nlp_proj/korean-nlp-package\sms_ner_pkg\sms_ner_pkg\data')
+    current_path = os.getcwd()
+    messages = dataLoader.sms_data_loader(current_path)
+
+    #get_subway_location(current_path, "asd")
 
 
+    road_list, loc_list = loc_detector(current_path, messages)
+    print("도로명주소 : ", road_list)
+    print("주소후보 : ", loc_list)
+    '''
+    출력결과
+    도로명주소 :  [' 그대로 50', '(부평문화로77', '시간정도 가능시']
+주소후보 :  ['강남역', '강남역', '노원역', '녹사평역', '도봉산역', '부평역', '서울대입구역', '서울대입구역', '영종역', '영종역', '영종역', '용두역', '용두역', '인천역']
 
+    '''
+
+
+else:
+    from . import data_loader
 
