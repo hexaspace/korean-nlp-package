@@ -10,7 +10,6 @@ class DateDetector():
             '이번주', '다음주', '이번 주', '다음 주', '담주'
         ]
         self.targetWords = ['월', '일', '뒤', '후']
-        self.isPrevValid = False
 
     def getDates(self):
         return self.dates
@@ -26,7 +25,7 @@ class DateDetector():
         if targetWord=='월' or targetWord=='일':
             return self.hasNumbers(word)
         if targetWord=='뒤' or targetWord=='후':
-            return
+            return targetWord==word
 
     # 단어에 포함된 특수문자 제거
     def deleteSpecialCharacters(self, word):
@@ -42,15 +41,17 @@ class DateDetector():
                     if dateWord in word:
                         _dateWord = self.deleteSpecialCharacters(dateWord) #특수문자 삭제
                         self.addDate(_dateWord)
-                        self.isPrevValid = True
                 for targetWord in self.targetWords:
                     if targetWord in word:
                         if self.isValid(targetWord, word):
                             _word = self.deleteSpecialCharacters(word) #특수문자 삭제
                             self.addDate(_word.split('에')[0]) #조사 삭제
-                            self.isPrevValid = True
-                    else: self.isPrevValid = False
-
+                        #'뒤', '후'가 포함된 단어일 경우 'XX분 후'의 형식만 valid로 리턴
+                        if targetWord == '뒤' or targetWord=='후':
+                            idx = index.words(word)
+                            if (words[idx-1] in self.dates) and self.isValid(targetWord, word) :
+                                self.addDate(word)
+                        
 def getMessages():
     messages = dataLoader._read_data_file()
     return messages
