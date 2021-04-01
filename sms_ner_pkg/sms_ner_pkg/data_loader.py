@@ -84,7 +84,7 @@ def _read_sms_file(file_path):
 #     return sentences
 
 def subway_loader(root_path, name):
-    file_path = os.path.join(root_path, 'subway_station_names.xlsx')
+    file_path = os.path.join(root_path, 'dictionary\subway_station_names.xlsx')
     return _read_subway_file(file_path, name)
 
 def store_loader(root_path):
@@ -118,5 +118,5 @@ def sms_data_loader(root_path):
 if __name__ == "__main__":
     # os.chdir(r'C:\Users\ghio1\PycharmProjects\senior-project-2021\sms_ner_pkg\sms_ner_pkg\data')
     # current_path = os.getcwd()
-    subway_loader("data\\dictionary", "하남")
+    subway_loader("data", "하남")
     # store_loader_with_city('data','세종')
