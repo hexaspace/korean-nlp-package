@@ -3,8 +3,8 @@ import os
 import pandas as pd
 
 def _get_hash_value(file_path, name):
-    index = ""
-    next_index = ""
+    index = -1
+    next_index = -1
 
     # read hash table file
     sheet_name = 'hash_table'
@@ -25,26 +25,22 @@ def _get_hash_value(file_path, name):
             # 588개 마다 초성이 바뀜.
             ch = (ord(w) - ord('가')) // 588
             first_chosung += CHOSUNG_LIST[ch]
-    print(first_chosung)
 
     # 초성 인덱스 추출
     for i in range(len(keys)):
-        if first_chosung in keys[i] :
+        if first_chosung == keys[i]:
             index = values[i]
             next_index = values[i+1]
-    print(index, next_index)
 
     return [index-2, next_index-2]
 
 def _read_subway_file(file_path, name):
     station_names = []
     index = _get_hash_value(file_path, name)
-    # index = [128,300]
-
     sheet_name = '지하철역_명칭'
     df = pd.read_excel(file_path, sheet_name=sheet_name)
     station_names = df.iloc[index[0]:index[1],0] #0열 선택
-
+    print(station_names)
     return station_names
 
 def _read_store_files(dir_path):
@@ -97,9 +93,12 @@ def store_loader(root_path):
 
 def store_loader_with_city(root_path, city):
     file_name = city + '.csv'
-    file_path = os.path.join(root_path, 'dictionary\store_data'+file_name)
+    file_path = os.path.join(root_path, 'dictionary\store_names')
+    file_path = os.path.join(file_path, file_name)
     df = pd.read_csv(file_path)
-    return df
+    df_sorted_by_store_name = df.sort_values(by='상호명', ascending=True)
+    # print(df_sorted_by_store_name)
+    return df_sorted_by_store_name
 
 def sms_data_loader(root_path):
     root_path += '\input'
@@ -119,4 +118,5 @@ def sms_data_loader(root_path):
 if __name__ == "__main__":
     # os.chdir(r'C:\Users\ghio1\PycharmProjects\senior-project-2021\sms_ner_pkg\sms_ner_pkg\data')
     # current_path = os.getcwd()
-    subway_loader("data\\dictionary", "마포")
+    subway_loader("data\\dictionary", "하남")
+    # store_loader_with_city('data','세종')
