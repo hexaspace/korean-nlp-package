@@ -26,10 +26,12 @@ def loc_detector(root_path, messages):
         konlp_loc.extend(konlpy_location_list)
 
     konlp_loc.reverse() # 역순으로 정렬 (최근 message일수록 장소 확률 증가)
+
     store_loc = _get_store_location(root_path, konlp_loc)    #간판명 장소 사전탐색
     subway_loc = _get_subway_location(root_path, konlp_loc)  #지하철명 장소 사전탐색
 
     _location = rex_loc + list(set(subway_loc)) + store_loc
+
     return _location
 
 def _get_store_location(root_path, locations):
@@ -54,6 +56,7 @@ def _get_subway_location(root_path, locations):
     for location in locations:
         if '가' <= location[0] <= '힣':   #한글로 시작하는 장소만 추출
             chosung = _find_chosung(location)    # 해당 location의 초성 찾기
+
 
             if save_chosung != chosung: #다른 초성이 나왔을때만 subway데이터 로드
                 if (chosung == "ㄲ") | (chosung == "ㅃ") | (chosung == "ㅆ") | (chosung == "ㅉ") | (chosung == "ㅎ"):
@@ -87,6 +90,7 @@ def _find_chosung(string):
 
 def _get_load_address(sentence):
     load_address = ""    #공백 문자열
+
     #시도, 시군구 정규표현식 이후에 나머지 도로명주소 정규표현식을 적용한다.
     rex_sigu = re.compile("([가-힣]{2,6}(시|도)).([가-힣]+(시|군|구))")
     rex_ro = re.compile("((\s[가-힣\d\,\.]+(읍|면|동|가|리|구))|).([가-힣A-Za-z·\d~\-\.]+(로|길)).((지하 |공중 |)[\d]+)((\,(\s[\d]+동|)(\s[\d~]+층|)(\s[\d]+호|))|)((\s|)\([가-힣]+동\)|)")
@@ -149,6 +153,7 @@ def _delete_jamo(_sentence):
 if __name__ == "__main__":
     import data_loader as dataLoader
 
+
     han = Hannanum()    # class 생성
 
     os.chdir(r'C:\Users\hexa6/Desktop/git/nlp_proj/korean-nlp-package\sms_ner_pkg\sms_ner_pkg\data')
@@ -157,6 +162,7 @@ if __name__ == "__main__":
 
     _location = loc_detector(current_path, messages)
     print(_location)
+
 
 else:
     from . import data_loader
