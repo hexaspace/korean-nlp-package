@@ -68,55 +68,22 @@ def _read_sms_file(file_path):
             sentences.append(line[len(line) - 1])
     return sentences
 
-# def _read_data_file(file_path, train=True):
-#     sentences = []
-#     sentence = [[], [], []]
-#     for line in open(file_path, encoding="cp949"):
-#         line = line.strip()
-#         if line == "":
-#             sentences.append(sentence)
-#             sentence = [[], [], []]
-#         else:
-#             idx, ejeol, ner_tag = line.split("\t")
-#             sentence[0].append(int(idx))
-#             sentence[1].append(ejeol)
-#             if train:
-#                 sentence[2].append(ner_tag)
-#             else:
-#                 sentence[2].append("-")
-#
-#     return sentences
-
-def subway_loader(root_path, name):
-    file_path = os.path.join(root_path, 'subway_station_names.xlsx')
+def subway_loader(name):
+    file_path = './data/dictionary/subway_station_names.xlsx'
     return _read_subway_file(file_path, name)
 
-def store_loader(root_path):
-    dir_path = os.path.join(root_path, 'dictionary\store_names')
+def store_loader():
+    dir_path = './data/dictionary/store_names'
     return _read_store_files(dir_path)
 
-def store_loader_with_city(root_path, city):
-    file_name = city + '.csv'
-    file_path = os.path.join(root_path, 'dictionary\store_data'+file_name)
+def store_loader_with_city(city):
+    file_path = './data/dictionary/store_data' + city + '.csv'
     df = pd.read_csv(file_path)
     return df
 
-def sms_data_loader(root_path):
-    root_path += '\input'
-    file_path = os.path.join(root_path, 'sms_data.txt')
+def sms_data_loader():
+    file_path = './data/input/sms_data.txt'
     return _read_sms_file(file_path)
 
-# def test_data_loader(root_path):
-#     # [ idx, ejeols, nemed_entitis ] each sentence
-#     file_path = os.path.join(root_path, 'test.txt')
-#     return _read_data_file(file_path, False)
-#
-# def data_loader(root_path):
-#     # [ idx, ejeols, nemed_entitis ] each sentence
-#     file_path = os.path.join(root_path, 'train.txt')
-#     return _read_data_file(file_path)
-
 if __name__ == "__main__":
-    # os.chdir(r'C:\Users\ghio1\PycharmProjects\senior-project-2021\sms_ner_pkg\sms_ner_pkg\data')
-    # current_path = os.getcwd()
     subway_loader("data\\dictionary", "마포")
