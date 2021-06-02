@@ -9,7 +9,7 @@ message = "06.02(수) 00시 기준 서울시 신규 확진자 258명 발생. 자
 type, num = type_detector(message)
 dateDetector = DateDetector()
 date = dateDetector.date_detector(message)
-timeDetector = TimeDetector()g
+timeDetector = TimeDetector()
 time = timeDetector.time_detector(message)
 location = location_detector([message])
 
