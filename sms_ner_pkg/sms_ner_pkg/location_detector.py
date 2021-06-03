@@ -1,78 +1,107 @@
 # -*- coding: utf-8 -*-
-
 import re
-import konlpy
-import os
 from konlpy.tag import Hannanum
-import pandas as pd
+from .data_loader import subway_loader as subway_loader
+from .data_loader import store_loader as store_loader
+from .data_loader import sigu_loader as sigu_loader
 
-
-
-def loc_detector(root_path, messages):
-    han = Hannanum()
+han = Hannanum()
+def loc_detector(message):
     rex_loc = []    #도로명주소 리스트
     konlp_loc = []  #형태소 파싱 후 주소후보 리스트
+    city_loc = []   #도시 이름 리스트
+    # subway_loc = []
+    # store_loc = []
+    #for message in messages:
 
-    for message in messages:
-        # 정규표현식 도로명주소 추출
-        load_location = _get_road_address(message)
-        if load_location:   # 도로명 주소가 존재한다면
-            rex_loc.append(load_location)
-            continue
-        # 형태소 분석 주소 후보 추출
-        konlpy_location_set = _get_locations_by_konlpy(message)
-        # 결과값인 set을 list로 변환 후 konlpy_loc에 연결추가
-        konlpy_location_list = list(konlpy_location_set)
-        konlp_loc.extend(konlpy_location_list)
+    # 정규표현식 도로명주소 추출
+    road_location = _get_road_address(message)
+    if road_location and _get_only_location(road_location): # 도로명 주소가 존재한다면
+        rex_loc.append(road_location)
+        return road_location
+
+    city_loc = _get_city_location(message)  # 도시 장소 사전탐색
+
+    message = deleteSpecialCharacters(message)
+    # 형태소 분석 주소 후보 추출
+    konlpy_location_set = _get_locations_by_konlpy(message)
+    # 결과값인 set을 list로 변환 후 konlpy_loc에 연결추가
+    konlpy_location_list = list(konlpy_location_set)
+    for loc in konlpy_location_list:
+        if _get_only_location(loc):
+            konlp_loc.append(loc)
 
     konlp_loc.reverse() # 역순으로 정렬 (최근 message일수록 장소 확률 증가)
 
-    store_loc = _get_store_location(root_path, konlp_loc)    #간판명 장소 사전탐색
-    subway_loc = _get_subway_location(root_path, konlp_loc)  #지하철명 장소 사전탐색
+    store_loc = _get_store_location(konlp_loc)    #간판명 장소 사전탐색
+    subway_loc = _get_subway_location(konlp_loc)  #지하철명 장소 사전탐색
 
-    #_location = rex_loc + subway_loc + store_loc
-    _location = list(set(rex_loc)) + list(set(subway_loc)) + list(set(store_loc))
+    # _location = list(set(rex_loc)) + list(set(subway_loc)) + list(set(store_loc) + list(set(city_loc)))
+    print(rex_loc, subway_loc, store_loc)
+    _location = list(set(rex_loc + subway_loc + store_loc+ city_loc))
+    # location = city_loc.join(_location)
     accuracy = measure_accuracy(_location)
     print("정확도 : ", accuracy)
     return _location
-
-def _get_store_location(root_path, locations):
+    # return city_loc
+def _get_store_location(locations):
     store_list = [] # 찾은 store 간판명 리스트
-
-    store_df = dataLoader.store_loader(root_path)   # store 데이터 로드
+    store_df = store_loader()   # store 데이터 로드
 
     for location in locations:
         candi_list = store_df[store_df['상호명'].str.contains(location)]   # location 단어가 포함된 상호명 데이터프레임 얻기
-
         if location in candi_list['상호명'].values:    #상호명 값만 list로 한후 동일 이름 찾기
             store_list.append(location)
 
     return store_list
 
-def _get_subway_location(root_path, locations):
-
+def _get_subway_location(locations):
     locations.sort()    # 초성이 바뀔때만 subway파일을 로드하기 위해
     subway_list = []    # 찾은 지하철역 저장
     save_chosung = ''  #이전 로드한 지하철역 초성을 저장
-    #print("sub list ",locations)
     for location in locations:
-
         if '출구' in location:
             subway_list.append(location)
         if '가' <= location[0] <= '힣':   #한글로 시작하는 장소만 추출
-            chosung = _find_chosung(location)    # 해당 location의 초성 찾기
-            if save_chosung != chosung: #다른 초성이 나왔을때만 subway데이터 로드
-                if (chosung == "ㄲ") | (chosung == "ㅃ") | (chosung == "ㅆ") | (chosung == "ㅉ") | (chosung == "ㅎ"):
-                    continue    #data_loader 오류 수정중... 우선 예외처리
-                save_df = dataLoader.subway_loader(root_path + '\dictionary', location)
-                save_chosung = chosung
-            if location[-1] == '역': # 마지막이 역으로 끝나면 '역'제거
-                location = location[:-1]
-
-            if location in save_df.values:  #리스트로 변환 후 search
-                subway_list.append(location + "역")  # subway 데이터에 생략된 '역'문자 추가
+            if location[-1] == '역': # 마지막이 역으로 끝났을 때
+                chosung = _find_chosung(location)    # 해당 location의 초성 찾기
+                if save_chosung != chosung: #다른 초성이 나왔을때만 subway데이터 로드
+                    if (chosung == "ㄲ") | (chosung == "ㅃ") | (chosung == "ㅆ") | (chosung == "ㅉ") | (chosung == "ㅎ"):
+                        continue    #data_loader 오류 수정중... 우선 예외처리
+                    save_df = subway_loader(location)
+                    save_chosung = chosung
+                if location in save_df.values:  #리스트로 변환 후 search
+                    subway_list.append(location + "역")  # subway 데이터에 생략된 '역'문자 추가
 
     return subway_list
+
+def _get_city_location(sentence):
+    city_list = []  # 찾은 store 간판명 리스트
+    sigu_df = sigu_loader()  # 시, 구 데이터 로드
+    words = sentence.split(' ')
+    short_name = ["서울시","부산시","대구시","인천시","광주시","대전시","울산시","제주시"]
+    long_name = ["서울특별시","부산광역시","대구광역시","인천광역시","광주광역시","대전광역시","울산광역시","제주특별자치도"]
+    si_string=""
+
+    for word in words:
+        # si_df = sigu_df[sigu_df['SI'].str.contains(word)]
+        # gu_df = sigu_df[sigu_df['GU'].str.contains(word)]  + short_name
+        for si_name in list(set(list(sigu_df['SI']))) + short_name:
+            if si_name in word:
+                city_list.append(si_name)
+                si_string = si_name
+        for gu_name in list(sigu_df['GU']):
+            if gu_name in word:
+                match_si = list(sigu_df[sigu_df['GU']==gu_name]['SI'])
+                # short_match_si = short_name[long_name.index(match_si[0])]
+                # match_si.append(short_match_si)
+                print(gu_name)
+                match_si.append("")
+                if si_string in match_si:
+                    city_list.append(gu_name)
+
+    return city_list
+
 def measure_accuracy(candi_list):
     answer_list = [#"롯시", "집", "학교앞", "코엑스", "왕십리역", "3번출구", "스타벅스", "투썸", "탐앤탐스", #input.txt 데이터
                    #"설악산", "고속터밀널역", "부평역", "잇빗 511호", "2001아울렛", "자연초등학교", "도서관",
@@ -95,14 +124,14 @@ def measure_accuracy(candi_list):
                 answer = answer[:-1]
             if answer in candidate:
                 correct_num += 1
-    print(correct_num,"/",answer_num,"= ",correct_num/answer_num*100)
+    # print(correct_num,"/",answer_num,"= ",correct_num/answer_num*100)
     for candidate in candi_list:
         for r_answer in real_answer_list:
             if r_answer[-1] == '역':
                 r_answer = r_answer[:-1]
             if r_answer in candidate:
                 r_correct_num += 1
-    print(r_correct_num,"//",real_num, "= ",r_correct_num/real_num*100)
+    # print(r_correct_num,"//",real_num, "= ",r_correct_num/real_num*100)
     return correct_num/answer_num*100
 
 def _find_chosung(string):
@@ -117,8 +146,6 @@ def _find_chosung(string):
             first_chosung += CHOSUNG_LIST[ch]
     # print(first_chosung)
     return first_chosung
-
-
 
 def _get_road_address(sentence):
     road_address = ""    #공백 문자열
@@ -143,7 +170,6 @@ def _get_road_address(sentence):
     return road_address
 
 def _get_locations_by_konlpy(_sentence):
-
     sentence = _delete_jamo(_sentence)   #자모 제거
     morphemes = han.analyze(sentence) #형태소 분석
     location_set = set()
@@ -168,6 +194,11 @@ def _get_locations_by_konlpy(_sentence):
 
     return location_set
 
+# 단어에 포함된 특수문자 제거
+def deleteSpecialCharacters(word):
+        word = ''.join(char for char in word if char.isalnum())
+        return word
+
 def _delete_jamo(_sentence):
     #자음으로, 또는 모음으로만 이뤄진 글자 제거(오타, 감정표현, 초성 등)
     sentence = ""  # 공백 문자열
@@ -181,22 +212,6 @@ def _delete_jamo(_sentence):
             sentence += i
     return sentence
 
-
-if __name__ == "__main__":
-    import data_loader as dataLoader
-
-
-    han = Hannanum()    # class 생성
-
-    os.chdir(r'C:\Users\hexa6/Desktop/git/nlp_proj/korean-nlp-package\sms_ner_pkg\sms_ner_pkg\data')
-    current_path = os.getcwd()
-    messages = dataLoader.sms_data_loader(current_path)
-
-    _location = loc_detector(current_path, messages)
-    print(_location)
-
-
-else:
-    from . import data_loader
-
-    han = Hannanum()
+def _get_only_location(word):
+    if word.isdigit(): return ""
+    else : return word
