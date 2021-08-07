@@ -22,11 +22,10 @@ def get_locations(line, tag_line):
 	tags = [t for t in tags if t][:-1]
 	# print(words, tags)
 	# words, tags = line.split('\t')[0].split(' '), line.split('\t')[1].split(' ')
-	locations = ""
+	locations = []
 	for word, tag in zip(words, tags):
 		if tag in ["LOC", "LOC-B", "LOC-I"]:
-		# if tag in ["LOC", "LOC-B", "LOC-I", "ORG", "ORG-B", "ORG-I", "AFW", "AFW-B", "AFW-I"]:
-			locations += word + " "
+			locations.append(word)
 	return words, locations
 
 
