@@ -17,46 +17,54 @@ def get_locations(line, tag_line):
 	# 탭을 기준으로 배열화
 	words = line.split('\t')
 	tags = tag_line.split('\t')
+	
 	# 공백원소와 마지막원소 (\n) 제거
 	words = [w for w in words if w][:-1]
 	tags = [t for t in tags if t][:-1]
-	# print(words, tags)
-	# words, tags = line.split('\t')[0].split(' '), line.split('\t')[1].split(' ')
+	
+	# 위치 태그에 해당하는 단어만 저장
 	locations = []
 	for word, tag in zip(words, tags):
 		if tag in ["LOC", "LOC-B", "LOC-I"]:
 			locations.append(word)
-	return words, locations
+
+	return words, tags, locations
 
 
 ########################################################################
 # Random deletion
 # Randomly delete words from the sentence with probability p
 ########################################################################
-def random_deletion(words, locations, p):
+def random_deletion(words, locations, tags, p):
 	if len(words) == 1:
 		return words
+
+	# 랜덤 삭제 후 남은 단어와 태그를 저장 (단어와 태그는 1:1 대응됨)
 	new_words = []
+	new_tags = []
+
+	# 랜덤 확률 r이 p 이상일 때만 단어를 따로 저장 (p 이하일 때의 단어는 삭제됨)
 	for word in words:
 		r = random.uniform(0, 1)
 		if r > p or word in locations:
 			new_words.append(word)
+			_idx = words.index(word)
+			new_tags.append(tags[_idx])
 
+	# 문장 내 단어가 모두 삭제되었을 경우 기존 words 리턴
 	if len(new_words) == 0:
 		return words
-	#	rand_int = random.randint(0, len(words) - 1)
-	# return [words[rand_int]].append(locations)
 
-	return new_words
+	return new_words, new_tags
 
 ########################################################################
 # Random swap
 # Randomly swap two words in the sentence n times
 ########################################################################
-def random_swap(words, locations, n):
+def random_swap(words, locations, tags, n):
 	for location in locations:
-    		if location in words:
-    				words.remove(location)
+		if location in words:
+				words.remove(location)
 	new_words = words.copy()
 	for _ in range(n):
 		new_words = swap_word(new_words)
@@ -100,9 +108,7 @@ def synonym_replacement(words, n):
 
 	if len(new_words) != 0:
 		sentence = ' '.join(new_words)
-
 		new_words = sentence.split(" ")
-
 	else:
 		new_words = ""
 
@@ -154,25 +160,24 @@ def add_word(new_words):
 	new_words.insert(random_idx, random_synonym)
 
 
-
-def EDA(sentence, tag_sentence, alpha_sr=0.1, alpha_ri=0.1, alpha_rs=0.3, p_rd=0.3, num_aug=9):
+def text_augmentation_sentences(sentence, tag_sentence, alpha_sr=0.1, alpha_ri=0.1, alpha_rs=0.3, p_rd=0.3, num_aug=9):
 	sentence = get_only_hangul(sentence)
-	# loc_sentence = get_only_hangul(loc_sentence)
+	words, tags, locations = get_locations(sentence, tag_sentence)
 
-	words, locations = get_locations(sentence, tag_sentence)
 	sentence = ""
 	for word in words:
 		sentence += word + " "
+
 	# sentence += word for word in words
 	# words = sentence.split(' ')
 	# words = [word for word in words if word != ""]
 	num_words = len(words)
 
 	augmented_sentences = []
+	augmented_tags = []
 	num_new_per_technique = int(num_aug/4) + 1
 
 	n_sr = max(1, int(alpha_sr*num_words))
-	n_ri = max(1, int(alpha_ri*num_words))
 	n_rs = max(1, int(alpha_rs*num_words))
 
 	# sr Synonym Replacement 특정 단어를 유의어로 교체
@@ -180,20 +185,17 @@ def EDA(sentence, tag_sentence, alpha_sr=0.1, alpha_ri=0.1, alpha_rs=0.3, p_rd=0
 		a_words = synonym_replacement(words, n_sr)
 		augmented_sentences.append(' '.join(a_words))
 
-	# # ri Random Insertion, 임의의 단어를 삽입
-	# for _ in range(num_new_per_technique):
-	# 	a_words = random_insertion(words, n_ri)
-	# 	augmented_sentences.append(' '.join(a_words))
-
 	# rs Random Swap 문장 내 임의의 두단어의 위치를 바꿈
 	for _ in range(num_new_per_technique):
-		a_words = random_swap(words, locations, n_rs)
+		a_words, a_tags = random_swap(words, locations, tags, n_rs)
 		augmented_sentences.append(" ".join(a_words))
+		augmented_tags.append(" ".join(a_tags))
 
 	# rd Random Deletion 임의의 단어를 삭제
 	for _ in range(num_new_per_technique):
-		a_words = random_deletion(words, locations, p_rd)
+		a_words, a_tags = random_deletion(words, locations, tags, p_rd)
 		augmented_sentences.append(" ".join(a_words))
+		augmented_tags.append(" ".join(a_tags))
 
 	augmented_sentences = [get_only_hangul(sentence) for sentence in augmented_sentences]
 	random.shuffle(augmented_sentences)
@@ -206,16 +208,18 @@ def EDA(sentence, tag_sentence, alpha_sr=0.1, alpha_ri=0.1, alpha_rs=0.3, p_rd=0
 
 	augmented_sentences.append(sentence)
 
-	return augmented_sentences
+	return augmented_sentences, augmented_tags
 
 if __name__ == "__main__":
 	f = open("./output_disasterSMS2_location.txt", 'r')
-	while True:
+	for i in range(0,1):
 		sentence = f.readline()
 		if not sentence: break
+
 		tag_sentence = f.readline()
 		dump =  f.readline()
-		result = EDA(sentence, tag_sentence)
-		print(result)
 
-	# print(EDA("[경상북도청] 꽃동네노래방(유흥)(대구 북구 경진로1길5) 7/12~7/15 방문자는 가까운 보건소 선별진료소에서 검사	ORG-B ORG-B LOC-B AFW-B DAT-B CVL-B O O O O "))
+		result_sentence, result_tags = text_augmentation_sentences(sentence, tag_sentence)
+		print(result_sentence, "\t", result_tags, "\n")
+
+	# print(text_augmentation_sentences("[경상북도청] 꽃동네노래방(유흥)(대구 북구 경진로1길5) 7/12~7/15 방문자는 가까운 보건소 선별진료소에서 검사	ORG-B ORG-B LOC-B AFW-B DAT-B CVL-B O O O O "))
