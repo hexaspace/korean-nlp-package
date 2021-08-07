@@ -91,16 +91,7 @@ def swap_word(new_words, new_tags, locations):
 	return new_words, new_tags
 
 def get_random_indices(indices):
-	random_idx_1 = random.randint(0, len(indices) - 1)
-	random_idx_2 = random_idx_1
-	count = 0
-
-	while random_idx_2 == random_idx_1:
-		random_idx_2 = random.randint(0, len(indices)-1)
-		count += 1
-		if count > 3:
-			return -1, -1
-
+	random_idx_1, random_idx_2 = random.sample(indices, 2)
 	return random_idx_1, random_idx_2
 
 ########################################################################
