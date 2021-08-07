@@ -24,7 +24,8 @@ def get_locations(line, tag_line):
 	# words, tags = line.split('\t')[0].split(' '), line.split('\t')[1].split(' ')
 	locations = ""
 	for word, tag in zip(words, tags):
-		if tag in ["LOC", "LOC-B", "LOC-I", "ORG", "ORG-B", "ORG-I", "AFW", "AFW-B", "AFW-I"]:
+		if tag in ["LOC", "LOC-B", "LOC-I"]:
+		# if tag in ["LOC", "LOC-B", "LOC-I", "ORG", "ORG-B", "ORG-I", "AFW", "AFW-B", "AFW-I"]:
 			locations += word + " "
 	return words, locations
 
@@ -43,8 +44,9 @@ def random_deletion(words, locations, p):
 			new_words.append(word)
 
 	if len(new_words) == 0:
-		rand_int = random.randint(0, len(words)-1)
-		return [words[rand_int]].append(locations)
+		return words
+	#	rand_int = random.randint(0, len(words) - 1)
+	# return [words[rand_int]].append(locations)
 
 	return new_words
 
@@ -154,7 +156,7 @@ def add_word(new_words):
 
 
 
-def EDA(sentence, tag_sentence, alpha_sr=0.1, alpha_ri=0.1, alpha_rs=0.1, p_rd=0.1, num_aug=9):
+def EDA(sentence, tag_sentence, alpha_sr=0.1, alpha_ri=0.1, alpha_rs=0.3, p_rd=0.3, num_aug=9):
 	sentence = get_only_hangul(sentence)
 	# loc_sentence = get_only_hangul(loc_sentence)
 
