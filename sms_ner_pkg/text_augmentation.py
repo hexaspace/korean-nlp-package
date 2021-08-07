@@ -73,11 +73,13 @@ def random_swap(words, locations, tags, n):
 	return new_words, new_tags
 
 def swap_word(new_words, new_tags, locations):
-	random_idx_1, random_idx_2 =  get_index_without_location(new_words, locations)
-
 	# new_words가 모두 위치 개체명일 경우 교체하지 않습니다.
 	words_without_locations = [word for word in new_words if word not in locations]
 	if not words_without_locations: return new_words
+
+	# 위치 개체명이 아닌 인덱스들만 추출하고, 그 중 랜덤 인덱스 2개를 얻습니다.
+	indices_without_locations = [index for index, word in enumerate(new_words) if word not in locations]
+	random_idx_1, random_idx_2 = get_random_indices(indices_without_locations)
 
 	# 랜덤 인덱스 찾기에 실패한 경우 교체하지 않습니다.
 	if random_idx_1 == -1 and random_idx_2 == -1:
@@ -88,17 +90,13 @@ def swap_word(new_words, new_tags, locations):
 	new_tags[random_idx_1], new_tags[random_idx_2] = new_tags[random_idx_2], new_tags[random_idx_1]
 	return new_words, new_tags
 
-def get_index_without_location(new_words, locations):
-	random_idx_1 = random.randint(0, len(new_words) - 1)
-
-	# 랜덤 인덱스의 값이 위치 태깅된 단어일 경우 제외
-	while new_words[random_idx_1] in locations:
-		random_idx_1 = random.randint(0, len(new_words) - 1)
+def get_random_indices(indices):
+	random_idx_1 = random.randint(0, len(indices) - 1)
 	random_idx_2 = random_idx_1
 	count = 0
 
-	while random_idx_2 == random_idx_1 or new_words[random_idx_2] in locations:
-		random_idx_2 = random.randint(0, len(new_words)-1)
+	while random_idx_2 == random_idx_1:
+		random_idx_2 = random.randint(0, len(indices)-1)
 		count += 1
 		if count > 3:
 			return -1, -1
