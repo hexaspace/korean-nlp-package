@@ -23,17 +23,18 @@ def get_locations(line, tag_line):
 	tags = [t for t in tags if t][:-1]
 	
 	# 위치 태그에 해당하는 단어만 저장
-	locations = []
+	location_tags = ["LOC", "LOC-B", "LOC-I"]
+	location_words = []
 	for word, tag in zip(words, tags):
-		if tag in ["LOC", "LOC-B", "LOC-I"]:
-			locations.append(word)
+		if tag in location_tags:
+			location_words.append(word)
 
-	return words, tags, locations
+	return words, tags, location_words
 
 
 ########################################################################
-# Random deletion
-# Randomly delete words from the sentence with probability p
+# 랜덤하게 단어 삭제
+# 확률 p에 기반하여 문장 내 단어를 랜덤하게 삭제합니다.
 ########################################################################
 def random_deletion(words, locations, tags, p):
 	if len(words) == 1:
@@ -58,33 +59,51 @@ def random_deletion(words, locations, tags, p):
 	return new_words, new_tags
 
 ########################################################################
-# Random swap
-# Randomly swap two words in the sentence n times
+# 랜덤하게 단어 교체
+# 문장 내 두 단어를 랜덤하게 n번 교체합니다.
 ########################################################################
 def random_swap(words, locations, tags, n):
-	for location in locations:
-		if location in words:
-				words.remove(location)
 	new_words = words.copy()
+	new_tags = tags.copy()
+	
+	# n번 단어 교체
 	for _ in range(n):
-		new_words = swap_word(new_words)
+		new_words, new_tags = swap_word(new_words, new_tags, locations)
 
-	return new_words
+	return new_words, new_tags
 
-def swap_word(new_words):
-	random_idx_1 = random.randint(0, len(new_words)-1)
-	random_idx_2 = random_idx_1
-	counter = 0
+def swap_word(new_words, new_tags, locations):
+	random_idx_1, random_idx_2 =  get_index_without_location(new_words, locations)
 
-	while random_idx_2 == random_idx_1:
-		random_idx_2 = random.randint(0, len(new_words)-1)
-		counter += 1
-		if counter > 3:
-			return new_words
+	# new_words가 모두 위치 개체명일 경우 교체하지 않습니다.
+	words_without_locations = [word for word in new_words if word not in locations]
+	if not words_without_locations: return new_words
 
+	# 랜덤 인덱스 찾기에 실패한 경우 교체하지 않습니다.
+	if random_idx_1 == -1 and random_idx_2 == -1:
+		return new_words
+
+	# 단어 교체
 	new_words[random_idx_1], new_words[random_idx_2] = new_words[random_idx_2], new_words[random_idx_1]
-	return new_words
+	new_tags[random_idx_1], new_tags[random_idx_2] = new_tags[random_idx_2], new_tags[random_idx_1]
+	return new_words, new_tags
 
+def get_index_without_location(new_words, locations):
+	random_idx_1 = random.randint(0, len(new_words) - 1)
+
+	# 랜덤 인덱스의 값이 위치 태깅된 단어일 경우 제외
+	while new_words[random_idx_1] in locations:
+		random_idx_1 = random.randint(0, len(new_words) - 1)
+	random_idx_2 = random_idx_1
+	count = 0
+
+	while random_idx_2 == random_idx_1 or new_words[random_idx_2] in locations:
+		random_idx_2 = random.randint(0, len(new_words)-1)
+		count += 1
+		if count > 3:
+			return -1, -1
+
+	return random_idx_1, random_idx_2
 
 ########################################################################
 # Synonym replacement
