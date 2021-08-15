@@ -90,15 +90,24 @@ def show_report(labels, preds):
 def save_report(report, output_file_path):
     report_data = []
     lines = report.split('\n')
-    for line in lines[2:-3]:
+    for line in lines[2:-5]:
         row = {}
-        row_data = line.split('      ')
-        row['class'] = row_data[0]
-        row['precision'] = float(row_data[1])
-        row['recall'] = float(row_data[2])
-        row['f1_score'] = float(row_data[3])
-        row['support'] = float(row_data[4])
-        report_data.append(row)
+        row_data = []
+        _row_data = line.split('      ')
+        for value in _row_data:
+            _value = value.replace(" ", "")
+            if not _value == '':
+                row_data.append(_value)
+        print(_row_data)
+        print(row_data)
+        if row_data != []:
+            row['class'] = row_data[0]
+            row['precision'] = float(row_data[1])
+            row['recall'] = float(row_data[2])
+            row['f1_score'] = float(row_data[3])
+            row['support'] = float(row_data[4])
+            report_data.append(row)
+
     dataframe = pd.DataFrame.from_dict(report_data)
 
     if not os.path.exists(output_file_path):
