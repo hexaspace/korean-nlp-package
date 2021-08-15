@@ -205,6 +205,10 @@ class Trainer(object):
         report = show_report(out_label_list, preds_list)
         logger.info("\n" + report)  # Get the report for each tag result
 
+        # 평가 결과 저장
+        save_report(report, "./evaluation_result/evaluation_report.csv")
+        logger.info("\n evaluation 결과 저장 완료!")
+
         return results
 
     def save_model(self):
