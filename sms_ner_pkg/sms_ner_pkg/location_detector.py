@@ -154,7 +154,7 @@ def _get_road_address(sentence):
     rex_sigu = re.compile("([가-힣]{2,6}(시|도)).([가-힣]+(시|군|구))")
     rex_ro = re.compile("((\s[가-힣\d\,\.]+(읍|면|동|가|리|구))|).([가-힣A-Za-z·\d~\-\.]+(로|길)).((지하 |공중 |)[\d]+)((\,(\s[\d]+동|)(\s[\d~]+층|)(\s[\d]+호|))|)((\s|)\([가-힣]+동\)|)")
     #시도, 시군구 적용
-    sigu = rex_sigu.search(sentence)
+    sigu = rex_sigu.search(str(sentence))
     #존재한다면 문자열에 추가 후 다음 문자열부터 탐색
     if sigu == None:
         tail_sentence = sentence    # 시, 구 찾지 못했을 때 전체 문자열
@@ -162,7 +162,7 @@ def _get_road_address(sentence):
         tail_sentence = sentence[sigu.end():]    #tail_sentence : 시, 구 이후의 나머지 문자열
         road_address += sigu.group()
     #읍면구 로길 상세주소 (동) 정규표현식 적용
-    ro = rex_ro.search(tail_sentence)
+    ro = rex_ro.search(str(tail_sentence))
     # 존재할때 문자열에 추가
     if ro != None:
         road_address += ro.group()

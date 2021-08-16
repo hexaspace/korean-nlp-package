@@ -184,7 +184,7 @@ def text_augmentation_sentences(sentence, tag_sentence, alpha_sr=0.1, alpha_rs=0
 
 
 if __name__ == "__main__":
-	f = open("./output_disasterSMS1_loc.txt", 'r')
+	f = open("./output_disasterSMS1_lo.txt", 'r')
 	fw = open("./output_disasterSMS1_output.txt", 'w')
 	augmented_datas = []
 
