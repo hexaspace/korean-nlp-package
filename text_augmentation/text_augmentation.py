@@ -63,7 +63,6 @@ def random_deletion(words, locations, tags, p):
 # 문장 내 두 단어를 랜덤하게 n번 교체합니다.
 ########################################################################
 def random_swap(words, locations, tags, n):
-
 	new_words = words.copy()
 	new_tags = tags.copy()
 	
@@ -75,12 +74,12 @@ def random_swap(words, locations, tags, n):
 
 
 def swap_word(new_words, new_tags, locations):
-
 	# 위치 개체명이 아닌 인덱스들만 추출하고, 그 중 랜덤 인덱스 2개를 얻습니다.
 	indices_without_locations = [index for index, word in enumerate(new_words) if word not in locations]
+	# 위치 개체명이 아닌 단어가 1개 이하일 경우 교체하지 않습니다.
 	if len(indices_without_locations) > 1:
 		random_idx_1, random_idx_2 = get_random_indices(indices_without_locations)
-	else:		# 위치 개체명이 아닌 단어가 1개 이하일 경우 교체하지 않습니다.
+	else:
 		return new_words, new_tags
 
 	# 단어 교체
@@ -90,12 +89,11 @@ def swap_word(new_words, new_tags, locations):
 
 def get_random_indices(indices):
 	random_idx_1, random_idx_2 = random.sample(indices, 2)
-
 	return random_idx_1, random_idx_2
 
 ########################################################################
-# Synonym replacement
-# Replace n words in the sentence with synonyms from wordnet
+# 유의어 교체
+# wordnet을 기반으로 n개의 단어를 유의어로 교체합니다.
 ########################################################################
 def synonym_replacement(words, n):
 	new_words = words.copy()
@@ -126,7 +124,6 @@ def get_synonyms(word):
 	try:
 		for syn in wordnet[word]:
 			synomyms.append(syn)
-
 	except:
 		pass
 
@@ -156,7 +153,6 @@ def text_augmentation_sentences(sentence, tag_sentence, alpha_sr=0.1, alpha_rs=0
 	n_rs = max(1, int(alpha_rs*num_words))
 
 	# sr Synonym Replacement 특정 단어를 유의어로 교체
-
 	for _ in range(num_new_per_technique):
 		a_words = synonym_replacement(words, n_sr)
 		augmented_sentences.append(' '.join(a_words))
@@ -174,41 +170,34 @@ def text_augmentation_sentences(sentence, tag_sentence, alpha_sr=0.1, alpha_rs=0
 		augmented_sentences.append(" ".join(a_words))
 		augmented_tags.append(" ".join(a_tags))
 
-
-	# augmented_sentences = [get_only_hangul(sentence) for sentence in augmented_sentences]
 	augmented_sentences.append(sentence)
 	augmented_tags.append(tag_sentence)
-
 
 	return augmented_sentences, augmented_tags
 
 
 if __name__ == "__main__":
-	f = open("./output_disasterSMS1_lo.txt", 'r')
+	f = open("./output_disasterSMS1_loc.txt", 'r')
 	fw = open("./output_disasterSMS1_output.txt", 'w')
 	augmented_datas = []
 
-	while True:
-	# for i in range(0, 1):
-
+	for _ in range(0,1):
+		# input 파일을 한 문장씩 읽어옵니다.
 		sentence = f.readline()
 		if not sentence: break
-
 		tag_sentence = f.readline()
 		dump = f.readline()
-		# print(sentence, "\t", tag_sentence, "\n")
 
 		result_sentences, result_tags = text_augmentation_sentences(sentence, tag_sentence)
 		for result_sentence, result_tag in zip(result_sentences, result_tags):
 			augmented_data = result_sentence + "\t" + result_tag
-
 			augmented_datas.append(augmented_data)
+
 	random.shuffle(augmented_datas)
+
 	for line in augmented_datas:
 		print(line)
 		fw.write(line+"\n")
-		# print(augmentation_datas)
 
 	f.close()
 	fw.close()
-	# print(EDA("[경상북도청] 꽃동네노래방(유흥)(대구 북구 경진로1길5) 7/12~7/15 방문자는 가까운 보건소 선별진료소에서 검사	ORG-B ORG-B LOC-B AFW-B DAT-B CVL-B O O O O "))
