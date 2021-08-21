@@ -177,11 +177,11 @@ def text_augmentation_sentences(sentence, tag_sentence, alpha_sr=0.1, alpha_rs=0
 
 
 if __name__ == "__main__":
-	f = open("./output_disasterSMS1_loc.txt", 'r')
-	fw = open("./output_disasterSMS1_output.txt", 'w')
+	f = open("./data/location_tagged/output_disasterSMS1_loc.txt", 'r')
+	fw = open("./data/disaster_augmented/output_disasterSMS1_augmented.txt", 'w')
 	augmented_datas = []
 
-	for _ in range(0,1):
+	while True:
 		# input 파일을 한 문장씩 읽어옵니다.
 		sentence = f.readline()
 		if not sentence: break
