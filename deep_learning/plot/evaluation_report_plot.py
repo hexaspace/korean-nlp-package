@@ -34,7 +34,7 @@ def csv2list(filepath):
     return data
 
 # data
-csv_data = csv2list(current_path + "\\evaluation_report.csv")
+csv_data = csv2list(current_path + "\\evaluation_report_eval_triple.csv")
 EVALUATION_NUM = len(csv_data) // (CLASS_NUM+1)
 evalutation_iteration = [i for i in range(EVALUATION_NUM)]
 class_names = [row[0] for row in csv_data[1:CLASS_NUM+1]]
