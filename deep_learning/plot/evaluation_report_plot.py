@@ -34,7 +34,7 @@ def csv2list(filepath):
     return data
 
 # data
-csv_data = csv2list(current_path + "\\evaluation_report_eval_triple.csv")
+csv_data = csv2list(current_path + "\\report_files\\evaluation_report_eval_triple.csv")
 EVALUATION_NUM = len(csv_data) // (CLASS_NUM+1)
 evalutation_iteration = [i for i in range(EVALUATION_NUM)]
 class_names = [row[0] for row in csv_data[1:CLASS_NUM+1]]
@@ -58,7 +58,9 @@ plt.plot(evalutation_iteration, f1_scores['LOC'], marker='o', label = 'LOC')
 plt.plot(evalutation_iteration, f1_scores['AFW'], marker='o', label = 'AFW')
 plt.plot(evalutation_iteration, f1_scores['ORG'], marker='o', label = 'ORG')
 plt.legend()
-plt.title('evaluation - ner', fontsize = 20)
+plt.title('상호명 인식 모델 성능 평가', fontsize = 20)
+plt.xlabel('evaluate iteration')
+plt.ylabel('f1-score')
 plt.axis([0, EVALUATION_NUM, 0,1 ])
 plt.show()
 

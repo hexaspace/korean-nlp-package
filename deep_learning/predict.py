@@ -187,7 +187,7 @@ if __name__ == "__main__":
     init_logger()
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("--input_file", default="sample_pred_in.txt", type=str, help="Input file for prediction")
+    parser.add_argument("--input_file", default="./test/test_dataset.txt", type=str, help="Input file for prediction")
     parser.add_argument("--output_file", default="sample_pred_out.txt", type=str, help="Output file for prediction")
     parser.add_argument("--model_dir", default="./model", type=str, help="Path to save, load model")
 

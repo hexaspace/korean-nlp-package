@@ -1,0 +1,12 @@
+[김천시청]타지역 확진자 동선공개, 6.28.(월)~7.3.(토) 코아루파크드림시티 오피스텔(율곡동) 내 엘리베이터 이용하신분은 
+ORG-B CVL-B O DAT-B LOC-B AFW-B O TRM-B O 
+[해남군청]코로나19 예방접종 사전예약 ▲60세~74세 ▲ 읍·면사무소 방문, 531-3994. 531-3995. 531-3997 예약 
+ORG-B TRM-I O NUM-B O ORG-B O NUM-B NUM-B NUM-B O 
+[화순군청] 예비군·민방위·군종사자(30세이상) 코로나 예방접종 사전예약 안내.(얀센 백신/ 6월1일부터 선착순) 예약사이트 
+ORG-B CVL-B TRM-B TRM-I O O O DAT-B NUM-B O 
+[옹진군청] 5. 31.(월) 신규 확진자 1명(타지역 주민 관내 자가격리 중 확진) 발생. 홈페이지 참조=>www.ongjin.go.kr/ 
+ORG-B DAT-B DAT-I O O NUM-B CVL-B O O O O O TRM-B TRM-B 
+[대구광역시] 엄마집밥(중구 달구벌대로 2100 지하) 5/26일 17:00~19:30 매장 내 식사하신 분은 가까운 보건소 예약 후 검사 받으시기 바랍니다. 
+LOC-B CVL-B AFW-B AFW-I O DAT-B NUM-B O O O O O O O O O O O 
+[김천시청] 찾아가는 선별검사소 운영 -장소 : 자산동·평화남산동행정복지센터, 치매안심센터(지좌동), 녹색미래과학관 -일시 : 6.1(화) 
+ORG-B EVT-B EVT-I O O O LOC-B AFW-B AFW-B O O DAT-B 

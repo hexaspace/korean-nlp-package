@@ -32,7 +32,7 @@ loc_tags = ['LOC', 'AFW', 'ORG']    # 3가지 tag를 비교
 f1_scores = {name: [] for name in loc_tags}
 
 for f_index in range(len(report_files)):    # report file 반복
-    csv_data = csv2list(current_path + "\\evaluation_report_"+report_files[f_index]+".csv") #file load
+    csv_data = csv2list(current_path + "report_files\\evaluation_report_"+report_files[f_index]+".csv") #file load
     EVALUATION_NUM = len(csv_data) // (CLASS_NUM+1)
     last_score = (CLASS_NUM+1)*(EVALUATION_NUM-1)
 
