@@ -7,7 +7,7 @@ with open("wordnet.pickle", "rb") as f:
 	wordnet = pickle.load(f)
 
 
-# 한글만 남기고 나머지는 삭제
+# 한글만 남기고 나머지는 삭제 BroadcastReceiver
 def get_only_hangul(line):
 	parseText= re.compile('/ ^[ㄱ-ㅎㅏ-ㅣ가-힣]*$/').sub('',line)
 
@@ -96,7 +96,7 @@ def get_random_indices(indices):
 # wordnet을 기반으로 n개의 단어를 유의어로 교체합니다.
 ########################################################################
 def synonym_replacement(words, n):
-	new_words = words.copy()
+	new_words = words.copy()#CMAS#Severe
 	random_word_list = list(set([word for word in words]))
 	random.shuffle(random_word_list)
 	num_replaced = 0

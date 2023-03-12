@@ -114,7 +114,7 @@ def get_random_date_format():
         result = [[full_date, DATE_TAG]]
         if has_time: result.append([time1, TIME_TAG])
     elif type == 'time_period':
-        result = [full_date, DATE_TAG]
+        result = [[full_date, DATE_TAG]]
         if has_time: result.append([time_period, TIME_TAG])
     else:
         result = [[full_date, DATE_TAG]]
@@ -129,11 +129,11 @@ def get_random_date_format():
 if __name__ == '__main__':
     # path
     current_path = os.getcwd()
-    address_data_path = current_path+"/generate_message_data/data/address.txt"
-
+    # address_data_path = current_path+"/generate_message_data/data/address.txt"
+    address_data_path = "./data/address.txt"
     # 주소
     addresses = get_addresses(address_data_path)
-    save_address(addresses)
+    # save_address(addresses)
     print(get_random_value(addresses))
 
     # 날짜, 시간

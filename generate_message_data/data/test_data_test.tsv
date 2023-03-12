@@ -1,0 +1,650 @@
+[경상북도청] 꽃동네노래방 유흥 북구 경진로1길5 7/12~7/15 방문자는 가까운 보건소 선별진료소에서 검사 받으시기 바랍니다.	ORG-B STO-B O LOC-B LOC-I DAT-B CVL-B O AFW-B AFW-B O O O
+[전남도청] 7.9(금) 21시~7.10(토) 03시 광주 소재 상무나이트 서구 상무번영로 30 를 방문하신 분은 거주시 보건소에서 코로나 검사 받으시기 바랍니다	ORG-B DAT-B TIM-B TIM-B LOC-B O STO-B LOC-B LOC-I LOC-B O O O O AFW-B TRM-B O O O
+"[원주시청] 7.7.~7.15.명륜동 금석식당 치악로 ""1803,"" 남부시장 뒤 먹자골목 이용자는 오늘 17시30분까지 보건소 선별진료소에서 검사받으세요."	ORG-B DAT-B STO-B LOC-B LOC-I LOC-I LOC-I STO-B CVL-B DAT-B TIM-B AFW-B AFW-B O
+"[함안군청] 관내 확진자 다수 발생으로 검사 희망자는 임시선별진료소 ""함안군육아지원센터,"" 17일 15~17시 한시적 운영 나 보건소에서 검사받으시기 바랍니다."	ORG-B O O O O O O ARW-B LOC-B DAT-B TIM-B O O O AFW-B O O
+[남해군청]▶7.10(토)18:13~19:10 남면 가천 해바라기맛집 방문자▶7.14(수) 13:00남해→서울 남흥여객 70아8729 탑승자는 보건소 검사바랍니다	ORG-B LOC-B LOC-I STO-B CVL-B TIM-B STO-B NUM-B CVL-B AFW-B O
+"[고양시청]7.9.(금)~7.15.(목) 세이브존 화정점 지하 2층 덕양구 화정로 ""52,"" 화정동 방문자는 보건소 선별진료소에서 코로나 검사를 받으시기 바랍니다."	ORG-B STO-B LOC-B LOC-I LOC-I LOC-B LOC-I LOC-I LOC-I CVL-B AFW-B AFW-B TRM-B O O O
+"[대구광역시]꽃동네노래방 유흥 경진로1길5 7/12~15 방문자는 임시선별검사소 ""두류,국채보상공원"" 및 보건소 예약 에서 즉시 검사받으시기 바랍니다."	STO-B O LOC-B DAT-B CVL-B AFW-B LOC-B LOC-B AFW-B O O O O O
+[송파구청] 찾아가는 선별진료소 안내 정정 ▶변경장소:아시아근린공원 지하철9호선 종합운동장역 9번출구 앞	ORG-B O AFW-I O O AFW-B LOC-B AFW-B NUM-B O
+[의정부시청]7.17.(토) 의정부시 용현동 530-5 용현산업단지 내 양말공장 화재발생. 화재발생지를 우회하여 통행하시기 바랍니다.	ORG-B LOC-B LOC-B NUM-B LOC-B O STO-B O O O O O
+[광주광역시] 7.9(금) 21시~7.10(토) 03시 상무나이트 서구 상무번영로 30 를 방문하신 분은 거주지 보건소에서 코로나 검사 받으시기 바랍니다.	LOC-B DAT-B TIM-B TIM-B STO-B LOC-B LOC-I LOC-I O CVL-B O O AFW-B TRM-B O O O
+[당진시청②] ▲7/12 17:00~17:30 청진동뼈해장국 합덕읍 면천로 1710 방문자는 보건소 선별진료소 방문 후 코로나19검사 바랍니다.	ORG-B DAT-B LOC-B STO-B LOC-B LOC-B NUM-B CVL-B AFW-B AFW-B O O TRM-B O
+[당진시청①] ▲7/12~7/15 라온한식뷔페 합덕읍 인더스파크로 167-10 ▲7/10 21:02~22:20 역전할머니맥주 북문로1길 37-15	ORG-B DAT-B STO-B LOC-B LOC-I LOC-I DAT-B TIM-B STO-B LOC-B LOC-I
+[경주시청] ▲7.1(목)~7.16(금) 건천탕 남탕 건천읍 건천2길6 동시간대 이용자는 증상 유무 관계없이 보건소 선별진료소 검사바랍니다.	ORG-B DAT-B STO-B AFW-B LOC-B LOC-I O CVL-B O O O AFW-B O O
+"[부여군청]7월12일 8시10분 서울남부터미널→10시 부여도착 ""버스,당일"" 10시10분경 성요셉병원 앞 합송 경유 홍산행 버스이용객은 보건소에서 코로나검사 바랍니다"	ORG-B TIM-B AFW-B LOC-B AFW-B TIM-B STO-B O O O LOC-B O AFW-B TRM-B O
+[포항시청] 코로나19 확진자 동선 안내 백년회대게 구룡포읍 구룡포리 963-182번지 7.14~7.15 방문자는 가까운 보건소에서 검사 받으시기 바랍니다.	ORG-B TRM-B CVL-B O O STO-B LOC-B LOC-I LOC-I DAT-B CVL-B O AFW-B O O O
+[속초시청]7.11(일)23:36~7.12(월)00:25 조양동 소재 악쓰리코인노래연습장 방문자는 검사받으시기 바랍니다 속초시생활체육관주차장선별진료소 16시까지	ORG-B LOC-B O STO-B CVL-B O O AFW-B TIM-B
+[속초시청]7.9(금)23시~7.10(토)02시 / 7.13(화)22시~7.14(수)01시 조양동 소재 부영연탄생구이 방문자는 선별진료소에서 검사받으시기 바랍니다	ORG-B O DAT-B LOC-B O STO-B CVL-B AFW-B O O
+[곡성군청] 7.16(금) 10:55 용산출발 ~ 13:02 남원도착 KTX 509 15호차 탑승자는 선별진료소에서 검사받으시기 바랍니다.	ORG-B DAT-B TIM-B LOC-B O TIM-B LOC-B STO-B NUM-B NUM-B CVL-B AFW-B O O
+"[진주시청] 7월 5~13일 평거동 소재 ""가인베트남노래타운,"" ""란노래방,미스앤유,오케이베트남노래방"" 방문자는 보건소 749-5714 에서 검사받으시기 바랍니다."	ORG-B DAT-B DAT-I LOC-B O STO-B STO-B CVL-B AFW-B NUM-B O O O
+[충주시청] 7.9.(금)~7.14.(수) 연수동 소재 쏘렌토 유흥주점 에 다녀오신 분은 증상 유무에 관계없이 보건소 선별진료소에서 코로나검사를 받으시기 바랍니다	ORG-B DAT-B LOC-B O STO-B LOC-B O CVL-B CVL-I O O O AFW-B AFW-B TRM-B O O
+[강릉시청]강릉523 관련 7월10일(토) 17:00 ~ 7월16일(금) 07:00 칠성포차 강릉교동점 율곡초교길 19 이용자는 보건소에서 반드시 검사바랍니다.	ORG-B O DAT-B TIM-B O DAT-B TIM-B STO-B LOC-B LOC-B LOC-I CVL-B AFW-B O O
+"[울산광역시] 이번주말 7.17~7.18. 코로나19 임시선별검사소는 ""문수축구장,"" 종합운동장에서 9시~17시까지 운영합니다. 점심시간 12시~13시 미운영"	ORG-B DAT-B DAT-B TRM-B AFW-B LOC-B LOC-B TIM-B O TIM-B TIM-I O
+"[원주시청] 7.15. 11:00~12:30 '미가일식당 북원로 ""2852,"" 태장동 ' 방문자는 오늘14시까지 12시~13시 제외 보건소 선별진료소 검사받으세요."	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I O CVL-B TIM-B TIM-I O AFW-B AFW-B O
+[순천시청] 7.16.(금) 12:37 전주출발 ~ 13:37 순천도착 KTX509 15호차 탑승자는 보건소 선별진료소에서 검사바랍니다.	ORG-B DAT-B TIM-B LOC-B O TIM-B LOC-B STO-B NUM-B CVL-B AFW-B AFW-B O
+"[울산광역시]7.13.(화)19:10~20:00 밀양순대돼지국밥 남구 월평로 ""187번길11,소독완료"" 방문자는 임시선별진료소에서 코로나19검사 받으시기 바랍니다."	ORG-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B TRM-B O O
+"[은평구청] 7.8(목)~7.16(금) NC백화점 불광점 불광로 20 ""지하1~2층,지상4/8층"" 방문자는 가까운 선별진료소에서 코로나 검사를 받으시기 바랍니다."	ORG-B DAT-B STO-B LOC-B LOC-B LOC-I LOC-I CVL-B O AFW-B TRM-B O O O
+[광양시청]▶ 7.13.(화)～7.16.(금) 09:00～13:00 강다짐 중동점 중동 이용자는 보건소선별진료소 09:00～18:00/광양읍 검사바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B LOC-B CVL-B AFW-B TIM-B O
+[경상북도청] 꽃동네노래방 유흥 북구 경진로1길5 7/12~7/15 방문자는 가까운 보건소 선별진료소에서 검사 받으시기 바랍니다.	ORG-B STO-B STO-B LOC-B LOC-I DAT-B CVL-B O AFW-B AFW-B O O O
+[전남도청] 7.9(금) 21시~7.10(토) 03시 광주 소재 상무나이트 서구 상무번영로 30 를 방문하신 분은 거주시 보건소에서 코로나 검사 받으시기 바랍니다	ORG-B DAT-B TIM-B TIM-B LOC-B O STO-B LOC-B LOC-I LOC-I O CVL-B CVL-I O AFW-B TRM-B O O O
+"[원주시청] 7.7.~7.15.명륜동 금석식당 치악로 ""1803,"" 남부시장 뒤 먹자골목 이용자는 오늘 17시30분까지 보건소 선별진료소에서 검사받으세요."	ORG-B DAT-B STO-B LOC-B LOC-I STO-B O STO-B CVL-B DAT-B TIM-B AFW-B AFW-B O
+"[함안군청] 관내 확진자 다수 발생으로 검사 희망자는 임시선별진료소 ""함안군육아지원센터,"" 17일 15~17시 한시적 운영 나 보건소에서 검사받으시기 바랍니다."	ORG-B O O O O O CVL-B AFW-B STO-B DAT-B TIM-B O O O AFW-B O O
+[남해군청]▶7.10(토)18:13~19:10 남면 가천 해바라기맛집 방문자▶7.14(수) 13:00남해→서울 남흥여객 70아8729 탑승자는 보건소 검사바랍니다	ORG-B LOC-B LOC-I STO-B CVL-B TIM-B STO-B NUM-B CVL-B AFW-B O
+"[고양시청]7.9.(금)~7.15.(목) 세이브존 화정점 지하 2층 덕양구 화정로 ""52,"" 화정동 방문자는 보건소 선별진료소에서 코로나 검사를 받으시기 바랍니다."	ORG-B STO-B LOC-B LOC-I LOC-I LOC-B LOC-I LOC-I LOC-I CVL-B AFW-B AFW-B TRM-B O O O
+"[대구광역시]꽃동네노래방 유흥 경진로1길5 7/12~15 방문자는 임시선별검사소 ""두류,국채보상공원"" 및 보건소 예약 에서 즉시 검사받으시기 바랍니다."	ORG-B STO-B LOC-B DAT-B CVL-B AFW-B LOC-B O AFW-B O O O O O
+[송파구청] 찾아가는 선별진료소 안내 정정 ▶변경장소:아시아근린공원 지하철9호선 종합운동장역 9번출구 앞	ORG-B O AFW-B O LOC-B LOC-B LOC-B LOC-B LOC-I O
+[광주광역시] 7.9(금) 21시~7.10(토) 03시 상무나이트 서구 상무번영로 30 를 방문하신 분은 거주지 보건소에서 코로나 검사 받으시기 바랍니다.	LOC-B DAT-B TIM-B TIM-B STO-B LOC-B LOC-I LOC-I O CVL-B CVL-I O AFW-B TRM-B O O O
+[당진시청②] ▲7/12 17:00~17:30 청진동뼈해장국 합덕읍 면천로 1710 방문자는 보건소 선별진료소 방문 후 코로나19검사 바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B AFW-B O O TRM-B O
+[경주시청] ▲7.1(목)~7.16(금) 건천탕 남탕 건천읍 건천2길6 동시간대 이용자는 증상 유무 관계없이 보건소 선별진료소 검사바랍니다.	ORG-B DAT-B STO-B STO-B LOC-B LOC-I O CVL-B O O O AFW-B AFW-B O
+"[부여군청]7월12일 8시10분 서울남부터미널→10시 부여도착 ""버스,당일"" 10시10분경 성요셉병원 앞 합송 경유 홍산행 버스이용객은 보건소에서 코로나검사 바랍니다"	ORG-B TIM-B LOC-B LOC-B AFW-B TIM-B STO-B O O O LOC-B O AFW-B TRM-B O
+[포항시청] 코로나19 확진자 동선 안내 백년회대게 구룡포읍 구룡포리 963-182번지 7.14~7.15 방문자는 가까운 보건소에서 검사 받으시기 바랍니다.	ORG-B ORG-B CVL-B O O STO-B LOC-B LOC-I O DAT-B CVL-B O AFW-B O O O
+[속초시청]7.11(일)23:36~7.12(월)00:25 조양동 소재 악쓰리코인노래연습장 방문자는 검사받으시기 바랍니다 속초시생활체육관주차장선별진료소 16시까지	ORG-B LOC-B O STO-B CVL-B O O LOC-B TIM-B
+[속초시청]7.9(금)23시~7.10(토)02시 / 7.13(화)22시~7.14(수)01시 조양동 소재 부영연탄생구이 방문자는 선별진료소에서 검사받으시기 바랍니다	ORG-B O DAT-B LOC-B O STO-B CVL-B AFW-B O O
+[곡성군청] 7.16(금) 10:55 용산출발 ~ 13:02 남원도착 KTX 509 15호차 탑승자는 선별진료소에서 검사받으시기 바랍니다.	ORG-B DAT-B TIM-B LOC-B O TIM-B LOC-B STO-B NUM-B NUM-B CVL-B AFW-B O O
+"[진주시청] 7월 5~13일 평거동 소재 ""가인베트남노래타운,"" ""란노래방,미스앤유,오케이베트남노래방"" 방문자는 보건소 749-5714 에서 검사받으시기 바랍니다."	ORG-B DAT-B DAT-I LOC-B O STO-B STO-B CVL-B AFW-B O O O O
+[충주시청] 7.9.(금)~7.14.(수) 연수동 소재 쏘렌토 유흥주점 에 다녀오신 분은 증상 유무에 관계없이 보건소 선별진료소에서 코로나검사를 받으시기 바랍니다	ORG-B DAT-B LOC-B O STO-B LOC-B O CVL-B LOC-I O O O AFW-B AFW-B TRM-B O O
+[강릉시청]강릉523 관련 7월10일(토) 17:00 ~ 7월16일(금) 07:00 칠성포차 강릉교동점 율곡초교길 19 이용자는 보건소에서 반드시 검사바랍니다.	ORG-B O DAT-B TIM-B O DAT-B TIM-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B O O
+"[원주시청] 7.15. 11:00~12:30 '미가일식당 북원로 ""2852,"" 태장동 ' 방문자는 오늘14시까지 12시~13시 제외 보건소 선별진료소 검사받으세요."	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I O CVL-B TIM-B TIM-B O AFW-B AFW-B O
+[순천시청] 7.16.(금) 12:37 전주출발 ~ 13:37 순천도착 KTX509 15호차 탑승자는 보건소 선별진료소에서 검사바랍니다.	ORG-B DAT-B TIM-B LOC-B O TIM-B LOC-B STO-B NUM-B CVL-B AFW-B AFW-B O
+"[울산광역시]7.13.(화)19:10~20:00 밀양순대돼지국밥 남구 월평로 ""187번길11,소독완료"" 방문자는 임시선별진료소에서 코로나19검사 받으시기 바랍니다."	ORG-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B TRM-B O O
+"[은평구청] 7.8(목)~7.16(금) NC백화점 불광점 불광로 20 ""지하1~2층,지상4/8층"" 방문자는 가까운 선별진료소에서 코로나 검사를 받으시기 바랍니다."	ORG-B DAT-B STO-B LOC-B LOC-I LOC-I LOC-I CVL-B O AFW-B TRM-B O O O
+[광양시청]▶ 7.13.(화)～7.16.(금) 09:00～13:00 강다짐 중동점 중동 이용자는 보건소선별진료소 09:00～18:00/광양읍 검사바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B LOC-B CVL-B AFW-B TIM-B O
+[경상북도청] 꽃동네노래방 유흥 북구 경진로1길5 7/12~7/15 방문자는 가까운 보건소 선별진료소에서 검사 받으시기 바랍니다.	ORG-B STO-B STO-B LOC-B LOC-I DAT-B CVL-B O AFW-B AFW-B O O O
+[당진시청②] ▲7/12 17:00~17:30 청진동뼈해장국 합덕읍 면천로 1710 방문자는 보건소 선별진료소 방문 후 코로나19검사 바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B AFW-B O O TRM-B O
+[경주시청] ▲7.1(목)~7.16(금) 건천탕 남탕 건천읍 건천2길6 동시간대 이용자는 증상 유무 관계없이 보건소 선별진료소 검사바랍니다.	ORG-B DAT-B STO-B LOC-B LOC-B LOC-I O CVL-B O O O AFW-B AFW-B O
+"[부여군청]7월12일 8시10분 서울남부터미널→10시 부여도착 ""버스,당일"" 10시10분경 성요셉병원 앞 합송 경유 홍산행 버스이용객은 보건소에서 코로나검사 바랍니다"	ORG-B TIM-B LOC-B LOC-B AFW-B TIM-B STO-B O O O LOC-B O AFW-B TRM-B O
+[포항시청] 코로나19 확진자 동선 안내 백년회대게 구룡포읍 구룡포리 963-182번지 7.14~7.15 방문자는 가까운 보건소에서 검사 받으시기 바랍니다.	ORG-B TRM-B CVL-B O O STO-B LOC-B LOC-I LOC-I DAT-B CVL-B O AFW-B O O O
+[속초시청]7.11(일)23:36~7.12(월)00:25 조양동 소재 악쓰리코인노래연습장 방문자는 검사받으시기 바랍니다 속초시생활체육관주차장선별진료소 16시까지	ORG-B LOC-B O STO-B CVL-B O O AFW-B TIM-B
+[속초시청]7.9(금)23시~7.10(토)02시 / 7.13(화)22시~7.14(수)01시 조양동 소재 부영연탄생구이 방문자는 선별진료소에서 검사받으시기 바랍니다	ORG-B O DAT-B LOC-B O STO-B CVL-B AFW-B O O
+[곡성군청] 7.16(금) 10:55 용산출발 ~ 13:02 남원도착 KTX 509 15호차 탑승자는 선별진료소에서 검사받으시기 바랍니다.	ORG-B DAT-B TIM-B LOC-B O TIM-B LOC-B STO-B NUM-B NUM-B CVL-B AFW-B O O
+"[진주시청] 7월 5~13일 평거동 소재 ""가인베트남노래타운,"" ""란노래방,미스앤유,오케이베트남노래방"" 방문자는 보건소 749-5714 에서 검사받으시기 바랍니다."	ORG-B DAT-B DAT-I LOC-B O STO-B STO-B CVL-B AFW-B NUM-B O AFW-B O
+[충주시청] 7.9.(금)~7.14.(수) 연수동 소재 쏘렌토 유흥주점 에 다녀오신 분은 증상 유무에 관계없이 보건소 선별진료소에서 코로나검사를 받으시기 바랍니다	ORG-B DAT-B LOC-B O STO-B LOC-B O CVL-B LOC-I O O O AFW-B AFW-B TRM-B O O
+[강릉시청]강릉523 관련 7월10일(토) 17:00 ~ 7월16일(금) 07:00 칠성포차 강릉교동점 율곡초교길 19 이용자는 보건소에서 반드시 검사바랍니다.	ORG-B O DAT-B TIM-B O DAT-B TIM-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B O O
+"[울산광역시] 이번주말 7.17~7.18. 코로나19 임시선별검사소는 ""문수축구장,"" 종합운동장에서 9시~17시까지 운영합니다. 점심시간 12시~13시 미운영"	ORG-B DAT-B DAT-B TRM-B AFW-B STO-B STO-B TIM-B O TIM-B TIM-I O
+"[원주시청] 7.15. 11:00~12:30 '미가일식당 북원로 ""2852,"" 태장동 ' 방문자는 오늘14시까지 12시~13시 제외 보건소 선별진료소 검사받으세요."	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I O CVL-B TIM-B TIM-B O AFW-B AFW-B O
+[순천시청] 7.16.(금) 12:37 전주출발 ~ 13:37 순천도착 KTX509 15호차 탑승자는 보건소 선별진료소에서 검사바랍니다.	ORG-B DAT-B TIM-B LOC-B O TIM-B LOC-B STO-B NUM-B CVL-B AFW-B AFW-B O
+"[울산광역시]7.13.(화)19:10~20:00 밀양순대돼지국밥 남구 월평로 ""187번길11,소독완료"" 방문자는 임시선별진료소에서 코로나19검사 받으시기 바랍니다."	ORG-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B O O O
+"[은평구청] 7.8(목)~7.16(금) NC백화점 불광점 불광로 20 ""지하1~2층,지상4/8층"" 방문자는 가까운 선별진료소에서 코로나 검사를 받으시기 바랍니다."	ORG-B DAT-B STO-B LOC-B LOC-I LOC-I LOC-I CVL-B O AFW-B TRM-B O O O
+[광양시청]▶ 7.13.(화)～7.16.(금) 09:00～13:00 강다짐 중동점 중동 이용자는 보건소선별진료소 09:00～18:00/광양읍 검사바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I CVL-B AFW-B TIM-B O
+"[태백시청] 아이스타 pc방 중앙로점 7월 6일 ""12시~20시,"" 7월 7일 10시~17시 이용자께서는 금일18시까지 보건소 선별진료소 검사바랍니다."	ORG-B STO-B STO-B LOC-B DAT-B DAT-I TIM-B DAT-B DAT-I TIM-B CVL-B DAT-B AFW-B AFW-B O
+"[구로구청] 7.1~7.13.기간 내 ""구로2,3,4동,"" 가리봉동 소재 ""호프집,"" ""노래방,"" 건설현장 방문자는 거주지 임시선별진료소에서 자발적인 코로나19검사 바랍니다"	ORG-B DAT-B O LOC-B STO-B O LOC-B LOC-B LOC-B CVL-B O AFW-B O TRM-B O
+[증평군청] 7.11.(일) 13:09~13:58 월악칡냉면에서 식사 후 현금 결제하신 남성 두 분은 보건소 043-835-4268로 연락주시기 바랍니다.	ORG-B DAT-B TIM-B STO-B O O O O CVL-B O CVL-B AFW-B NUM-B O O
+[안산시청]7.8(목)~7.11(일) 단원구소재 상해노래연습장 원본로16-1 지하1층 방문자는 가까운 보건소 또는 선별진료소에서 코로나19검사를 받으시기 바랍니다	ORG-B LOC-B STO-B LOC-B LOC-I CVL-B O AFW-B O AFW-B TRM-B O O
+"[대구광역시]벅시노래방 유흥주점 7/7 ""06~13시,"" ""7/9,11"" ""04~09시,"" 7/13 02~07시 방문자는 보건소 예약 에서 검사받으십시오."	ORG-B LOC-B DAT-B TIM-B DAT-B TIM-B DAT-B TIM-B CVL-B AFW-B O O O
+"[태백시청]아센pc방 건널목점 7월 11일 16시~12일 ""3시,12일"" 21시~13일 ""3시,13일"" 19시~14일 2시 이용자 금일18시까지 선별진료소검사바랍니다."	ORG-B STO-B DAT-B DAT-I TIM-B TIM-I TIM-I TIM-I TIM-I TIM-I CVL-B DAT-B O
+[보은군청] 7.7(수) 18:30부터 7.8.(목) 13:25까지 보은농협장례식장 방문자는 인근 보건소에서 코로나19 검사를 받으시기 바랍니다.	ORG-B DAT-B TIM-B DAT-B TIM-B STO-B CVL-B O AFW-B TRM-B O O O
+"[태백시청]아센pc방 건널목점 7월 ""7일20시~8일5시,8일17시~9일3시,9일23시~10일6시,10일19시~11일4시"" 이용자 금일18시까지 선별진료소검사바랍니다"	ORG-B STO-B DAT-B DAT-I CVL-B DAT-B AFW-B
+[경산시] 고인돌약국 하양읍 하양로 120-1 을 7/12~7/15 방문하신 분은 가까운 선별진료소에서 예약 후 검사받으시기 바랍니다.	ORG-B STO-B LOC-B LOC-I LOC-I O DAT-B CVL-B CVL-I O AFW-B O O O O
+[통영시청] 6.25.(금)~7.13.(화) 21세기 유흥주점 북신동 을 방문하신 분은 가까운 보건소에서 검사 받으시기 바랍니다.	ORG-B DAT-B STO-B LOC-B LOC-B O CVL-B CVL-I O AFW-B O O O
+"[김해시청] 할매칼국수 능동로149번길8 "","" 콕스테일 인제로191 "","" 선가정 나전로249번로10 동시간대이용자 검사바람 일시:홈페이지gimhae.go.kr확인"	ORG-B STO-B LOC-B O STO-B LOC-B O STO-B LOC-B CVL-B O O
+"[여수시청] 여수엑스포역 임시선별검사소는 관광객 대상 신속항원검사만 ""가능,"" 확진자 동선겹침 등 대상자는 보건소 선별진료소에서 검사 바랍니다."	ORG-B STO-B AFW-B CVL-B O O O CVL-B O O O AFW-B AFW-B O O
+[진주시청][기간정정] 7월 8일~13일 가인베트남노래타운 평거동 방문자는 진주시보건소 749-5714 에서 검사받으시기 바랍니다. ▲ 기간내 검사자는 제외.	ORG-B DAT-B DAT-I STO-B LOC-B CVL-B AFW-B NUM-B O O O O O CVL-B O
+"[대구광역시] W 유흥주점 ""이천로37,지하1층"" 7/6 22시~7/7 새벽5시 방문하신 분은 국채보상공원검사소 및 보건소 예약 에서 검사받으시기 바랍니다."	ORG-B STO-B LOC-B LOC-B DAT-B TIM-B TIM-B CVL-B CVL-I AFW-B O AFW-B O O O O
+[부산시]7. 5.(월) - 7.10(토) 18:00~24:00 부산항 7080주점 서구 충무대로 82번길9 을 방문하신 분 서구보건소로 상담바랍니다. 소독완료	ORG-B DAT-I O DAT-B TIM-B LOC-B STO-B LOC-B LOC-I LOC-I O CVL-B CVL-I AFW-B O O
+[부산시]7.12(월) 12:25~13:25 금호탕 서구 대신로 45번길 11 남탕을 방문하신 분은 서구보건소로 상담바랍니다. 소독완료	ORG-B TIM-B STO-B LOC-B LOC-I LOC-I LOC-I O CVL-B CVL-I AFW-B O O
+[진주시청] 7월 10일(토) 18:30~20:00 멜론당구장 상봉동 방문자는 보건소 055-749-5714 에서 검사 받으시기 바랍니다.	ORG-B DAT-B DAT-I TIM-B STO-B LOC-B CVL-B AFW-B NUM-B O O O O
+"[김해시청] ""7/10(토)17:00~19:00,"" 7/11(일)12:00~17:30 해피PC방 ""활천로19,"" 2층 을 이용하신 분은 코로나검사 받으시기 바랍니다."	ORG-B DAT-B DAT-B STO-B LOC-B LOC-I O CVL-B CVL-I O O O
+[여수시청] 7.10.(토)~7.14.(수) 신양교통 13사2143 택시 탑승자는 증상관계 없이 금일 중 보건소 선별진료소에서 검사 바랍니다.	ORG-B DAT-B STO-B NUM-B O CVL-B O O DAT-B O AFW-B AFW-B O O
+"[인천서구청]7/4~7/14 한미게임랜드 서구 신석로 84 방문자께서는 ""보건소,"" 검암임시검사소 또는 아시아드경기장 드라이브스루 에서 코로나검사 받으시기 바랍니다."	ORG-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B AFW-B O AFW-B LOC-B O O O O
+[강진군청] 타지역 확진자 동선관련 7. 12.(월) 09:30~13:00 강진심플란트치과 이용자는 가까운 보건소 선별진료소에서 검사받으시기 바랍니다.	ORG-B O CVL-B O DAT-B DAT-I TIM-B STO-B CVL-B O AFW-B AFW-B O O
+"""[영주시청]7.13(화)08:40~18:00,"" 7.14(수)08:40~09:00 대구은행 영주점 방문객은 보건소 선별진료소에서 검사바랍니다 09:00~18:00"	ORG-B DAT-B STO-B LOC-B CVL-B AFW-B AFW-B O TIM-B
+"""[강동구청]7/11(일)14:00~7/14(수)[푸른들바둑(천호대로1132,"" ""2층,성내동"" ]방문자는 가까운 선별진료소에서 검사바랍니다. 02-3425-6713"	STO-B LOC-B CVL-B O AFW-B O NUM-B
+[성주군청]7월11일(일)오후1시-2시 산여울식당 성주군 수륜면 참별로 1415-14 방문자는 보건소 선별진료소 방문하여 코로나19 진단검사를 받기바랍니다.	ORG-B STO-B LOC-B LOC-I LOC-I LOC-I CVL-B AFW-B AFW-B O TRM-B O O
+"[고성군청]고성27번 확진자 관련 11시 30분에 제2임시선별검사소를 고성군 종합운동장 남문에 ""설치하였으니,"" 검사를 못받으신분은 검사받으시기 바랍니다"	ORG-B CVL-B O TIM-B TIM-I AFW-B LOC-B STO-B STO-B O O CVL-B O O
+"[완도군청]용인시확진자 2명 7.12.(월) 15:00완도출발 제주행 실버클라우드호 탑승. 여객선 ""2등석이용자,"" 갑판대에서 음식물 섭취한 승객은 코로나19검사요망"	ORG-B NUM-B DAT-B TIM-B LOC-B STO-B O AFW-B CVL-B O O O CVL-B O
+"[계양구청] 7월5일(월)~9일(금)[17시~20시] 투다리 효성본부점 효서로 ""45,"" 1층 방문자께서는 주소지 보건소에서 코로나 검사를 받으시기 바랍니다."	ORG-B DAT-B STO-B LOC-B LOC-B LOC-I LOC-I CVL-B O AFW-B TRM-B O O O
+[서울시청] 7. 5.~10. 중구 충무로역 일대 도우미 이용 노래주점 유흥주점 등 방문자와 종사자는 가까운 보건소에서 코로나19 검사 받으시기 바랍니다☎120	ORG-B DAT-B DAT-I LOC-B LOC-B O CVL-B O LOC-B LOC-B O CVL-B CVL-B O AFW-B TRM-B O O O
+"[거제시청] 7/12(월) ""21:00~01:50,"" 7/13(화) 20:00~00:50 금별맥주 고현로11길 19 방문하신 분은 가까운 선별진료소에서 검사바랍니다."	ORG-B DAT-B TIM-B DAT-B TIM-B STO-B LOC-B LOC-I CVL-B CVL-I O AFW-B O
+[대구광역시] 마비정황토방식당 화원읍 마비정길 259-16 7/12 11:30~13:30 방문하신분은 임시선별검사소 및 보건소 예약 에서 검사받으시기 바랍니다.	ORG-B STO-B LOC-B LOC-I LOC-I DAT-B TIM-B CVL-B AFW-B O AFW-B O O O O
+[의정부시청]7.11.(일) 16:00~17:30에 사계절흑염소 신곡1동 방문자는 선별진료소에서 코로나19검사를 받으시기 바랍니다. 031-870-6011~4	ORG-B TIM-B STO-B LOC-B CVL-B AFW-B TRM-B O O NUM-B
+"""[용산구청]7/9(금),"" ""7/10(토),"" 7/12(월) 영광정육식당 서빙고로91나길104 방문자는 가까운 선별진료소에서 코로나19 검사를 받으시기 바랍니다."	ORG-B DAT-B DAT-B STO-B LOC-B CVL-B O AFW-B TRM-B O O O
+[광주광역시]7.10(토)~7.11(일) 18:00~19:30 북구 오치동 NS휘트니스 북구 설죽로 358 방문자는 거주지 보건소에서 검사받으시기 바랍니다.	ORG-B TIM-B LOC-B LOC-I STO-B LOC-B LOC-I LOC-I CVL-B O AFW-B O O
+[대구광역시] 삼거리식당 남구 희망로53 7/10 새벽 3:30~6:10 방문자는 임시선별검사소 및 보건소 예약 에서 반드시 검사받으시기 바랍니다.	ORG-B STO-B LOC-B LOC-B DAT-B TIM-B TIM-I CVL-B AFW-B O AFW-B O O O O O
+"[진주시청] 7월 ""9,"" ""10,"" 11일 가인베트남노래타운 평거동 방문자는 진주시보건소 055-749-5714 에서 검사 받으시기 바랍니다."	ORG-B DAT-B DAT-I DAT-I DAT-I STO-B LOC-B CVL-B AFW-B NUM-B O O O O
+[태안군청] 태안읍 소재 APEX 에이펙스 커피하우스에 7.12.(월) 12:30~13:00 방문자는 보건의료원에 방문하여 코로나19 선제검사 받으시기 바랍니다.	ORG-B LOC-B O STO-B STO-B STO-B DAT-B TIM-B CVL-B AFW-B O TRM-B O O O
+"[고성군청]7.15.9시기준 확진자1명 고성27번 ""발생,"" 7.9(금)~7.14.(수)파머스마켓 이용자는 임시선별검사소인 파머스마켓 주차장에 방문하여 검사바랍니다."	ORG-B CVL-B O O DAT-B CVL-B AFW-B STO-B O O O
+[거제시청] 7/7(수)~7/14(수) 장승포동 장금이회식당 장승포로 33 을 방문하신 분은 가까운 선별진료소에서 검사바랍니다.	ORG-B DAT-B LOC-B STO-B LOC-B LOC-I O CVL-B CVL-I O AFW-B O
+[정선군청]사회적거리두기 2단계 격상 7.15~7.31 ▲수도권 및 타지역 방문으로 감기 등 이상 징후시 즉시 정선보건소에서 코로나 무료검사를 받으시기 바랍니다.	ORG-B NUM-B O DAT-B LOC-B O O O O O O O O AFW-B TRM-B O O O
+[양평군청] 7.10(토) 12:00~13:00 7.11(일) 10:30~11:30 양평신내서울해장국 개군면 방문자는 선별진료소에서 코로나19 검사 받으세요.	ORG-B DAT-B TIM-B DAT-B TIM-B STO-B LOC-B CVL-B AFW-B TRM-B O O
+[예천군청]타지역확진자관련7.10.11:50~12:20/7.11.10:40~11:10한맥CC노블리아 남자사우나를 이용하신분은 가까운 선별진료소에서 검사바랍니다.	ORG-B STO-B CVL-B O AFW-B O
+[광양시청]▶ 7.12.부터 7.14. 오전까지 남부안전공구철물상사 중동 소재 방문자는 보건소 선별진료소에서 검사바랍니다.	ORG-B DAT-B DAT-B TIM-B STO-B LOC-B O CVL-B AFW-B AFW-B O
+[예산군청]7월10일(토)11시30분~13시30분 산마루가든 대흥면 노동리140-6 방문자는 보건소 선별진료소 339-6061 방문 후 코로나19 검사바랍니다.	ORG-B STO-B LOC-B LOC-I CVL-B AFW-B AFW-B NUM-B O O TRM-B O
+[군산시청] ▲7/10(토) 19:18~19:55 수송동 빽다방 수송동832-3 방문자는 보건소 선별진료소 09:00~18:00 검사 바랍니다.	ORG-B DAT-B TIM-B LOC-B STO-B LOC-B CVL-B AFW-B AFW-B TRM-B O O
+"[완도군청]완도읍확진자 동선관련 ②7. 12.(월) 18:55 국밥1번지 ""22,000원"" 현금결제 하신분은 보건의료원에서 검사요망/이외 접촉자는 파악후 개별안내 중"	ORG-B O DAT-B DAT-I TIM-B STO-B NUM-B O CVL-B AFW-B O CVL-B O O O
+[완도군청]완도읍 확진자 동선관련 ① 7. 11. (일) 20:30~20:48 완도농협하나로마트 방문자는 보건의료원에서 검사하시기 바랍니다.	ORG-B CVL-B O O DAT-B DAT-I DAT-I TIM-B STO-B CVL-B AFW-B O O
+"[완도군청] 정정 7.15. 10:00~11:30 금일선별진료소 ""검사대상자▶검사희망자,"" ""재검사희망자,"" ""7.6.(화),"" 7.9.(금)금일의원 물리치료실이용주민"	ORG-B O LOC-B TIM-B AFW-B CVL-B CVL-B DAT-B DAT-B CVL-B
+"[완도군청]7.15.(목) 10:00~13:30 금일읍 선별진료소 ""검사대상자▶검사희망자,"" ""재검사희망자,"" ""7.6.(화),"" 7.9.(금) 금일의원 물리치료실 이용주민"	ORG-B TIM-B LOC-B AFW-B CVL-B CVL-B DAT-B DAT-B STO-B STO-B CVL-B
+[의왕시청]스타벅스 의왕청계DT점 의왕시 안양판교로246 7.9(금)~13(화) 매장 내 이용자 중 유증상자는 가까운 보건소에서 코로나19 검사 받기 바랍니다.	ORG-B STO-B LOC-B LOC-I DAT-B O O CVL-B O CVL-B O AFW-B TRM-B O O O
+"""[부산시]7.10.(토)0시~01시,"" 7.10(토)~7.13(화)18시~01시 아이돌노래연습장 북구 덕천1길 38 덕천동 보건소에서 검사바랍니다."	ORG-B DAT-B STO-B LOC-B LOC-I LOC-I LOC-I AFW-B O
+[나주시청] ▲7.10(토)12:00~14:00 문암가든 다시면 에 방문하신 분은 거주지보건소에서 코로나19검사 받으시기 바랍니다.	ORG-B DAT-B STO-B LOC-B O CVL-B CVL-I AFW-B TRM-B O O
+[나주시청] ▲7.11(일)~7.12(월)청학동(송월동)12:00~14:00시에 방문하신 분은 거주지보건소에서 코로나19검사 받으시기 바랍니다.	ORG-B STO-B O O ORG-B TRM-B O O
+"[김천시청]55~59세 62~66년생 백신예약7.14 ""20시재개,ncvr.kdca.go.kr/콜센터"" ""1339,"" ""054-421-2990,"" 관할행정복지센터 9~18시"	ORG-B CVL-B LOC-B TIM-B NUM-B NUM-B ORG-B TIM-B
+"[강북구청]7.2.(금)~14.(수) 나원뮤지션음악학원 노해로 109 3층 방문자는 강북보건소 ""평일9~20:30,주말9~17:30"" 검사바랍니다.☎901-7704"	ORG-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B TIM-B O
+[김해시청] 7/9(금) 13:00~13:30 아지매가마솥국밥 율하숲길 16 을 이용하신 분은 인근 보건소에서 검사받으시기 바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I O CVL-B CVL-I O AFW-B O O
+[나주시청] ▲7.10(토)~7.13(화)그린찌개밥상(송월동) 방문하신 분은 거주지보건소에서 코로나19검사 받으시기 바랍니다.	ORG-B STO-B CVL-B CVL-I AFW-B TRM-B O O
+[나주시청] ▲7.9(금)18:00~22:00 품장 노안면 방문하신 분은 거주지보건소에서 코로나19검사 받으시기 바랍니다.	ORG-B DAT-B STO-B LOC-B CVL-B CVL-I AFW-B TRM-B O O
+[나주시청] ▲7.13(화)12:00~15:00 나주곰탕노안집 금계동 방문하신 분은 거주지보건소에서 코로나19검사 받으시기 바랍니다.	ORG-B DAT-B STO-B LOC-B CVL-B CVL-I AFW-B TRM-B O O
+[단양군청]7.8.(목) 16:27~16:34 죽령→ 다리안행 단양버스 상진초~스마일마트 정류장 앞까지 이용하신 분은 가까운 선별진료소에서 검사받으시기 바랍니다.	ORG-B TIM-B LOC-B LOC-I AFW-B STO-B O O CVL-B CVL-I O AFW-B O O
+[당진시청] 7/11(일)~7/13(화) 홍성한우마을 합덕읍 버그내2길 128-25 방문자는 보건소 선별진료소 방문 후 코로나19검사 바랍니다.	ORG-B DAT-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B AFW-B O O TRM-B O
+[단양군청] 7.8.(목) 16:27 ~ 16:34 죽령 → 다리안행 단양버스 상진초~스마일마트까지 이용하신 분은 가까운 선별진료소에서 검사받으시기 바랍니다.	ORG-B DAT-B TIM-B O TIM-B LOC-B O LOC-B AFW-B STO-B CVL-B CVL-I O AFW-B O O
+[거제시청]6/30(수)~7/9(금) 상문동주민센터 방문자는 오늘 17시~20시까지 상문동행복누림문화센터 거제중앙로1641 에서 코로나검사바랍니다. 신분증 지참	ORG-B STO-B CVL-B DAT-B TIM-B STO-B LOC-B O O O O
+[포항시청]2 7.11 131번버스 필로스호텔정류장22:42→오천농협원동지점정류장23:24 해당시간 탑승객은 보건소에서 코로나19 검사바랍니다.	ORG-B DAT-B NUM-B STO-B TIM-B CVL-B AFW-B TRM-B O
+"[여수시청] 7.11.(일) ③14:48~18:40 소울보이스 동전노래연습장 학동 / 7.9.(금)~7.13(화) 예스마트 선원동 ""방문자,"" 금일 중 검사요망"	ORG-B DAT-B TIM-B STO-B STO-B LOC-B O DAT-B STO-B LOC-B CVL-B DAT-B O O
+"[연천군청] 7/6~7/11 연천군 신서면 소재 준이 ""떡볶이엔돈까스,"" ""대호식당,"" 뚝배기양평해장국을 방문하신 분은 선별진료소에서 코로나19 검사 하시기 바랍니다."	ORG-B DAT-B LOC-B LOC-I O STO-B STO-B STO-B STO-B CVL-B CVL-I AFW-B TRM-B O O O
+[여수시청] 동선안내 7.11.(일)①13:20~14:33 메가커피 신동아파밀리에 인근 매장내 이용자 테이크아웃 제외 ②15:20~16:10 투썸플레이스 학동	ORG-B O DAT-B STO-B STO-B O O CVL-B O O TIM-I STO-B LOC-B
+"[서초구청]7.11 ""12시~20:40,"" 7.12 13시~16:30 신세계백화점강남점 본관 신반포로176 10층 아동코너 방문자중 유증상자는 코로나19 검사바랍니다"	ORG-B TIM-B DAT-B TIM-B STO-B STO-B LOC-B LOC-B LOC-I CVL-B CVL-B TRM-B O
+"[대구광역시] 메가시스템 가상화폐관련 희망로 ""225,"" 2층 6/22 이후 방문자는 국채보상공원임시선별검사소 및 보건소 예약 에서 검사받으시기 바랍니다."	ORG-B STO-B STO-B LOC-B LOC-I LOC-I DAT-B O CVL-B AFW-B O AFW-B O O O O
+[부산시]07.03.(토)~07.11.(일) 세림탕 해운대구 해운대로81번길 16-1 여탕이용자는 가까운 보건소에서 검사바랍니다. 소독완료	ORG-B STO-B LOC-B LOC-I LOC-I CVL-B O AFW-B O O
+"[광주광역시]6.30(수)~7.13.(화) 이영타일 서구 하남대로 ""518,"" 동천동 을 방문하신 분은 거주지 보건소에서 코로나 검사를 받으시기 바랍니다."	ORG-B STO-B LOC-B LOC-I LOC-I LOC-I O CVL-B CVL-I O AFW-B TRM-B O O O
+"[원주시청] 7.5.~7.10 ‘남부시장 내 35호 준수선 원주시 치악로 ""1803,"" 명륜동 ’ 방문자는 오늘 16시까지 보건소 선별진료소 검사 받으세요."	ORG-B DAT-B STO-B O NUM-B STO-B LOC-B LOC-I LOC-I LOC-I O CVL-B DAT-B TIM-B AFW-B AFW-B O O
+"[강릉시청]강릉 504번 관련 7월 7일(수) ""17:30~19:30,"" 빨간삼겹살 금성로45번길 ""14,"" 성남동 식당 이용자는 보건소에서 검사바랍니다."	ORG-B NUM-B O DAT-B DAT-I TIM-B STO-B LOC-B LOC-I LOC-I LOC-B CVL-B AFW-B O
+[태안군청] 7월12일 태안읍사무소 방문자는 보건의료원 방문하여 선제검사 받으시기 바랍니다. 외출 자제 등 개인방역수칙 준수 바랍니다.	ORG-B DAT-B STO-B CVL-B AFW-B O O O O O O O O O O
+"[울산광역시] 6.28.~7.13. ▲원라이브 남구 ""왕생로62번길5,3층)▲원타운"" 남구 ""신복로22번길34,2층"" 방문자는 코로나19 검사바람. ""유흥주점,소독완료"""	ORG-B DAT-B STO-B LOC-B LOC-I LOC-B LOC-I CVL-B TRM-B O O
+"[울산광역시] 6.28.~7.13.휴 남구 ""정동로80번길12,"" 4층)아테네 남구 ""화합로178번길17,"" 1층 방문자는 코로나19 검사바람. ""유흥주점,소독완료"""	ORG-B DAT-B LOC-B LOC-I STO-B LOC-B LOC-I LOC-I CVL-B TRM-B O O
+[문경시청] 7.11(일) 15:38~17:04 김천역→점촌역 경북선 열차 대체버스 버스 이용자는 가까운 선별진료소에서 코로나19 검사 받으시기 바랍니다.	ORG-B DAT-B TIM-B LOC-B STO-B AFW-B AFW-B AFW-B CVL-B O AFW-B TRM-B O O O
+"[제주도] 제주시 연동 소재 파티24 유흥주점 7월7일(수) ~ 7월13일(화) 오전 ""0시~오후12시,"" 방문자는 보건소 상담 및 검사 당부"	ORG-B LOC-B LOC-I O STO-B LOC-B DAT-B O DAT-I TIM-B TIM-I CVL-B AFW-B O O O O
+[영주시청]<타지역확진자 관련>7.11(일)15:38~18:21김천역→영주역(경북선 열차 대체버스 버스이용자는 가까운 선별진료소에서 코로나19검사바랍니다.	ORG-B DAT-B AFW-B AFW-B CVL-B O AFW-B O
+[예천군청] 7.11.(일) 15:38~17:43 김천역 → 예천역 경북선 열차 대체버스 버스 이용자는 가까운 선별진료소에서 코로나19 검사 받으시기 바랍니다.	ORG-B DAT-B TIM-B LOC-B O LOC-B STO-B AFW-B AFW-B AFW-B CVL-B O AFW-B TRM-B O O O
+"[대구광역시] 황제불한증막 서구 달구벌대로 1813 7/6 19:30~21:30 ""남탕,"" 3층 찜질방 이용객은 보건소 예약 에서 검사받으시기 바랍니다."	ORG-B STO-B LOC-B LOC-I LOC-I DAT-B TIM-B LOC-I NUM-B LOC-B CVL-B AFW-B O O O O
+"[순천시청] 7.12(월) ""09시~16시,"" 7.13(화) 09시~12시 롯데리아 순천조례점 방문자는 금일 중 보건소 선별진료소에서 검사바랍니다."	ORG-B DAT-B TIM-B DAT-B TIM-B STO-B LOC-B CVL-B DAT-B O AFW-B AFW-B O
+[창원시청] 7.11.(일) 13:10~13:45 버들농장 성산구 토월동 31 방문자는 관할보건소에서 전화 예약 후 검사 바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B O O O O O
+"[광주광역시]7.7(수)~7.9(금) 12시~13:30 이글골프연습장 구내식당 서구 매월동 ""586-20,2층"" 방문하신 분은 보건소에서 검사 받으시기 바랍니다."	ORG-B TIM-B STO-B STO-B LOC-B LOC-I LOC-I CVL-B CVL-I AFW-B O O O
+"[송파구청] 7.6. 21:00~익일 ""04:30,"" 7.7. 21:00~익일 04:30 방이2동 OOO뮤직타운 올림픽로 32길 방문자는 검사 받으시길 바랍니다."	ORG-B DAT-B DAT-I TIM-B DAT-B TIM-B TIM-B LOC-B STO-B LOC-B LOC-I CVL-B O O O
+"[대구광역시] 치치1호점 동성로 5길 80 7/2~7/12 방문하신 분은 ""외출자제,"" 국채보상공원임시선별검사소 및 보건소 예약 에서 반드시 검사받으시기 바랍니다."	ORG-B STO-B LOC-B LOC-I LOC-I DAT-B CVL-B CVL-I O AFW-B O AFW-B O O O O O
+[여수시청]7.9(금) 엑스포해수피아 국동 여탕 13:40~15:30 이용자 증상관계없이 금일 보건소 학동 선별진료소에서 검사요망/학동 선별진료소:20시까지	ORG-B STO-B LOC-B LOC-I TIM-B CVL-B O DAT-B AFW-B LOC-B AFW-B O O
+"[남양주시청]7.10 ""13:32~15:54,"" 7.11 12:47~16:00별내면 스마일방방놀이터 방문자는 선별진료소에서 검사바랍니다. 031-590-5371~3"	ORG-B TIM-B DAT-B TIM-B STO-B CVL-B AFW-B O NUM-B
+[단양군청] 7.7.(수) ~ 7.11.(일) 17:00 ~ 24:00 사이 GS25 단양중앙로점을 이용하신 분들은 가까운 선별진료소에서 검사 받으시기 바랍니다.	ORG-B DAT-B O DAT-B TIM-B O TIM-B O STO-B LOC-B CVL-B CVL-I O AFW-B O O O
+"""[남양주시청]7.8,"" ""7.10,"" 7.11 별내면 아론당구클럽 방문자 중 유증상자/흡연실 이용자는 가까운 선별진료소에서 검사 바랍니다. 031-590-5371~3"	ORG-B DAT-B DAT-B LOC-B STO-B CVL-B O CVL-B CVL-B O AFW-B O O NUM-B
+[중랑구청] 7.7.~7.10. 중랑구 썸노래연습장 망우본동 방문자는 가까운 선별진료소에서 코로나19 검사를 받으시기 바랍니다.	ORG-B DAT-B LOC-B STO-B LOC-B CVL-B O AFW-B TRM-B O O O
+[정선군청]7.5(월) 강릉->정선 16:30~18:20 시외버스 강원72아 1010 이용자는 정선군보건소에서 코로나 검사바랍니다.	ORG-B LOC-B TIM-B STO-B LOC-B LOC-I CVL-B AFW-B TRM-B O
+[남해군청] ▶7.11.(일) 18:27~18:58 ▶남해읍 홈마트를 방문하신 분은 보건소 선별진료소에서 검사 받으시기 바랍니다.	ORG-B DAT-B TIM-B LOC-B STO-B CVL-B CVL-I AFW-B AFW-B O O O
+"[도봉구청 ]7.5.(월)~7.11.(일) 창동 소재 하누소 2층 방문자는 가까운 선별진료소 ""2091-4483,4490"" 에서 코로나19 검사를 받으시기 바랍니다."	ORG-B DAT-B LOC-B O STO-B LOC-B CVL-B O AFW-B NUM-B O TRM-B O O O
+[부산시] 7.5.(월)~7.12.(월) 구평동 행정복지센터 사하구 서포로 48 방문자는 인근 보건소에서 코로나19 검사 받으시기 바랍니다. 소독완료	ORG-B DAT-B LOC-B STO-B LOC-B LOC-I LOC-I CVL-B O AFW-B TRM-B O O O O
+"""[양산시청]7.10(토)12:00~13:30,"" 미타암 양산시 주진로379-61 내 식당 이용자는 가까운 보건소에 상담바랍니다."	ORG-B STO-B LOC-B LOC-I O O CVL-B O AFW-B O
+"[울산광역시]6.28.~7.12.▲금비노래방 남구 정동로 76-1)▲자전거노래타운 남구 정동로76번길 ""5,"" 1층 방문자는 코로나19 검사바람. ""유흥주점,소독완료"""	ORG-B LOC-B LOC-I STO-B LOC-B LOC-I LOC-I LOC-I CVL-B TRM-B O O
+"[울산광역시]6.28.~7.12.▲보스 남구 화합로178번길 ""24,2층"" ▲비상 남구 삼산로395번길 ""9,3층"" 방문자는 코로나19 검사바람. ""유흥주점,소독완료"""	ORG-B LOC-B LOC-I LOC-I STO-B LOC-B LOC-I LOC-I CVL-B TRM-B O O
+"[울산광역시]6.28.~7.12.▲체리노래방 남구 ""삼산로254번길8,3층)▲아방궁"" 남구 ""왕생로46번길15,2층"" 방문자는 코로나19 검사바람. ""유흥주점,소독완료"""	STO-B LOC-B LOC-B LOC-B LOC-I CVL-B TRM-B O O
+"[제주도] 제주시 이도이동 소재 디케이 음식점 ""7월6일(화),"" 7월9일(금) 19:30 ~ 다음날 03:30 방문자 보건소 상담 및 검사 당부"	ORG-B LOC-B LOC-I O STO-B LOC-B DAT-B DAT-B TIM-B O DAT-I TIM-B CVL-B AFW-B O O O O
+"[제주도] 제주시 연동 소재 파티24 유흥주점 7월8일(목) 오전 ""01시~07시,"" 방문자는 보건소 상담 및 검사 당부"	ORG-B LOC-B LOC-I O STO-B LOC-B DAT-B TIM-B TIM-I CVL-B AFW-B O O O O
+"[거창군]7.7.(수) ""21:00,"" 7.8.(목) ""20:03,"" 7.9.(금)18:35 거창→대구서부 버스탑승자는 보건소선별진료소에서 검사바랍니다 940-8335"	ORG-B TIM-B DAT-B TIM-B DAT-B STO-B CVL-B AFW-B O NUM-B
+"""[거창군청]7.7.(수),"" ""7.8.(목),"" 7.9.(금) 07:24 대구서부정류장→거창방면 버스탑승자께서는 보건소 선별진료소에서 검사바랍니다. 940-8335"	ORG-B DAT-B DAT-B TIM-B STO-B CVL-B AFW-B AFW-B O NUM-B
+[속초시청]7.7(수)~10.(토) 고성군 소재 파인리즈 아젤리아 남성사우나를 이용한 속초시민은 선별진료소에서 검사바랍니다. 생활체육관주차장선별진료소 16시까지	ORG-B LOC-B O STO-B STO-B STO-B O CVL-B AFW-B O AFW-B TIM-B
+[의왕시청] 7. 6. ~ 7. 11. 호프돼지 배달돼지 부곡초등1길 13 방문자는 가까운 보건소에서 코로나19 검사를 받으시기 바랍니다.	ORG-B DAT-B DAT-I O DAT-B DAT-I STO-B STO-B LOC-B LOC-I CVL-B O AFW-B TRM-B O O O
+[고성군청] 7.7~7.10 기간 중 파인리즈 아젤리아 남성사우나 토성면 잼버리동로 267 이용자는 가까운 선별진료소에서 코로나19 검사 받으시기 바랍니다.	ORG-B DAT-B O O STO-B STO-B STO-B LOC-B LOC-I LOC-I CVL-B O AFW-B TRM-B O O O
+"[광주광역시]7.3(토) 18시~20시 광주수완장례식장 3층 특실 광산구 수완로 ""6,"" 신가동 을 방문하신 분은 거주지 보건소에서 검사받으시기 바랍니다."	ORG-B TIM-B STO-B LOC-I LOC-I LOC-B LOC-I LOC-I LOC-I O CVL-B CVL-I O AFW-B O O
+[여수시청] 7.9.(금)~7.11.(일) 어촌마을횟집 신월동 방문자는 증상 관계없이 금일 보건소 학동 선별진료소에서 코로나검사 바랍니다.	ORG-B DAT-B STO-B LOC-B CVL-B O O DAT-B AFW-B LOC-B AFW-B O O
+"[대구광역시] 범어헬스 청호로 ""443,"" 4층 누적 확진자 14명발생. 7월 중 이용자는 ""외출자제,"" 임시선별검사소 및 보건소 예약 에서 즉시 검사받으시기 바랍니다"	ORG-B STO-B LOC-B LOC-I LOC-I O CVL-B NUM-B DAT-B O CVL-B O AFW-B O AFW-B O O O O O
+[김해시청] 7.6.(화) ~ 7.8.(목) 미성가라오케 호계로499번길 15 를 이용하신 분은 인근 보건소에서 반드시 코로나19 검사받으시기 바랍니다.	ORG-B DAT-B O DAT-B STO-B LOC-B LOC-I LOC-I CVL-B CVL-I O AFW-B O TRM-B O O
+[김해시청] 꽃노래주점에서 n차 감염이 확산되고 있으니 7.2.(금)부터 이용자는 반드시 코로나19 검사받으시기 바랍니다.	ORG-B STO-B O O O O DAT-B CVL-B O TRM-B O O
+[광주광역시]7.8.(목) 15~20시 북구 운암동 아이리스PC방 북구 북문대로 113 지하1층 에 방문하신 분은 거주지 보건소에서 검사받으시기 바랍니다.	ORG-B TIM-B LOC-B LOC-I STO-B LOC-B LOC-I LOC-I LOC-I LOC-I CVL-B CVL-I O AFW-B O O
+[구미시청] 7/9(금) 16:00~17:00 남다른감자탕 구미인동점 방문자는 가까운 선별진료소에서 코로나19 검사 받으시기 바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B CVL-B O AFW-B TRM-B O O O
+"[순천시청] 전라남도 특별방역기간 7.31.까지 ""√유흥시설,노래연습장,"" 외국인고용사업장 내 외국인 주1회검사 √타지역 방문 자제 및 방문후 보건소에서 검사바람."	ORG-B LOC-B O DAT-B STO-B STO-B O CVL-B O O O O O O AFW-B O
+"[창원시청] 7.9.(금) 17:30~7.10.(토) 04:30 역전할머니맥주 석동점 진해구 동진로61번길 ""7,방역완료"" 방문자 관할보건소 예약 후 검사바랍니다."	ORG-B DAT-B TIM-B TIM-B STO-B LOC-B LOC-B LOC-I LOC-I CVL-B AFW-B O O O
+"""[광주광역시]7.5(월)~7.7(수),"" 7.9(금)11:30~13시 이천자동차정비 구내매점 남구 송하동 270-2 방문자는 거주지 보건소에서 검사바랍니다."	ORG-B DAT-B STO-B LOC-B LOC-B LOC-I LOC-I CVL-B O AFW-B O
+[완도군청]7.9.(금)07:20금일동송항출발→녹동항도착. 평화페리5호객실/ 7.9.(금)13:00녹동항출발→금일동송항도착. 평화페리 객실을 이용한 주민 검사요망	ORG-B STO-B DAT-B STO-B STO-B O O O
+[제주도] 제주시 연동 소재 괌 유흥주점 7월 6일(화) 21:00 ~ 7월 7일(수) 06:30 방문자는 보건소 상담 및 검사 당부	ORG-B LOC-B LOC-I O STO-B LOC-B DAT-B DAT-I TIM-B O DAT-I DAT-I TIM-B CVL-B AFW-B O O O O
+[성남시청] 7.3(토)~7.11(일) 위례파크24시 사우나 창곡동562 남탕 이용한 유증상자는 가까운 선별진료소에서 코로나 진단검사 받으시기 바랍니다.	ORG-B DAT-B STO-B STO-B LOC-B LOC-I O CVL-B O AFW-B TRM-B O O O
+"[남양주시청]7.7(수)7:30~9:30 남양주체육문화센터 다산지금로91 ""수영장,샤워시설,탈의실"" 이용자중 유증상자는 관할 선별진료소에서 코로나19검사 받으세요."	ORG-B STO-B LOC-B LOC-B CVL-B CVL-B O AFW-B TRM-B O
+[대구광역시] 타히티 유흥주점 청수로 125 7/6 17시~7/11 방문자는 임시선별검사소 및 보건소 예약 에서 검사받으시기 바랍니다.	ORG-B STO-B LOC-B LOC-B LOC-I DAT-B TIM-B CVL-B AFW-B O AFW-B O O O O
+[강진군청] 7. 6.(화) 06:32~07:38 남도탕 남탕 이용자는 보건소 선별진료소에서 검사 바랍니다. 20:00까지	ORG-B DAT-B DAT-I TIM-B STO-B STO-B CVL-B AFW-B AFW-B O O TIM-B
+[중구청] 7.3.(토) 17시~22시 서울 중구 인현시장 내 충무로구룡포 1호점 방문자는 증상유무에 관계없이 코로나19 검사를 받으시기 바랍니다.	ORG-B DAT-B TIM-B LOC-B LOC-I STO-B O STO-B NUM-B CVL-B O O TRM-B O O O
+[송파구청] 7.5(월) 20:00~22:00 가락본동 대벌노래팡 중대로 9길 25 방문자는 가까운 선별진료소에서 검사 받으시길 바랍니다.	ORG-B DAT-B TIM-B LOC-B STO-B LOC-B LOC-I LOC-I CVL-B O AFW-B O O O
+"[순천시청] ""타지역확진자관련,"" 7.2.(금) 18:00~22:00 청청회포차 왕궁중앙길 33 방문자는 보건소 선별진료소에서 검사받으시기 바랍니다."	ORG-B CVL-B DAT-B TIM-B STO-B LOC-B LOC-I CVL-B AFW-B AFW-B O O
+"[중구청] 7.5.~7.7. 11:30~13:00 서울 중구 마른내로12길 ""6,"" 지하1층 남도뷔페 방문자는 증상유무에 관계없이 코로나19 검사 받으시기 바랍니다."	ORG-B DAT-B TIM-B LOC-B LOC-I LOC-I LOC-I LOC-I STO-B CVL-B O O TRM-B O O O
+[진주시청]7.9.(금) 15:30 진주시외버스터미널->울산시외버스터미널 탑승자 우리카드 94252077xxxxxx13 보건소 749-5714 로 연락바랍니다.	ORG-B TIM-B STO-B CVL-B O NUM-B AFW-B NUM-B O O
+[진주시청]7.9.(금) 15:30 진주시외버스터미널->울산시외버스터미널 탑승자 토스체크 54646500xxxxxx64 보건소 749-5714 로 연락바랍니다.	ORG-B TIM-B STO-B CVL-B O NUM-B AFW-B NUM-B O O
+[진주시청]7.9.(금) 15:30 진주시외버스터미널->울산시외버스터미널 탑승자 KB체크 5272 8986xxxxxx59)보건소 749-5714 로 연락바랍니다.	ORG-B TIM-B STO-B CVL-B O NUM-B NUM-B NUM-B O O
+[하동군청] 7.5(월) 18:30~21:50 마시촌치킨프라자 하동읍 방문자는 선별검사소에서 검사받으시기 바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B CVL-B AFW-B O O
+[진주시청]7.9.(금) 15:30 진주시외버스터미널->울산시외버스터미널 탑승자 우리체크53710200××××××62 보건소 749-5714 연락 바랍니다.	ORG-B TIM-B STO-B CVL-B O AFW-B NUM-B O O
+"[계양구청] 7/6~8 ""18시~06시,"" 7/9 16시~7/10 07시 영타이마사지 ""오조산공원로22,"" 2층 방문자는 주소지 보건소에서 코로나검사를 받으시기바랍니다"	ORG-B DAT-B TIM-I DAT-B TIM-B TIM-B STO-B LOC-B LOC-I CVL-B O AFW-B O O
+[강릉시청]강릉시 482번 관련 7월8일(목) 15:45~19:05 대전복합터미널->강릉 충북70아1570 시외버스 이용자는 보건소에서 검사바랍니다.	ORG-B NUM-B O DAT-B TIM-B STO-B LOC-B LOC-I CVL-B AFW-B O
+[강릉시청]송파구 3223번 관련 7월6일(화) 18:47~20:39 동막골 금성로61번길 10-5 이용자는 보건소에서 검사바랍니다.	ORG-B NUM-B O DAT-B TIM-B STO-B LOC-B LOC-I CVL-B AFW-B O
+[대구광역시청]린베이커리 단란주점 지하1층 7/1 21시~7/4 06시 방문자는 임시선별검사소 및 보건소 예약 에서 즉시 검사받으시기 바랍니다.	ORG-B STO-B LOC-B DAT-B TIM-B TIM-B CVL-B AFW-B O AFW-B O O O O O
+[김해시청] 7/7 13:00~14:00 mien tay tuu quan 가락로93번길5 을 이용하신 분은 인근 보건소에서 코로나19 검사받으시기 바랍니다.	ORG-B DAT-B TIM-B STO-B STO-B STO-B STO-B LOC-B O CVL-B CVL-I O AFW-B TRM-B O O
+[김포시청]7.3(토)~7.11(일) 운양동‘슈퍼스타 코인노래연습장’ 방문자는 가까운 선별진료 검사 소에서 코로나19검사 바랍니다. 031-5186-4051~3	ORG-B STO-B STO-B CVL-B O AFW-B AFW-B AFW-B TRM-B O NUM-B
+[대구광역시청][주소정정 재발송]포차끝판왕 동성로점 동성로5길84 7/3오전0시~오전3시 방문자는 임시선별검사소 및 보건소 예약 에서 즉시 검사받으시기 바랍니다.	ORG-B STO-B LOC-B LOC-B DAT-B CVL-B AFW-B O AFW-B O O O O O
+[김해시청] 7/9 17:25~19:50 요는술집 내외중앙로34 에서 야외테이블 이용하고 현금결제한 남성 3명은 보건소에서 코로나19검사 받으시기 바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B O O O O CVL-B NUM-B AFW-B TRM-B O O
+[단양군청] 7. 3.(토) 11:43~11:49분 사이 단양구경시장에서 김부각 시식 후 현금결제 하신분과 동시간대 이용자는 단양군보건소로 연락바랍니다.	ORG-B DAT-B DAT-I TIM-B O STO-B O O O O CVL-B O CVL-B AFW-B O
+[평택시]7.7(수) 11:00-12:00 사이 옛돈까스 칠원동소재 를 방문한 손님들께서는 가까운 선별진료소에 방문하셔서 코로나검사를 받아주시기 바랍니다.	ORG-B TIM-B O STO-B LOC-B O O CVL-B O AFW-B O O O O
+[광주광역시]7.4일23:30~00:30 7.5일21:30~22:50 7.9일0시~02:10 오징어청춘상무지구점 서구치평동1228-5 방문자는 보건소 검사바랍니다	ORG-B DAT-B DAT-B STO-B LOC-B CVL-B AFW-B O
+[광주광역시]7.4(일)7시~7:50 7.5(월)5:20~6:30 7.9(금)5:10~6:10 수상한포차 상무지구점 서구치평동1227 방문자는 보건소 검사바랍니다	ORG-B DAT-B DAT-B STO-B LOC-B LOC-I CVL-B AFW-B O
+[김해시청] 양정명동찌개마을 가락로 9 방문자 중 홈페이지 gimhae.go.kr 확인 후 동시간대 이용자는 인근 보건소에서 검사바랍니다.	ORG-B STO-B LOC-B LOC-I CVL-B O O O O O O CVL-B O AFW-B O
+[김해시청] 7.2.(금)부터 꽃노래주점 가락로 50 을 이용하신 분은 인근 보건소에서 반드시 코로나19 검사받으시기 바랍니다.	ORG-B DAT-B STO-B LOC-B LOC-I O CVL-B CVL-I O AFW-B O TRM-B O O
+[인천광역시] 7.3.(토)~7.9.(금) 부평역 주변 시즌아이PC방 부평동 159-44 방문자는 신분증 지참 후 주소지 보건소에서 코로나19 검사 바랍니다.	ORG-B DAT-B LOC-B O STO-B LOC-B LOC-I CVL-B O O O O AFW-B TRM-B O O
+"[광주광역시] 7. 5(월)~7. 10(토) 에콜리안광산CC 광산구 오목내길 ""26,"" 연산동 을 방문하신 분은 거주지 보건소에서 검사받으시기 바랍니다."	ORG-B DAT-B DAT-I DAT-I STO-B LOC-B LOC-I LOC-I LOC-I O CVL-B CVL-I O AFW-B O O
+"[대구광역시청] 명문선지국추어탕 동구 안심로 41길60 ""7/5,7/6,7/8,"" 11시~13시 방문자는 임시선별검사소 및 보건소 예약 에서 검사받으시기 바랍니다."	ORG-B STO-B LOC-B LOC-I LOC-I DAT-B TIM-I CVL-B AFW-B O AFW-B O O O O
+"[대구광역시] 포차끝판왕 동성로점 동성로3길 62 7/3 오전0시~오전3시 방문자는 ""외출자제,"" 임시선별검사소 및 보건소 예약 에서 즉시 검사받으시기 바랍니다"	ORG-B STO-B LOC-B LOC-B LOC-I DAT-B TIM-B CVL-B O AFW-B O AFW-B O O O O O
+"[나주시청]금일 7.12.월 10시기준 확진자2명 ""발생,"" 7.6.(화)~7.12.(월)까지 파크모텔 나주시 완사천길14 방문자는 보건소에서 검사받기 바랍니다."	ORG-B DAT-B TIM-B NUM-B O DAT-B STO-B LOC-B LOC-I CVL-B AFW-B O O
+[연수구청]7.3.~7.10. 선학동 건강백세약국 학나래로 6번길 6 방문자는 거주지 관할 보건소 및 임시 선별검사소에서 코로나 19 검사 받으시기 바랍니다.	ORG-B LOC-B STO-B LOC-B LOC-I LOC-I CVL-B O O AFW-B O O AFW-B TRM-B O O O O
+[부산시]7.4(일) 22:00~23:00 리허설 노래연습장 사상구 백양대로 905-1 방문자는 사상구보건소에서 상담 받으시기 바랍니다.	ORG-B TIM-B STO-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B O O O
+[부산시]7.2(금) 23:05~7.3(토) 01:00 매직 노래연습장 사상구 백양대로 907 방문자는 사상구 보건소에서 상담 받으시기 바랍니다.	ORG-B TIM-B TIM-I STO-B STO-B LOC-B LOC-I LOC-I CVL-B LOC-B AFW-B O O O
+[남양주시청] 7.2.(금)~7.10.(토) 깡통집 다산중앙로82번안길 104 방문자중 유증상자는 관할 선별진료소에서 코로나19 검사 받으시기 바랍니다.	ORG-B DAT-B STO-B LOC-B LOC-I CVL-B O O AFW-B TRM-B O O O
+"[중랑구청]7.7.~7.10. 중랑구 디딤돌노래방 망우본동 "","" 얼렁뚱땅노래방 면목3.8동 방문자는 가까운 선별진료소에서 코로나19 검사를 받으시기 바랍니다."	ORG-B LOC-B STO-B LOC-B O STO-B LOC-B CVL-B O AFW-B TRM-B O O O
+[중랑구청] 7.5.~7.10. 중랑구 주점 에헴 상봉2동 방문자는 가까운 선별진료소에서 코로나19 검사를 받으시기 바랍니다.	ORG-B DAT-B LOC-B LOC-B STO-B LOC-B CVL-B O AFW-B TRM-B O O O
+"[광주광역시] 7.7(수)~7.10(토) 청자다방 효천2로점 남구 효우2로 26번길 ""10,"" 행암동 에 방문하신 분은 거주지 보건소에서 검사받으시기 바랍니다."	ORG-B DAT-B STO-B LOC-B LOC-B LOC-I LOC-I LOC-I LOC-I O CVL-B CVL-I O AFW-B O O
+[함평군청] 광주 3024 확진자 관련 7.5(월) 19:00~21:00 함평읍 돌머리수산 방문자는 보건소에서 검사 받으시기 바랍니다. 시설 소독완료	ORG-B ORG-B STO-B CVL-B O DAT-B TIM-B LOC-B STO-B CVL-B AFW-B O O O O O
+[함평군청] 광주 3024 확진자 관련 7.5(월) 21:05~21:40 함평읍 요거프레소 방문자는 보건소에서 검사 받으시기 바랍니다. 시설 소독완료	ORG-B ORG-B STO-B CVL-B O DAT-B TIM-B LOC-B STO-B CVL-B AFW-B O O O O O
+[서산시청] 7월5일 ~ 9일 노블미용실 시장2로 9 을 이용하신 분은 보건소선별진료소 09:00~18:00 에서 코로나19 진단검사를 받으시기 바랍니다.	ORG-B DAT-B O DAT-I STO-B LOC-B LOC-I O CVL-B CVL-I AFW-B TIM-B O TRM-B O O O
+"[광주광역시] 7.7(수)~7.9(금) 청자다방 효천2로점 남구 효우2로 26번길 ""10,"" 행암동 에 방문하신 분은 거주지 보건소에서 검사받으시기 바랍니다."	ORG-B DAT-B STO-B LOC-B LOC-B LOC-I LOC-I LOC-I LOC-I O CVL-B CVL-I O AFW-B O O
+"[광주광역시] 7.8(목) 17:20~18:30 국빈장례문화원 203호 서구 회재로 ""825,"" 매월동 를 방문하신 분은 거주지 보건소에서 검사 받으시기 바랍니다."	ORG-B DAT-B TIM-B STO-B STO-B LOC-B LOC-I LOC-I LOC-I O CVL-B CVL-I O AFW-B O O O
+[강진군청]7. 6(화) ~ 7. 9.(금). 11:00까지 은광폐차장 성전면 을 방문하신 분은 거주지 보건소 선별진료소에서 진단검사 받으시기 바랍니다.	ORG-B DAT-B O DAT-B DAT-I TIM-B LOC-B LOC-I O CVL-B O O AFW-B AFW-B O O O
+[영광군청] 전북2432번 확진자 관련 7. 8.(목) 12:00~13:00 토우영양돌솥밥 영광읍 방문자는 보건소에서 즉시 코로나19 진단검사 받으시기 바랍니다	ORG-B NUM-B CVL-B O DAT-B DAT-I TIM-B STO-B LOC-B CVL-B AFW-B O TRM-B O O O
+"[남해군청]▲7.7.(수)18:00~7.10(토)11:40 ""읍,남해청과▲7.9.(금)12:28~13:26"" ""설천면,J라운지▲방문자는"" 선별진료소에서 검사받기 바랍니다"	ORG-B STO-B STO-B AFW-B O O
+[송파구청] 7.6.(화) 20:00~21:30 잠실본동 숲아로마테라피 백제고분로7길 18 방문자는 가까운 선별진료소에서 검사 받으시길 바랍니다.	ORG-B DAT-B TIM-B LOC-B STO-B LOC-B LOC-I CVL-B O AFW-B O O O
+[광주광역시] 7.8(목)~7.9(금) 08시~17시 광주지방고용노동청2층 고객지원실 북구 오룡동 1110-13 을 방문하신분은 거주지 보건소에서 검사바랍니다.	ORG-B DAT-B TIM-B STO-B STO-B LOC-B LOC-I LOC-I O CVL-B O AFW-B O
+"[강서구청]7.2~7.7 이마트가양점1층 ""냉동,냉장식품코너이용자중"" 유증상자는가까운선별진료소에서코로나검사받으시기바랍니다."	ORG-B STO-B CVL-B CVL-B
+"[원주시청] 7.5.~7.9 ‘서울해장국 원주시 천사로 ""77,"" 단계동 ’ 방문자는 오늘 14시까지 12시~13시 제외 보건소 선별진료소 검사 받으세요."	ORG-B DAT-B STO-B LOC-B LOC-I LOC-I LOC-I O CVL-B DAT-B TIM-I TIM-B O AFW-B AFW-B O O
+"[광주광역시] 7.6(화)~7.8(목) 리얼펍 REALPUB 용산지구점 동구 용산2로 ""3,"" 1층 에 방문하신 분은 거주지 보건소에서 검사 받으시기 바랍니다."	ORG-B DAT-B STO-B STO-B LOC-B LOC-B LOC-I LOC-I LOC-I O CVL-B CVL-I O AFW-B O O O
+"[김해시청] 7/6 ""14:37~15:02,"" 7/8 10:47~12:30 야타오 분성로335번길3-1 를 이용하신 분은 보건소에서 코로나19검사 받으시기 바랍니다."	ORG-B DAT-B TIM-B DAT-B TIM-B STO-B LOC-B O CVL-B CVL-I AFW-B TIM-B O O
+[서산시청] 7월7일 19시~21시 사이 시골집가마솥순대국밥 성연3로 185 이용하신 분은 보건소선별진료소 9시~18시 에서 코로나19 검사받으시기 바랍니다.	ORG-B DAT-B TIM-B O STO-B LOC-B LOC-I CVL-B CVL-I AFW-B TIM-B O TRM-B O O
+[김해시청] 7.2.(금) ~ 7.8.(목) 꽃노래주점 가락로 50 을 이용하신 분은 인근 보건소에서 반드시 코로나19 검사받으시기 바랍니다.	ORG-B DAT-B O DAT-B STO-B LOC-B LOC-I O CVL-B CVL-I O AFW-B O TRM-B O O
+"[부산시] 6.30.(수) 19:30~20:33 마실BAR 동구 범일일길 ""18-2,1"" 방문자는 인근 보건소에 상담 바랍니다. 소독완료"	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I CVL-B O AFW-B O O O
+"[부산시] 7.4.(일) 02:50~05:30 ROCK BAR 동구 범일로 89번길 ""28,"" 1층 방문자는 인근 보건소에 상담 바랍니다. 소독완료"	ORG-B DAT-B TIM-B STO-B STO-B LOC-B LOC-I LOC-I LOC-I LOC-I CVL-B O AFW-B O O O
+[강진군청] 세린온천 검사대상은 남탕이용자만 해당됩니다.	ORG-B STO-B CVL-B CVL-B O
+[강진군청] 세린온천 이용자는 보건소 선별진료소에서 검사 바랍니다. 20:00시까지	ORG-B STO-B CVL-B AFW-B AFW-B O O TIM-B
+[부산시] 6.29.(화) 18:00~7.8.(목) 08:00 홍콩노래주점 연제구반송로 32-8 방문자는 코로나-19 진단검사 받으시기 바랍니다. 소독완료	ORG-B DAT-B TIM-B TIM-B STO-B LOC-B LOC-I CVL-B TRM-B O O O O
+[당진시청]7/8(목)①12:00~12:30 대보식당 합덕읍 면천로1577 ②17:00~17:35 일심분식 합덕읍 합덕시장로205 방문자 코로나검사 요청드립니다.	ORG-B STO-B LOC-B LOC-I TIM-B STO-B LOC-B LOC-I CVL-B O O
+"""[완도군청]③7/5(월)15:00~18:00,"" 7/7(수)10:00~12:00소안면월항리 마을회관 방문자 11일(일)10:30~12:00월항리마을회관에서 검사요망"	ORG-B LOC-B STO-B CVL-B DAT-B O
+[완도군청]② 7/7(수) 16:00~18:00 보길 중리마을회관 방문자는 11일(일)10:30~12:00 중리 마을회관에서 검사하시기 바랍니다.	ORG-B DAT-B TIM-B LOC-B STO-B CVL-B DAT-B LOC-B AFW-B O O
+"""[완도군청]①7/6(화)14:00~18:00,7/7(수)13:00~15:00"" 노화 미라리마을회관 방문자는 11일(일)10:30~12:00미라리마을회관에서 검사요망"	ORG-B STO-B STO-B CVL-B AFW-B O
+"[강북구청]7.5(월)16시~익일05시솔샘중국전통마사지샵(솔샘로219 ""3층,소독완료"" 방문자 강북보건소 평일9~20:30주말9~17:30 검사바랍니다901-7704"	STO-B O CVL-B AFW-B TIM-B O
+[여수시청] 7.7.(수) 04:33~05:10 시간내 텐노쇼군 학동 소재 방문자는 증상관계 없이 보건소 선별진료소에서 검사 바랍니다.	ORG-B DAT-B TIM-B O STO-B LOC-B O CVL-B O O AFW-B AFW-B O O
+"""[계양구청]7/3,"" 7/5~7/8 07시~20시 계산역 2번 출구 앞 과일야채가게 상호명: 과일야채 방문자는 주소지 보건소에서 코로나 검사 받으시기 바랍니다."	ORG-B DAT-B TIM-B LOC-B LOC-I LOC-I O STO-B O STO-B CVL-B O AFW-B TRM-B O O O
+[강진군청] 7. 8.(목) 20:20~21:30 모란아구찜을 이용하신 분은 즉시 보건소 선별진료소에서 검사 바랍니다.	ORG-B DAT-B DAT-I TIM-B STO-B CVL-B CVL-I O AFW-B AFW-B O O
+[장성군청] 7. 7.(수) 12:00~21:00 장성군 남면 송강풍천장어를 방문하신 분은 거주지 보건소에서 코로나진단검사 받으시기 바랍니다.	ORG-B DAT-B DAT-I TIM-B LOC-B LOC-I STO-B CVL-B CVL-I O AFW-B O O O
+"[광주광역시] 7.3.(토)~7.8.(목) 배트맨 BATMAN 룸소주방 시청로56번길 ""23,"" 치평동 을 방문하신 분은 보건소에서 검사를 받으시기 바랍니다."	ORG-B DAT-B STO-B STO-B STO-B LOC-B LOC-I LOC-I O CVL-B CVL-I AFW-B O O O
+"[해남군청]강진 확진자 관내 ""동선▶7.6(화)12:30~12:50남창김가네쉼터식당,▶7.7(수)15:00~15:10우수영공업사"" 방문자는 보건소에서 검사바랍니다."	ORG-B CVL-B O STO-B CVL-B AFW-B O
+[강진군청]7. 9.(금) 12:00~19:00 다산베아채 클럽하우스 내 락커룸 및 사우나를 이용하신 분은 즉시 보건소 선별진료소에서 검사 바랍니다.	ORG-B DAT-I TIM-B STO-B STO-B O O O O CVL-B CVL-I O AFW-B AFW-B O O
+[창원시청]7.5.(월)창원종합터미널(11:40출발)→진동(경유)→배둔(경유)→고성(경유)→통영행(13:10경 도착 경원여객 탑승자는 인근보건소 예약 후 검사	ORG-B O STO-B CVL-B AFW-B O O O
+"[김천시청]타지역 확진자 ""동선공개,"" 6.28.(월)~7.3.(토) 코아루파크드림시티 오피스텔 율곡동 내 엘리베이터 이용하신분은 코로나19 검사바랍니다."	ORG-B CVL-B O DAT-B STO-B STO-B LOC-B O AFW-B CVL-B TRM-B O
+[서산시청] 7월 5일~9일 11:00~15:00사이 노블미용실 시장2로 9 을 이용하신 분은 보건소선별진료소 09:00~18:00 에서 검사받으시기 바랍니다.	ORG-B DAT-B DAT-I DAT-B STO-B LOC-B LOC-I O CVL-B CVL-I AFW-B TIM-B O O O
+"""[광주광역시]7.5.(월),7.6.(화),7.9.(금)에"" 멜론코인노래연습장 광산구 ""첨단중앙로96,"" LC타워 2층 을 방문하신분은 보건소에서 검사받으시기 바랍니다."	ORG-B STO-B LOC-B LOC-I LOC-I LOC-I O CVL-B AFW-B O O
+"[대구광역시] 신세계유흥주점 남구이천로 ""27,"" 지하1층 7/2~8 방문하신 분은 국채보상운동공원선별검사소 및 보건소 예약 에서 반드시 검사받으시기 바랍니다"	ORG-B STO-B LOC-B LOC-I LOC-I DAT-B CVL-B CVL-I AFW-B O AFW-B O O O O O
+[대구광역시] 초콜릿유흥주점 남구 봉덕로 19 7/2~8 방문하신 분은 국채보상공원임시선별검사소 및 보건소 예약 에서 반드시 검사받으시기 바랍니다	ORG-B STO-B LOC-B LOC-I LOC-I DAT-B CVL-B CVL-I AFW-B O AFW-B O O O O O
+[평택시] 7.4(일)부터 고궁당구클럽 평택시 고덕면 궁리 을 방문 하신분께서는 가까운 선별진료소에 방문하셔서 코로나 진단검사를 받으시기 바랍니다.	ORG-B DAT-B STO-B LOC-B LOC-I LOC-I O CVL-B CVL-I O AFW-B O TRM-B O O O
+"[진주시청][추가] 구모아:신안동 ""11-74,"" 신모아:신안동13-10 / 6월30일 방문자는 진주시보건소 055-749-5714 에서 검사를 받으시기 바랍니다."	ORG-B STO-B LOC-I STO-B O DAT-B CVL-B AFW-B NUM-B O O O O
+"[하남시청] 7.6.(화) 11:20~12:00 서임한식부페 미사강변한강로 ""155,"" 망월동 방문자는 즉시 보건소에서 코로나19 선별검사 받으시기 바랍니다."	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I CVL-B O AFW-B TRM-B O O O
+[남해군청] ▶타지역 확진자 방문 동선 ▶7.4.(일) 12:00~13:30 남해읍 바른짬뽕 방문자는 보건소 선별진료소에서 검사를 받으시기 바랍니다.	ORG-B O CVL-B O O DAT-B TIM-B LOC-B STO-B CVL-B AFW-B AFW-B O O O
+"[전남도청] 7.3.~7.9. 광주소재 탑 TOP 룸소주방 서구시청로 50번길14 ""4층,"" 치평동 을 방문하신 분은 거주지 보건소에서 진단검사 받으시기 바랍니다."	ORG-B DAT-B LOC-B STO-B STO-B STO-B LOC-B LOC-I LOC-I LOC-I O CVL-B CVL-I O AFW-B O O O
+"[진주시청][정정]7월3일~7월10일 다모아 ""구모아,신모아"" 방문자는 7월10일(토)10:00~14:00까지 ""진주교대선별진료소,14:00시이후"" 진주보건소 검사바람."	ORG-B STO-B STO-B CVL-B DAT-B AFW-B A O
+"[대구광역시] 물음표 유흥주점 ""이천로29,"" 지하1층 7/2~8 방문하신 분은 국채보상공원선별검사소 및 보건소 예약 에서 반드시 검사받으시기 바랍니다"	ORG-B STO-B LOC-B LOC-B LOC-I DAT-B CVL-B CVL-I AFW-B O AFW-B O O O O O
+"[대구광역시] 10% 텐프로가요주점 ""봉덕로20,지하1층"" 7/2~8 방문하신 분은 국채보상공원선별검사소 및 보건소 예약 에서 반드시 검사받으시기 바랍니다"	ORG-B STO-B STO-B LOC-B DAT-B CVL-B CVL-I AFW-B O AFW-B O O O O O
+[원주시청] 7.5. ‘우리미용실 원주시 봉산로 91 ’ 이용자는 오늘 12시까지 보건소 선별진료소 검사 받으세요.	ORG-B DAT-B STO-B LOC-B LOC-I LOC-I O CVL-B DAT-B TIM-B AFW-B AFW-B O O
+[성남시청] 7.2(금) 13:30이후 가천대 비전타워 지하1층 갤러리 졸업전시회 복정동 620-2 방문 유증상자는 가까운 선별진료소에서 진단검사 받으세요.	ORG-B DAT-B TIM-B STO-B STO-B STO-B STO-B STO-B LOC-B LOC-I O CVL-B O AFW-B O O
+"""[남양주시청]7.5.(월)11:30~12:00,7.6.(화)11:20~12:00"" 다산한식부페 다산중앙로19번길21 ""방문,"" 유증상자는 코로나검사 받으시기 바랍니다."	ORG-B STO-B LOC-B O CVL-B TRM-B O O
+[원주시청] 7.2. 13:00~14:30. ‘시민전통시장 원주김치만두 중앙시장길31-2 ’ 이용자는 오늘 20시까지 보건소 선별진료소 검사 받으세요.	ORG-B DAT-B TIM-B STO-B STO-B LOC-B O CVL-B DAT-B TIM-B AFW-B AFW-B O O
+[부산시]7.5.(월) 23:00 ~ 7.6.(화) 01:00 두꺼비노래방 부산광역시 사상구 사상로 531번길 33 이용자 사상구보건소 연락바랍니다.	ORG-B TIM-B O DAT-B TIM-B STO-B LOC-B LOC-I LOC-I LOC-I LOC-I CVL-B AFW-B O
+[통영시청] 7.2.(금)~7.3.(토) 경남16바1695 검정색 소나타 택시 탑승객은 보건소 650-6060 에서 검사 받으시기 바랍니다.	ORG-B DAT-B STO-B STO-B STO-B AFW-B CVL-B ORG-B NUM-B O O O O
+"[서초구청] 6.29(화) 10시~7.6(화) 10시 루시아 신반포로 ""200,"" 고투몰 A113호 방문자 중 유증상자는 코로나19 검사 바랍니다."	ORG-B DAT-B TIM-B TIM-I STO-B LOC-B LOC-I LOC-I LOC-I CVL-B O CVL-B TRM-B O O
+"[제주도]용담1동 소재 삼성식당 음식점 7/4(일) ""10시~22시,"" 7/5(월) ""11시~14시,"" 7/6(화) 10:30~22시 방문자 보건소 상담 및 검사 당부"	ORG-B O STO-B STO-B DAT-B TIM-I DAT-B TIM-I DAT-B TIM-B CVL-B AFW-B O O O O
+"[부산시]7.3.(토) ""5:30~6시,"" 7.4.(일) 1:30~3시 천생연분 노래방 동래구 금강공원로 ""39,"" 2층 방문자는 보건소에서 검사 바랍니다. 소독완료"	ORG-B TIM-B DAT-B TIM-B STO-B STO-B LOC-B LOC-I LOC-I LOC-I CVL-B AFW-B O O O
+[부산시]7.1(목)~7.5(월) 부산조선 내 구내식당 영도구 해양로15번길 1 이용자는 인근 보건소에서 검사 받으시길 바랍니다. 소독완료	ORG-B LOC-B O STO-B LOC-B LOC-I LOC-I CVL-B O AFW-B O O O O
+"[양산시청]7.9. 17시 기준 코로나19 확진자 1명 발생 부산진구소재 헌팅포차 방문 "","" 부산소재 ""클럽,"" 주점 등 방문자는 인근 보건소 방문 검사"	ORG-B TIM-B O TRM-B CVL-B NUM-B O LOC-B STO-B O O LOC-B O O O CVL-B O AFW-B O O
+[대구광역시] Hak2 옷가게 58-3번지 7/2~7/6 방문하신 분 중 유증상자는 보건소 예약 후 검사 받으시기 바랍니다.	ORG-B STO-B STO-B LOC-I DAT-B CVL-B CVL-I O CVL-B AFW-B O O O O O
+[상주시청] 6.29.(화) 20:30~23:00 술상 상주시 무양동 281-8 방문자는 보건소 선별진료소에서 검사바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B AFW-B O
+[상주시청] 6.29.(화) 19:30~21:30 장수식당 상주시 무양동 280-1 방문자는 보건소 선별진료소에서 검사바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B AFW-B O
+"[광주광역시] 7. 8(목) 13:20~14:20 광주사우나 남탕 서구 치평로 18 ""3층,"" 치평동 를 방문하신 분은 거주지 보건소에서 검사받으시기 바랍니다."	ORG-B DAT-B DAT-I TIM-B STO-B STO-B LOC-B LOC-I LOC-I LOC-I LOC-I O CVL-B CVL-I O AFW-B O O
+[성동구청] 7.1(목) ~ 6(화) 왕십리로280 행당1동 블루라군수영장 방문자는 보건소선별진료서에서 코로나19검사 받으시기 바랍니다.02-2286-7172	ORG-B DAT-B O DAT-I LOC-B LOC-I STO-B CVL-B AFW-B TRM-B O O
+[고양시청] 6.29.(화)~7.8.(목) 오전 5시~7시 벌말한식부페 덕양구 호국로 1442 방문자는 가까운 보건소에서 코로나 검사를 받으시기 바랍니다.	ORG-B DAT-B TIM-B TIM-I STO-B LOC-B LOC-I LOC-I CVL-B O AFW-B TRM-B O O O
+"[고성군청]7.5.(월)거제->통영(14:40)->고성(15:00)->창원도착 시외버스 신흥여객70아3240 탑승자는 가까운 보건소 ""방문,검사를"" 받으시기 바랍니다"	ORG-B STO-B STO-B CVL-B O AFW-B O O O
+"[대구광역시] 몰리 라운지 동성로4길 28-6 ""7/3,"" 7/5 오전2시~오전5시 방문하신 분은 국채보상공원검사소 및 보건소 예약 에서 검사받으시기 바랍니다"	ORG-B STO-B STO-B LOC-B LOC-I DAT-B DAT-B TIM-B CVL-B CVL-I AFW-B O AFW-B O O O O
+[인천서구청]7/3(토)~7/7(수) 홈플러스청라점 인천 서구 중봉대로587 방문자께서는 가까운 주소지 보건소에서 코로나 검사를 받으시기 바랍니다.	ORG-B STO-B LOC-B LOC-I LOC-I CVL-B O O AFW-B TRM-B O O O
+[해남군청②]▶7.4.(일)14:30~15:30 해남종합버스터미널 서울행버스대기 동시간대 방문자 및 의심증상자는 보건소 선별진료소에서 검사 바랍니다.	ORG-B STO-B LOC-B O CVL-B O CVL-B AFW-B AFW-B O O
+[양평군청] 7.7.(수) 18:00~21:00 양서에코힐링센터 양서면 수영장 방문자는 선별진료소에서 코로나19 검사를 받으시기 바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B STO-B CVL-B AFW-B TRM-B O O O
+[고성군청]7.7.(수)16:00~17:40고성읍 상문탕 남탕 방문자는 고성군 선별진료소 670-4088 로 방문 검사바랍니다.	ORG-B STO-B STO-B CVL-B LOC-B AFW-B NUM-B O O O
+"[여수시청] 7.5.(월) 조이스포츠센터 시전동 소재 ""헬스장,"" 남자사우나 19:00~21:40 이용자는 금일중으로 보건소 선별진료소에서 검사 바랍니다."	ORG-B DAT-B STO-B LOC-B O STO-B STO-B TIM-B CVL-B O AFW-B AFW-B O O
+[김해시청] 7.2.(금) ~ 7.7.(수) 별가요주점 가락로 54-1 을 이용하신 분은 인근 보건소에서 반드시 코로나19 검사받으시기 바랍니다.	ORG-B DAT-B O DAT-B STO-B LOC-B LOC-I O CVL-B CVL-I O AFW-B O TRM-B O O
+[김해시청] 7.2.(금) ~ 7.7.(수) 비단란주점 가락로 56 을 이용하신 분은 인근 보건소에서 반드시 코로나19 검사받으시기 바랍니다.	ORG-B DAT-B O DAT-B STO-B LOC-B LOC-I O CVL-B CVL-I O AFW-B O TRM-B O O
+[김해시청] 7.6.(화) ~ 7.7.(수) 팡팡노래주점 분성로517번길7 을 이용하신 분은 인근 보건소에서 반드시 코로나19 검사받으시기 바랍니다.	ORG-B DAT-B O DAT-B STO-B LOC-B O CVL-B CVL-I O AFW-B O TRM-B O O
+[김해시청] 7.2.(금) ~ 7.7.(수) 꽃노래주점 가락로 50 을 이용하신 분은 인근 보건소에서 반드시 코로나19 검사받으시기 바랍니다.	ORG-B DAT-B O DAT-B STO-B LOC-B LOC-I O CVL-B CVL-I O AFW-B O TRM-B O O
+"[송파구청] 7.4(일) ""01:48~02:06,"" 20:17~21:39 아이센스리그PC 송파방이점 올림픽로32길20 방문자는 가까운 선별진료소에서 검사 바랍니다."	ORG-B DAT-B TIM-B TIM-B STO-B LOC-B LOC-B CVL-B O AFW-B O O
+[경남도청] 6.29.(화)~7.3.(토) 포차끝판왕 부산진구 중앙대로 680번가길 12-6 방문자는 가까운 보건소에서 코로나19 검사받으시기 바랍니다.	ORG-B DAT-B STO-B LOC-B LOC-I LOC-I LOC-I CVL-B O AFW-B TRM-B O O
+[전라북도청] ▲7.3.(토) 22시~7.4.(일) 03시 ▲훈민정음 군산 수송동 843-1 ▲홍가 군산 수송동 836-7 방문자는 코로나검사를 받기 바랍니다	ORG-B DAT-B TIM-B TIM-B STO-B LOC-B LOC-I LOC-I STO-B LOC-B LOC-I LOC-I CVL-B O O O
+[부산시]7.1.(목)~7.6.(화) 캔디 노래방 사상구 사상로 526 지하1층 을 이용하신 분은 보건소 방문하여 코로나19 검사 바랍니다. 소독완료	ORG-B STO-B STO-B LOC-B LOC-I LOC-I LOC-I O CVL-B CVL-I AFW-B O TRM-B O O O
+[군산시청] ▲7/3(토)22:00~7/4(일)03:00 ▲훈민정음 술집/동수송2길18 ▲홍가 술집/동수송5길7 방문자 보건소 선별진료소 09~18시 검사바람	ORG-B DAT-B STO-B LOC-B STO-B LOC-B CVL-B AFW-B AFW-B TRM-B O
+[광주광역시] 7. 5(월) 새벽 3:30~4:30 엔젤스코인노래연습장 광주첨단점 광산구 월계동 887-3 9번방 방문자는 거주지 보건소에서 검사 바랍니다.	ORG-B DAT-B DAT-I TIM-B TIM-I STO-B LOC-B LOC-B LOC-I LOC-I O CVL-B O AFW-B O O
+[부산시]6.29.(화)~7.5.(월) 열린 노래연습장 사상구 백양대로 888 을 이용하신 분은 사상구보건소에 상담 받으시기 바랍니다 소독완료	ORG-B STO-B STO-B LOC-B LOC-I LOC-I O CVL-B CVL-B AFW-B O O O O
+"""[부산시]7.1.(목),7.2.(금),7.3.(토),7.5(월)19시~03시4TEN"" BAR 금정구 ""수림로50번길140,2층"" 방문자 보건소 상담바랍니다. 소독완료"	ORG-B STO-B LOC-B LOC-I CVL-B AFW-B O O
+[부산시]6.29. 0:00~7.3. 24:00 포차끝판왕 부산진구 중앙대로680번가길 12-6 방문자는 보건소에 코로나19 검사 받으시기 바랍니다. 소독완료	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B TRM-B O O O O
+[김해시청] 7.2.(금) ~ 7.6.(화) 별가요주점 가락로 54-1 을 이용하신 분은 인근 보건소에서 반드시 코로나19 검사받으시기 바랍니다.	ORG-B DAT-B O DAT-B STO-B LOC-B LOC-B O CVL-B CVL-I O AFW-B O TRM-B O O
+[김해시청] 7.2.(금) ~ 7.6.(화) 꽃노래주점 가락로 50 을 이용하신 분은 인근 보건소에서 반드시 코로나19 검사받으시기 바랍니다.	ORG-B DAT-B O DAT-B STO-B LOC-B LOC-I O CVL-B CVL-I O AFW-B O TRM-B O O
+[공주시청] 7.5(월)~7.6(화) 12:00~17:00 아임일리터 공주점 신관동 소재 방문자는 가까운 선별진료소에서 코로나19 검사받으시기 바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B LOC-B O CVL-B O AFW-B TRM-B O O
+"[인천광역시] ""7/1,"" ""7/3,"" ""7/4,"" ""7/5,"" 7/7 서구 소재 인쌩맥주 석남점 방문자는 신분증 지참후 주소지 보건소에서 코로나19 검사를 받으시기 바랍니다."	ORG-B DAT-B DAT-B DAT-B DAT-B DAT-B LOC-B O STO-B LOC-B CVL-B O O O AFW-B TRM-B O O O
+"[경남도청]6.26.(토) 21:00~6.27.(일) 04:00 씨웨이브 클럽 해운대구 ""구남로37,"" 지하1층 방문자는 코로나19 진단검사 받으시기 바랍니다."	ORG-B TIM-B TIM-B STO-B STO-B LOC-B LOC-I LOC-I CVL-B TRM-B O O O
+"[대구광역시] 헤라가요주점 성서공단로 11길 70-16 7/1 오전1~3시 방문자는 ""외출자제,"" 임시선별검사소 및 보건소 예약 에서 반드시 검사받으시기 바랍니다."	ORG-B STO-B LOC-B LOC-I LOC-I DAT-B TIM-B CVL-B O AFW-B O AFW-B O O O O O
+[제주도] 제주시 연동 소재 워터파크 유흥주점 6월30일(수) 19시 ~ 7월5일(월) 09시 방문자는 보건소 상담 및 검사 당부.	ORG-B LOC-B LOC-I O STO-B STO-B DAT-B TIM-I O DAT-B TIM-B CVL-B AFW-B O O O O
+[고성군청]7.4. 일요일 15:30~17:27고성읍 상문탕 남탕 방문자는 고성군 선별진료소 670-4088 로 방문검사바랍니다.	ORG-B DAT-B TIM-B STO-B STO-B CVL-B LOC-B AFW-B NUM-B O O
+[당진시청]7/4(일)①07:44~14:43워터프리아 찜질방 당진중앙1로119-7 ②14:58~15:34더참맛수육국밥 방문자 코로나검사 요청드립니다	STO-B STO-B LOC-B TIM-B CVL-B O O
+"[부산시]6.26(토) 21:00~6.27(일)04:00 씨웨이브 클럽 해운대구 ""구남로37,"" 지하1층 방문자는 코로나19 진단검사 받으시기 바랍니다 소독완료 ."	ORG-B TIM-B STO-B STO-B LOC-B LOC-I LOC-I CVL-B TRM-B O O O O O
+"[남동구청] ""7/2,"" ""7/5,"" 7/6 11:00~19:00 해와달사우나 간석동 213-8 여탕 및 찜질방 이용자는 보건소 및 선별진료소 코로나19 검사 바람"	ORG-B DAT-B DAT-B DAT-B TIM-B STO-B LOC-B LOC-I O O O CVL-B AFW-B O AFW-B TRM-B O O
+"""[부산시]7.1(목)00시~07시,7.1(목)21:10~7.2(금)7:40퀄리티유흥주점(해운대구중동1로"" ""44-2,3층"" 방문자는 코로나19 검사바랍니다. 소독완료"	STO-B LOC-B CVL-B TIM-B O O
+"[통영시청] 7.3(토) 11:10~12:10 라화쿵후 광도면 소재 ""방문,"" 현금결제 하신분 ""남자1,"" ""회색티,"" 네이비 바지 은 보건소에서 검사 받으시기 바랍니다."	ORG-B DAT-B TIM-B STO-B LOC-B O O O CVL-B O O O O O AFW-B O O O
+"[통영시청] 7.3(토) 12:23 부일복국 무전동 소재 방문 ""13,000원"" 현금결제 하신분 ""남1,"" 파랑색 티 은 보건소에서 검사 받으시기 바랍니다."	ORG-B DAT-B TIM-B STO-B LOC-B O O NUM-B O CVL-B O O O O AFW-B O O O
+"[광명시청] 7.8.(목) 확진자 20명 ""발생,"" 7.2.(금)~7.5.(월) 헌터PC방 광명시 오리로 856길 ""14,"" 5층 방문자는 선별검사소에서 검사바랍니다."	ORG-B DAT-B O NUM-B O DAT-B STO-B LOC-B LOC-I LOC-I LOC-I LOC-I CVL-B AFW-B O
+[부산시]7.2.(금) 01:00~04:39 핑크 레이디 부산진구 신천대로62번길 77 에 방문자는 보건소방문하여 코로나19 진단검사 받으시기바랍니다. 소독완료	ORG-B TIM-B STO-B STO-B LOC-B LOC-I LOC-I O CVL-B AFW-B TRM-B O O O
+"[울산광역시] 7.4.(일)~7.7.(수) 골프존 나르샤스크린골프 남구 삼산로199번길 ""36,"" 소독완료 방문자는 남구보건소에서 코로나19 검사받으시기 바랍니다."	LOC-B DAT-B LOC-B STO-B LOC-B LOC-I LOC-I O CVL-B AFW-B TRM-B O O
+"[창원시청]7.4(일)13:30~15:00창원롯데백화점(창원시 성산구 상남동 ""80,"" 방역완료 본관 지하1층 식당가 방문자는 관할보건소에 예약 후 검사바랍니다."	STO-B LOC-B LOC-I LOC-I O O NUM-B O CVL-B AFW-B O O O
+[진주시청]황포냉면 호탄길34번길 10 7.1(목) 11:20-12:30분 방문자는 보건소 055-749-5714 로 연락 바랍니다. 7.1 이후 검사자 제외	STO-B LOC-B LOC-I DAT-B TIM-B CVL-B AFW-B NUM-B O O O DAT-B O CVL-B O
+"[태백시청]아이센스pc방 ""감천로21,황지동"" 7월2일 13:10~17:00 이용자 선별진료소에서 검사바랍니다. 이미 검사하신 분들은 제외입니다. 552-4000"	STO-B LOC-B DAT-B TIM-B CVL-B AFW-B O O AFW-B O O NUM-B
+[영암군청] 타지역 확진자 관련 7. 5.(월) 18:50~20:30 돼지우리식당 삼호읍 신촌길 9 방문자께서는 증상 관계없이 가까운 선별진료소에서 검사바랍니다.	ORG-B O CVL-B O DAT-B DAT-I TIM-B STO-B LOC-B LOC-B LOC-I CVL-B O O O AFW-B O
+[제주도] 서귀포시 명동로 서귀동 해바라기 가요주점 추가 동선 7/3 20시~ 7/5 05시 방문자는 보건소 상담 및 검사 당부	ORG-B LOC-B LOC-I LOC-I STO-B LOC-B O O DAT-B TIM-B DAT-B TIM-B CVL-B AFW-B O O O O
+[아산시청]7.6. 0시경 락코인뮤비방 방문자 2명 남성 줄무늬셔츠 검정바지 여성 파란상의 검정외투 반스신발 은 아산시보건소로 연락바랍니다.	ORG-B TIM-B STO-B CVL-B NUM-B CVL-B O O CVL-B O O O O AFW-B O
+"[경남도청] ""6.23(수),"" 6.28(월)~7.1(목) 애주당 부산진구 중앙대로 692번길 37 방문자는 가까운 보건소에서 코로나 검사 받으시기 바랍니다."	ORG-B DAT-B DAT-B STO-B LOC-B LOC-I LOC-I LOC-I CVL-B O AFW-B TRM-B O O O
+"[대구광역시]더큰뼈청진동해장국 동성로4길40-7 ""6/27,7/1"" 양일 ""오전5시~오전8시,"" 7/5 자정~오전1시 방문자는 보건소 예약 에서 검사받으시기 바랍니다"	STO-B LOC-B DAT-B O TIM-B DAT-B TIM-B CVL-B AFW-B O O O O
+"[울산광역시] 6. 29.(화) ~ 7. 6.(화) 참한우촌돼지식육식당 동구 명덕3길 ""40,"" 소독완료 방문자는 동구 보건소에서 검사바랍니다."	ORG-B DAT-B DAT-I O DAT-B DAT-I STO-B LOC-B LOC-I LOC-I O CVL-B LOC-B AFW-B O
+"[강남구청] 6.30~7.4 ‘구룡 구 에비앙 라이브 주점’ ""논현로743,"" 지하1층 방문자는 가까운 보건소나 임시선별검사소에서 검체검사를 받아주시기 바랍니다."	ORG-B DAT-B LOC-B LOC-I STO-B LOC-B LOC-I LOC-B LOC-I CVL-B O AFW-B AFW-B O O O
+"[창원시청]7.3(토)~7.4(일)14:00~18:00 스카이온돌당구장 창원시 의창구 ""지귀로12번길30,403호,방역완료"" 방문자는 관할보건소 예약후 검사바랍니다."	ORG-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B O O
+"[서초구청] 7.1~3 싸다김밥 사임당로 181 "","" 7.3 11시~17시 NH농협반포 2층 자동화코너 잠원로 24 방문자중 유증상자는 코로나19 검사바랍니다."	ORG-B DAT-B STO-B LOC-B LOC-I O DAT-B TIM-B LOC-B LOC-I STO-B LOC-B LOC-I CVL-B CVL-B TRM-B O
+"[강동구청]7/1~7/4[피에스 복권판매점 토토프로토 풍성로37가길 ""26,성내동"" ] 방문자는 가까운 선별진료소에서 검사받으시기 바랍니다. 02-3425-6713"	ORG-B LOC-B STO-B LOC-I LOC-I O CVL-B O AFW-B O O O
+[포항시청]7.2~7.6 현대자동차블루핸즈상도점 상도동 5-2 방문자는 보건소에서 코로나19 검사바랍니다.	ORG-B STO-B LOC-B LOC-I CVL-B AFW-B TRM-B O
+[보은군청]7.1.(목)16:00~18:30제너스PC보은점과7.2.(금)17:00~19:00보은비트코인노래방 방문자는 인근보건소에서 코로나검사를 받으시기 바랍니다	STO-B CVL-B AFW-B TIM-B O O
+[포항시청]7.3 15:23~17:02 민혁헤어샵 연일읍 동문리 112-3 방문자는 보건소에서 코로나19 검사바랍니다.	ORG-B TIM-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B TRM-B O
+[남양주시청]7.3.(토)~7.4.(일) 별내동 백년가짬뽕 송산로 153 방문하여 식사하신분은 관할 선별진료소에서 검사 바랍니다.	ORG-B LOC-B STO-B LOC-B LOC-I O CVL-B O AFW-B O O
+[양산시청]7.2.58번버스19:10 침례병원 ~19:25 보건소연락바랍니다.	ORG-B STO-B LOC-B O
+"[대구광역시] 대박집 동성로점 동성로3길 7 ""6/26,"" 6/28 오전5시~오전8시 방문하신 분은 가까운 보건소 예약 후 검사 받으시기 바랍니다."	ORG-B STO-B LOC-B LOC-B LOC-I DAT-B DAT-B TIM-B CVL-B CVL-I O AFW-B O O O O O
+[안산시청]6.26(토)~7.3(토) 상록구 소재 조이휘트니스센터 이호로5길7 방문자께서는 가까운 보건소 또는 선별진료소에서 코로나19 검사를 받으시기 바랍니다	ORG-B LOC-B O STO-B LOC-B CVL-B O AFW-B O AFW-B TRM-B O O O
+[부산시]7/2(금)22:35~7/3(토)04:00 클럽 아웃풋 부산진구 서전로10번길 36 방문자는 인근 보건소에서 검사바랍니다.	ORG-B LOC-B STO-B LOC-B LOC-I LOC-I CVL-B O AFW-B O
+[안산시청]6.23(수)~7.2(금) 단원구 소재 아리랑커피숍 화랑로29 지하1층 방문자께서는 가까운 보건소 또는 선별진료소에서 코로나19검사를 받으시기 바랍니다	ORG-B LOC-B O STO-B LOC-B LOC-I CVL-B O AFW-B O AFW-B TRM-B O O
+"[대구광역시] 고고옥상 ""일반주점,동성로3길"" 32-43 3층 6/30~7/5 방문하신 분은 가까운 보건소 예약 후 반드시 검사받으시기 바랍니다."	ORG-B STO-B LOC-B LOC-I LOC-I DAT-B CVL-B CVL-I O AFW-B O O O O O
+[보은군청] 7. 5.(월) ~ 7. 6.(화) 17:30 ~ 22:00 투썸플레이스 보은점 방문자는 인근 보건소에서 코로나19 검사를 받으시기 바랍니다.	ORG-B DAT-B DAT-I O DAT-B DAT-I TIM-B O TIM-I STO-B LOC-B CVL-B O AFW-B TRM-B O O O
+[광주광역시] 7. 5(월) 19시~22시 북구 양산동 소풍 PC방 북구 양산택지로51번길 2 에 방문하신 분은 거주지 보건소에서 검사받으시기 바랍니다.	ORG-B DAT-B DAT-I TIM-B LOC-B LOC-I STO-B LOC-B LOC-B LOC-I LOC-I O CVL-B CVL-I O AFW-B O O
+[횡성군청] 6.25.~7.6.기간중 문화종합의류 횡성전통시장 내 방문하신분은 오늘18시까지 보건소 선별진료소에서 코로나19 검사 받으시기 바랍니다.	ORG-B DAT-B LOC-B STO-B O CVL-B TIM-B AFW-B AFW-B TRM-B O O O
+[김포시청] 6.26.(토)~7.6.(화) 구래동 소재 ‘설빙 김포구래점’ 방문자는 가까운선별진료소에서 코로나19 검사바랍니다.	ORG-B DAT-B LOC-B O STO-B LOC-B CVL-B AFW-B TRM-B O
+"[영광군청]7.5.(월) 12:30~15:00 24시법성해수랜드7.6.(화) ""12:20~13:00법성아주의원,법성우리약국"" 방문자는 즉시 보건소에서 검사 바랍니다."	ORG-B TIM-B STO-B TIM-B CVL-B O AFW-B O O
+"[해남군청②]▶7.3.(토)07:00~10:00 화원면파인비치CC 시설내 ""레스토랑,"" 락커룸포함 동시간대 방문자 및 의심증상자는 보건소 선별진료소에서 검사바랍니다."	ORG-B STO-B O LOC-B O O CVL-B O CVL-B AFW-B AFW-B O
+[여수시청] 정정 동선정정 7.3.(토) 17:30~21:00 백야등대 종화동소재 방문자는 오늘중으로 보건소 선별진료소에서 검사 바랍니다.	ORG-B O O DAT-B TIM-B STO-B LOC-B CVL-B DAT-B AFW-B AFW-B O O
+"[서산시청] 6월29일(화) 18:00 ""서울센트럴시티터미널→서산,"" 우등버스 충남76아7432 탑승자분은 보건소선별진료소 09:00~18:00 에서 검사 바랍니다."	ORG-B DAT-B TIM-B STO-B LOC-B LOC-B CVL-B AFW-B TIM-B O O O
+"[대구광역시]감옥 ""일반주점,"" 동성로3길 32-43 2층 7/1~7/5 방문하신 분은 국채보상공원임시선별검사소 및 보건소 예약 에서 반드시 검사받으시기 바랍니다."	ORG-B STO-B LOC-B LOC-I LOC-I DAT-B CVL-B CVL-I AFW-B O AFW-B O O O O O
+[제주도] 제주시 연동소재 요술쟁이 헤어샵 미용업 7월1일(목)~7월3일(토) 19:00~20:00 방문자는 보건소 상담 및 검사 당부.	ORG-B LOC-B LOC-I STO-B LOC-B LOC-B DAT-B TIM-B CVL-B AFW-B O O O O
+"[동두천시청] 6.25~6.29 보산동 죠이바버샵 평화로 ""2565,"" 1층 방문자는 가까운 보건소에서 코로나19 검사를 받으시기 바랍니다."	ORG-B DAT-B LOC-B STO-B LOC-B LOC-I LOC-I CVL-B O AFW-B TRM-B O O O
+[여수시청] 7.3(토) 17:30~21:00 백야등대 12번포차 종화동소재 방문자는 오늘중으로 보건소 선별진료소에서 검사 바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B LOC-B CVL-B DAT-B AFW-B AFW-B O O
+"[광주광역시] 7.02(금) 20시~23:30 광주공원 주차장 옆 포장마차 남구 중앙로 107번길 ""15,구동"" 방문하신분은 거주지 보건소에서 검사받으시기 바랍니다"	ORG-B DAT-B TIM-B LOC-B O O STO-B LOC-B LOC-I LOC-I LOC-I CVL-B O AFW-B O O
+[함양군청]7월7일(수) 확진자 1명 발생▷하얏트 목욕탕 방문날짜 추가▷7월3일~7월6일 08:30~12:00▷여탕 방문자는 보건소 선별진료소에서 검사바랍니다.	ORG-B CVL-B NUM-B STO-B LOC-B O DAT-B TIM-B CVL-B AFW-B AFW-B O
+[부산시]6.29(화)10:22~12:55 대성관스파 여탕 동래구 금강로 124번길19 이용자는 동래구 보건소에 상담 바랍니다. 소독완료	ORG-B STO-B LOC-B LOC-B LOC-I LOC-I CVL-B LOC-B AFW-B O O O
+[군산시청]<군산283번 관련> ▲7.4.(일)~7.5.(월)11:00~22:00 ▲뉴발란스 롯데몰 군산점 방문자 보건소 선별진료소 09~18시 검사 바랍니다.	ORG-B O DAT-B STO-B LOC-B LOC-I CVL-B AFW-B AFW-B TIM-B O O
+[중대본] 6.26~7.6 서울 강남구 삼성동 소재 현대백화점 무역센터점 방문자는 가까운 선별진료소에서 코로나19 검사를 받으시기 바랍니다	O DAT-B LOC-B LOC-I LOC-I O STO-B LOC-B CVL-B O AFW-B TRM-B O O O
+[해남군청②]▶22:20~22:27미니스톱해남송지점 동시간 대방문자 및 의심증상자는 보건소 선별진료소에서 검사바랍니다.	STO-B O CVL-B O O AFW-B AFW-B O
+"""[남양주시청]7.2.20시~7.3.4시,"" 7.4.진접읍 바이브PC 방문자중 유증상자/흡연실 이용자는 인근 선별진료소에서 검사바랍니다."	ORG-B LOC-B STO-B CVL-B O CVL-B O AFW-B O
+[창원시청]7.1.(목)11:00~11:30 이대국밥 진해구 냉천로12번길 19 방문자 관할 보건소 예약 후 검사받으시기 바랍니다.	ORG-B STO-B LOC-B LOC-I LOC-I CVL-B O AFW-B O O O O
+[통영시청] 7. 3.(토) 14:10~16:00 고려병원 장례식장 무전동 3층 VIP실 방문하신 분은 보건소에서 검사 받으시기 바랍니다. 650-6060	ORG-B DAT-B DAT-I TIM-B STO-B LOC-B LOC-B LOC-I O CVL-B CVL-I AFW-B O O O O
+[공주시청] 6월 25일(금) 12:15~12:40 가나잔치 금학동 소재 음식점 방문하신 분은 가까운 선별진료소에서 코로나19 검사바랍니다.	ORG-B DAT-B DAT-I TIM-B STO-B LOC-B O O CVL-B CVL-B O AFW-B TRM-B O
+[고양시청] 6.30(수)~7.5(월) 루나헤어 호국로 789번길 28 방문자는 가까운 보건소에서 코로나19 검사를 받으시기 바랍니다.	ORG-B DAT-B STO-B LOC-B LOC-I LOC-I CVL-B O AFW-B TRM-B O O O
+"[구미시청]7/1(목)~7/3(토) ""오렌지노래타운,"" 별천지노래타운 산호대로27길 ""7,"" 지하1층 방문자는 가까운 선별진료소에서 코로나19 검사바랍니다."	ORG-B STO-B STO-B LOC-B LOC-I LOC-I CVL-B O AFW-B TRM-B O
+[여수시청] 7. 4.(일) 12:00~12:55 백영식당 선원동 소재 방문자는 증상유무에 관계없이 보건소 선별진료소에서 검사 바랍니다.	ORG-B DAT-B DAT-I TIM-B STO-B LOC-B O CVL-B O O AFW-B AFW-B O O
+"[삼척시청] 상호 정정)6.29(화) 16:00~20:30 삼척대게회머구리 테마타운길 ""49,"" 2층 을 방문하신 분은 선별진료소 ""방문,"" 코로나19 검사 바랍니다."	ORG-B O DAT-B TIM-B STO-B LOC-B LOC-I LOC-I O CVL-B CVL-B AFW-B O TRM-B O O
+[여수시청] 6. 29.(화) ~ 7. 5.(월) 좌수영사우나 선원동 이용자는 증상유무에 관계없이 보건소 선별진료소에서 검사 바랍니다.	ORG-B DAT-B DAT-I O DAT-B DAT-I STO-B LOC-B CVL-B O O AFW-B AFW-B O O
+"[광주광역시]7.2(금) 20시 ~ 7.3(토) 01시 동방클럽 ""유흥주점,"" 서구 상무연하로 ""72,"" 치평동 을 방문하신분은 거주지 보건소에서 검사받으시기 바랍니다."	ORG-B TIM-B O DAT-B TIM-B STO-B LOC-B LOC-B LOC-I LOC-I LOC-I O CVL-B O AFW-B O O
+"[삼척시청]6.29(화) 16:00~20:30 ""<삼척대게,회머구리>음식점을"" 방문하신 분은 선별진료소 ""방문,"" 코로나19 검사를 받아주시기 바랍니다.☎570-4698"	ORG-B TIM-B STO-B CVL-B CVL-B AFW-B O TRM-B O O O
+[함양군청]함양 확진자 동선관련 ▷6월29일(화) 09:20 ~ 12:10 하얏트목욕탕 ▷여탕 방문자는 함양군보건소 선별진료소에서 검사바랍니다.	ORG-B CVL-B O DAT-B TIM-B O TIM-B STO-B O CVL-B ORG-B AFW-B O
+"[고양시청] 6.29(화)~7.4(일) 뚜벅닭장작구이호프 덕양구 ""고양대로1373,1층"" 방문자는 가까운 보건소에서 코로나19 검사를 받으시기 바랍니다."	ORG-B DAT-B STO-B LOC-B LOC-I CVL-B O AFW-B TRM-B O O O
+"[순천시청] [정정] 타지역확진자관련 7.2.(금) 부영CC 해룡면 16:00~16:45 ""스타트하우스,"" 18:50~19:15 남자샤워장 이용자 보건소 검사바람."	ORG-B O CVL-B DAT-B LOC-B LOC-I TIM-B STO-B TIM-B O CVL-B O O
+"[순천시청] 타지역확진자 ""관련,"" 7.2.(금) 부영CC 해룡면 16:00~16:45 ""스타트하우스,"" 18:50~19:15 샤워장 이용자는 보건소에서 검사바랍니다."	ORG-B CVL-B O DAT-B LOC-B LOC-I TIM-B STO-B TIM-B O CVL-B O O
+"[구미시청]7/1(목)~7/3(토) 오렌지노래타운 산호대로27길 ""7,"" 지하1층 방문자는 가까운 선별진료소에서 코로나19 검사바랍니다."	ORG-B STO-B LOC-B LOC-I LOC-I CVL-B O AFW-B TRM-B O
+"[목포시청]타지역확진자 ""관련,"" 7/1(목) 19:45~21:35 연희네포차 ""삼학로92번길,목포항구포차"" 내 방문자 증상유무관계없이 즉시 보건소선별진료소 검사바랍니다"	ORG-B O DAT-B TIM-B STO-B LOC-B O CVL-B O O AFW-B O
+"[해남군청④] 7.5.(월)13:40~13:50송지면한양치과의원 동시간대 방문자 및 의심 증상자는 송지면사무소 ""임시선별진료소,"" 보건소 선별진료소에서 검사바랍니다."	ORG-B STO-B O CVL-B O O O LOC-B AFW-B AFW-B AFW-B O
+"[광주광역시] 6.27(일)~7. 4(일) 스터디온 스터디카페 동구 필문대로287번길 ""23-4,"" 지산동 를 이용하신분은 거주지 보건소에서 검사받으시기 바랍니다."	ORG-B DAT-B DAT-I STO-B LOC-B LOC-B LOC-I LOC-I LOC-I O CVL-B O AFW-B O O
+"[부천시청] 6.14.~7.2. 노래방 코인노래방 제외 ""종사자,"" ""도우미,"" 방문자는 증상유무에 관계없이 가까운 선별진료소에서 코로나 검사 받으시기 바랍니다."	ORG-B DAT-B STO-B LOC-B O CVL-B CVL-B CVL-B O O O AFW-B TRM-B O O O
+[남원시청]향교동 소재 숲볼링장 붕맛길 73 을 6.25(금) 21:00~22:45 방문하신분은 보건소 선별진료소에서 즉시 검사 받아주시기 바랍니다.	ORG-B O STO-B LOC-B LOC-I O DAT-B TIM-B CVL-B AFW-B AFW-B O O O O
+[속초시청]7.2(금)10시~20시 조양동 소재 강릉현대장칼국수 속초점 방문자는 선별검사소에서 검사받으시기 바랍니다	ORG-B LOC-B O STO-B LOC-B CVL-B AFW-B O O
+[여수시청] 6.29.(화)~7.5.(월) 좌수영사우나 선원동 소재 이용자는 증상유무 관계없이 보건소 학동 선별진료소에서 검사 바랍니다.	ORG-B DAT-B STO-B LOC-B O CVL-B O O AFW-B LOC-B AFW-B O O
+"[부산시]6.28(월)~7.02(금) 10:00~18:30분 MV PC방 사하구 ""사하로163,6층"" 방문자는 인근 보건소에서 검사 받으시기 바랍니다. 소독완료"	ORG-B TIM-B STO-B LOC-B LOC-B LOC-I CVL-B O AFW-B O O O O
+[영월군청] 7.4.(일) 오전10시~11시 덕포5일장 방문자는 영월군보건소 선별진료소에서 검사받으시기 바랍니다. 선별진료소 금일 21시까지 운영	ORG-B DAT-B TIM-B STO-B CVL-B AFW-B AFW-B O O AFW-B DAT-B TIM-B O
+[구미시청]7/1(목) 13:00~14:00 골프존카운티 구미 산동읍 강동로 953-73 여자 라커룸 및 샤워장 이용자는 선별진료소에서 코로나19 검사바랍니다.	ORG-B TIM-B STO-B LOC-B LOC-B LOC-I LOC-I O O O O CVL-B AFW-B TRM-B O
+"[고양시청] 7.2.(금)~7.5.(월) 킹PC방 고양대로1369번길 ""12-4,"" 1층 방문자는 가까운 보건소에서 코로나19 검사를 받으시기 바랍니다."	ORG-B DAT-B STO-B LOC-B LOC-I LOC-I CVL-B O AFW-B TRM-B O O O
+[구미시청] 6/28(월) 11:30~13:00 불나는쭈꾸미 구미직영점 산동읍 방문자는 선별진료소에서 코로나19 검사바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B LOC-B CVL-B AFW-B TRM-B O
+[강동구청]6/26~7/4 일식 긴자 올림픽점 강동구 강동대로 223 방문자는 가까운 선별진료소에서 검사 받으시기 바랍니다.	ORG-B LOC-B STO-B LOC-B LOC-B LOC-I LOC-I CVL-B O AFW-B O O O
+[상주시청] 7. 3.(토) 13:10~15:40 강남고속버스터미널→상주터미널 금호고속.우등 버스 탑승자는 가까운 선별진료소에서 코로나 검사받으시기 바랍니다.	ORG-B DAT-B DAT-I TIM-B LOC-B STO-B LOC-B CVL-B O AFW-B TRM-B O O
+[창원시청] 추가 ▲7.1.목13:05~13:35 ▲7.2.금12:00~12:25 ▲7.3.토12:45~13:20 롯데마트삼계점 방역완료 1층 푸드코트 이용자	ORG-B O DAT-B DAT-B DAT-B STO-B O LOC-B LOC-I O
+"[진주시청] 메종B 판문로 ""78-11,"" 디저트카페 1층 별관 통유리 7.2(금) 13:52-14:28분 방문자는 보건소 749-5714 검사 받기 바랍니다."	ORG-B STO-B LOC-B LOC-I LOC-I LOC-I AFW-B O DAT-B TIM-B CVL-B AFW-B NUM-B O O O
+[당진시청]6/28(월) 15:30~22:00 당진종합병원 장례식장 반촌로 5-15 특실이용자는 보건소 선별진료소 방문 후 코로나19검사 받으시길 바랍니다.	ORG-B TIM-B STO-B LOC-B LOC-B LOC-I CVL-B AFW-B AFW-B O O TRM-B O O
+[구미시청]7/1(목) 13:00~14:00 구미골프존카운티 산동읍 강동로 953-73 여자 라커룸 및 샤워장 이용자는 선별진료소에서 코로나19 검사바랍니다.	ORG-B TIM-B STO-B LOC-B LOC-I LOC-I O O O O CVL-B AFW-B TRM-B O
+[부산시]6.29(화)~7.2(금) 부산레포츠 금정구 장전동147-2 이용자는 인근 보건소에서 검사바랍니다. 소독완료	ORG-B STO-B LOC-B LOC-I CVL-B O AFW-B O O
+[연천군청] 6월 30일 20:52~22:00 사이 연천군 전곡읍 소재 봉구비어 방문하신 분은 가까운 선별진료소에서 코로나19 검사 부탁드립니다.	ORG-B DAT-B DAT-I TIM-B O LOC-B LOC-I O STO-B CVL-B CVL-B O AFW-B TRM-B O O
+"[경남도청] ""6.25.(금),"" 6.29.(화)~7.3.(토) 홈런볼 유흥주점 해운대해변로 209번나길 ""43,"" 2층 방문자는 코로나19 검사 받으시기 바랍니다."	ORG-B DAT-B DAT-B STO-B LOC-B LOC-B LOC-I LOC-I LOC-I CVL-B TRM-B O O O
+"[창원시청] 6.25.(금)~7.1.(목) 취영각 의창구 원이대로258번길 ""3,"" 명서종합상가 ""1층,"" 방역완료 방문자는 관할보건소에서 예약 후 검사바랍니다."	ORG-B DAT-B STO-B LOC-B LOC-I LOC-I LOC-I LOC-I O CVL-B AFW-B O O O
+[여수시청] 7.1.(목)~7.3.(토) 08:30~10:00 좌수영사우나 선원동 남탕 사우나 이용자는 증상 관계없이 금일 보건소 학동 에서 검사 바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I CVL-B O O DAT-B ORG-B O O O O
+[안산시청]6.23(수)~7.2(금) 원곡동 소재 아리랑커피숍 화랑로29 지하1층 방문자께서는 가까운 보건소 또는 선별진료소에서 코로나19검사를 받으시기 바랍니다	ORG-B LOC-B O STO-B LOC-B LOC-I CVL-B O AFW-B O AFW-B TRM-B O O
+"[진주시청] 6.14. ~ 7.1. 선교유지재단 진양호로 313번길 ""17,"" 4층 방문하신 분들은 인근 보건소 방문하여 코로나 진단검사 받으시기 바랍니다."	ORG-B DAT-B O DAT-B STO-B LOC-B LOC-I LOC-I LOC-I CVL-B CVL-B O AFW-B O TRM-B O O O
+"[광주광역시] 6. 30(수) 17:30~18:50 돈가 풍암점 서구 회재로 ""1054,"" 풍암동 에 방문하신 분은 거주지 보건소에서 코로나 검사받으시기 바랍니다."	ORG-B DAT-B DAT-I TIM-B STO-B LOC-B LOC-B LOC-I LOC-I LOC-B O CVL-B CVL-I O AFW-B TRM-B O O
+[함안군청]▲6.29(화)∼7.1(목)12:10∼12:30▲7.2(금)18:00∼18:20 롯데마트삼계점 방역완료 1층푸드코트 이용자 관할보건소로 연락바랍니다.	ORG-B STO-B LOC-B LOC-I CVL-B AFW-B O
+[삼척시청] 7.4(일) 07:00~09:00 삼척 임원항 '여정식당'을 방문하신 분은 가까운 선별진료소에 방문하시어 코로나19 검사를 받아주시기 바랍니다.	ORG-B DAT-B TIM-B LOC-B LOC-B STO-B CVL-B CVL-B O AFW-B O TRM-B O O O
+[남원시청] 도통동 소재 남원 새마을금고 동부지점 춘향로 20 을 6.28일~7.2일까지 방문하신 분은 보건소 선별진료소에서 즉시 검사 받아주시기 바랍니다.	ORG-B LOC-B O LOC-B STO-B LOC-B LOC-B LOC-B O DAT-B CVL-B CVL-B AFW-B AFW-B O O O O
+[남원시청] 도통동 소재 남원판넬 충정로 231 을 6.19일~6.27일까지 방문하신 분은 보건소 선별진료소에서 즉시 검사 받아주시기 바랍니다.	ORG-B LOC-B O STO-B LOC-B LOC-I LOC-I DAT-B CVL-B CVL-B AFW-B AFW-B O O O O
+[미추홀구청] 정정 6월21~30일 피자마루 인천제물포점 미추홀구 경인로 120 방문자는 7월5일(월) 거주지보건소 또는 임시선별검사소에서 코로나19 검사바람.	ORG-B O DAT-B STO-B LOC-B LOC-B LOC-I LOC-I CVL-B DAT-B ORG-B O ORG-B TRM-B O
+[부산시] 6.24(목) 21:00~24:00 청불 서면점 부산진구 중앙대로680번가길 54 방문자는 보건소 코로나19 검사를 받으시기 바랍니다. 소독완료	ORG-B DAT-B TIM-B STO-B LOC-B LOC-B LOC-I LOC-I CVL-B AFW-B TRM-B O O O O
+[부산시] 6.26(토)23:00~6.27(일)1:00 클럽 아웃풋 부산진구 서전로10길 36 방문자는 보건소에서 코로나19 검사 받으시기 바랍니다. 소독완료	ORG-B DAT-B LOC-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B TRM-B O O O O
+"[부산시] ""6.25(금),"" 6.29(화)~7.3(토) 홈런볼 유흥주점 해운대해변로 209번나길 ""43,"" 2층 방문자는 코로나19검사 받으시기 바랍니다. 소독완료"	ORG-B DAT-B DAT-B STO-B LOC-B LOC-B LOC-I LOC-I LOC-I CVL-B TRM-B O O O
+[미추홀구청]6월21~30일 피자마루 제물포점 미추홀구 경인로120 숭의동 방문자는 7월12일(월) 거주지보건소 또는 임시선별검사소에서 코로나19검사 바랍니다.	ORG-B STO-B LOC-B LOC-B LOC-I LOC-B CVL-B DAT-B AFW-B O AFW-B TRM-B O
+[경남도청] 6.24. 20시~24시 청불 서면점 부산 진구 중앙대로680번가길 54 방문하신분들은 인근 보건소에서 코로나 검사받으시기 바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B LOC-B LOC-I LOC-I LOC-I CVL-B O AFW-B TRM-B O O
+[경남도청]6.26. 23시~6.27. 1시 클럽 아웃풋 부산진구 서전로10길 36 방문하신 분들은 인근 보건소 방문하여 코로나 진단검사 받으시기 바랍니다.	ORG-B TIM-B TIM-I LOC-B STO-B LOC-B LOC-I LOC-I CVL-B CVL-B O AFW-B O TRM-B O O O
+[송파구청] 7.1(목)~7.2(금) 가락본동 소재 노래방 방문자는 가까운 선별진료소에서 검사 받으시길 바랍니다.	ORG-B DAT-B LOC-B O STO-B CVL-B O AFW-B O O O
+"[울산광역시] 6.26.(토) 23시 ~ 6.27.(일) 01시 클럽 아웃풋 부산시 진구 서진로10길 ""36,"" 소독완료 방문자는 임시선별검사소에서 검사 바랍니다."	ORG-B DAT-B TIM-B O DAT-B TIM-B LOC-B STO-B LOC-B LOC-I LOC-I LOC-I O CVL-B AFW-B O O
+[원주시청] 7월 1일 22시~23시 반곡동 메가코인노래연습장 황금로 2 1층 105호 방문자는 오늘 16시까지 보건소에서 코로나 검사 받으세요.	ORG-B DAT-B DAT-I TIM-B LOC-B STO-B LOC-B LOC-I LOC-I LOC-I CVL-B DAT-B TIM-I AFW-B TRM-B O O
+[옥천군청] 6.28(월) 11:55~12:20 옥천묵집 이용자는 관할보건소에서 코로나검사를 받으시기 바랍니다. 접촉자 파악중. 문의	ORG-B DAT-B TIM-B STO-B CVL-B AFW-B O O O CVL-B O O
+"[강북구청]6.26.~30. 02시 하이롤러홀덤펍 ""꽃게보드게임장,"" 도봉로34 트레지오빌딩 지하1층 방문자는 강북보건소에서 검사바랍니다.☎901-7704"	ORG-B TIM-B STO-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B O
+"[강북구청]6.29.(화) 16~21시 ""돈까스카페,"" 왕도깨비 생생아구찜 ""도봉로34,"" 트레지오빌딩 지하1층 방문자는 강북보건소에서 검사바랍니다.☎901-7704"	ORG-B TIM-B STO-B STO-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B O
+"[강북구청]7.1.(목)16~19시 대림불가마사우나 ""소독완료,도봉로71가길"" 11 방문자는 강북보건소 ""평일9~20시,주말9~17시"" 검사바랍니다.☎901-7704"	ORG-B STO-B LOC-B LOC-I CVL-B AFW-B TIM-B O
+[남원시청]도통동 소재 선녀와나무꾼 시청로 8)6.30.(수)12:00~12:21 동시간대 방문자는 7.4.(일) 18시까지 보건소 선별진료소에서 검사 바랍니다	ORG-B O STO-B LOC-B DAT-B O CVL-B DAT-B TIM-B AFW-B AFW-B O O
+[양양군청] 6.26(토) 22:40~23:38 조선시대주막 양양읍 양양로 54-1 이용자는 보건소에서 검사바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B O
+[남원시]도통동 소재 선비촌 역재3길 11)6.28(월) 12:00~12:25 동시간대 방문자는 7.4(일)18시까지 남원시보건소 선별진료소에서 검사 바랍니다.	ORG-B O STO-B LOC-B DAT-B TIM-B O CVL-B DAT-B AFW-B AFW-B O O
+"[울산광역시] 6.27(일) 01:00~04:00 클럽베뉴 부산 진구 중앙대로 692번길 ""38,"" 소독완료 방문자는 임시선별검사소에서 검사바람."	LOC-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I LOC-I LOC-I O CVL-B AFW-B O
+"[울산광역시]6.27(일) ""01시30분~07시,"" 6.28(월) 00시~05시 클럽리버스 부산 진구 부전로 ""45,"" 소독완료 방문자는 임시선별검사소에서 검사바람."	ORG-B TIM-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I LOC-I O CVL-B AFW-B O
+"[경남도청] ""6.27.(일)1:30~7:00,"" 6.28.(월)00:00~05:00 클럽리버스 부산진구 부전로 45 에 방문하신 분들은 인근보건소에서 검사바랍니다."	ORG-B DAT-B DAT-B STO-B LOC-B LOC-I LOC-B O CVL-B CVL-B AFW-B O
+"[경남도청] 6.27.(일) 01시~04시 클럽베뉴 부산진구 중앙대로 692번길 38 "","" 인근보건소 방문하여 코로나검사 받으시기 바랍니다."	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I LOC-I O AFW-B O TRM-B O O
+[용산구청] 6.30.(수) ~ 7.2.(금) 이스트웨스트 방문자는 가까운 보건소 선별진료소에서 코로나19 검사를 받으시기 바랍니다.	ORG-B DAT-B O DAT-B STO-B CVL-B O AFW-B AFW-B TRM-B O O O
+"[고양시청] 6.24(목)~7.1.(목) 놀이터 마상로 140번길 ""54,"" 지하1층 방문자는 가까운 보건소에서 코로나 검사를 받으시기 바랍니다"	ORG-B DAT-B STO-B LOC-B LOC-I LOC-I LOC-I CVL-B O AFW-B TRM-B O O O
+[창원시청] 6.30.(수) 15:15~17:25 창원시립상복공원 장례식장 성산구 공단로474번길 160 10호실 빈소 방문자는 관할보건소에 연락바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B LOC-B LOC-I LOC-I LOC-I LOC-B CVL-B AFW-B O
+"[부산시]6.27(일) ""1:30~7시,"" 6.28(월)0시~05시에 클럽리버스 부산진구 부전로 45 에 방문하신 분들은 인근보건소에 상담바랍니다. 소독완료"	ORG-B TIM-B DAT-B STO-B LOC-B LOC-I LOC-B O CVL-B CVL-B AFW-B O O
+"[부산시]6.27.(일) 01시 ~ 04시 클럽베뉴 부산진구 중앙대로 692번길 38 "","" 인근보건소 방문하여 코로나검사 받으시기 바랍니다. 소독완료"	ORG-B TIM-B O TIM-B STO-B LOC-B LOC-I LOC-I LOC-I O AFW-B O O O O LOC-B
+"[경남도청] ""6.22(화),"" 6.27(일) 부산 서면 그루브 중앙대로680번가길 52 방문자는 보건소에서 코로나19 검사를 받으시기 바랍니다."	ORG-B DAT-B DAT-B LOC-B LOC-B STO-B LOC-B LOC-I CVL-B AFW-B TRM-B O O O
+[남동구청] 7/2(금) 12:00~13:00 사이 서창2동 신김밥천국 서창남순환로 223 방문자는 거주지 보건소 또는 임시선별검사소에서 코로나 19 검사바람	ORG-B DAT-B TIM-B O LOC-B STO-B LOC-B LOC-I CVL-B O AFW-B O AFW-B TRM-B TRM-I O
+[영암군청]② 사우스링스골프장 카일필립 클럽하우스 내 샤워장 6.28. 방문자께서는 가까운 선별진료소 방문하여 검사받으시기 바랍니다.	ORG-B STO-B STO-B STO-B O O DAT-B CVL-B O AFW-B O O O
+"[영암군청]① 타지역 확진자 ""관련,"" 사우스링스골프장 삼호읍 에프원로 121-1 에 위치한 짐앵클럽하우스 내 샤워장 6.27. 방문자 및"	ORG-B O CVL-B O STO-B LOC-B LOC-I LOC-I O O LOC-B O O DAT-B CVL-B O
+[성남시청] 6.24(목) 11:00~14:00 공사현장 수정구 금토동 417-4 가설식당 방문 유증상자는 가까운 선별진료소에서 코로나 검사 받으시기 바랍니다.	ORG-B DAT-B TIM-B LOC-B LOC-B LOC-I LOC-I STO-B O CVL-B O AFW-B TRM-B O O O
+[부산시]6.24(목) 11:38~12:00 버거킹부산주례점 사상구 가야대로 298 방문자는 사상구보건소에 상담바랍니다. 소독완료	ORG-B TIM-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B O O
+"[강진군청] ④역전할머니맥주 22:00~23:00 "","" 6.29.(화) ①장터국밥 08:00~09:00 을 방문하신 분은 즉시 보건소에서 검사 받으시기 바랍니다."	ORG-B STO-B TIM-B O DAT-B STO-B TIM-B O CVL-B CVL-B O AFW-B O O O
+[전남도청] 6.16.~28. 서울 마포구 홍대 주변 음식점 라밤바/젠바/도깨비클럽/FF클럽/어썸/서울펍/코너펍/마콘도bar 방문자는 보건소 무료 검사받으세요.	ORG-B DAT-B LOC-B LOC-B LOC-B O LOC-B STO-B CVL-B AFW-B O O
+"[부산시] ""6.23(수),"" 6.28(월)~7.1(목) 애주당 부산진구 중앙대로 692번길 37 방문자는 가까운 보건소에서 코로나 검사 받으시기 바랍니다."	ORG-B DAT-B DAT-B STO-B LOC-B LOC-I LOC-I LOC-I CVL-B O AFW-B TRM-B O O O
+"[서초구청] 신세계백화점 강남점 식품매장 델리코너 및 슈퍼 5번 계산대 6월28일 "","" 7번 계산대 6월29일 방문자 중 유증상자는 코로나19 검사바랍니다."	ORG-B STO-B LOC-B LOC-I LOC-B O O NUM-B O DAT-B O NUM-B O DAT-B CVL-B O O TRM-B O
+"[포항시청]6.27 라라BAR 앞 대잠동 01:45→죽도동→양덕동02:19 대리운전 이용자 라라BAR는 확진자 방문하지 ""않았으며,"" 이용자는 보건소에서 검사바랍니다"	ORG-B STO-B O LOC-B O AFW-B CVL-B STO-B CVL-B O O CVL-B AFW-B O
+"[포항시청]6.26 뱃고동 앞 장성동 22:55→용흥동23:11 대리운전 이용자 뱃고동은 확진자 방문하지 ""않았으며,"" 이용자는 보건소에서 검사바랍니다."	ORG-B STO-B O LOC-B O AFW-B CVL-B STO-B CVL-B O O CVL-B AFW-B O
+[대구광역시] 클럽 이브 중구 동성로3길 20 디스퀘어 지하1층 6/20 이후 방문하신 분은 임시선별검사소 및 보건소 예약 에서 검사 받으시기 바랍니다.	ORG-B LOC-B STO-B LOC-B LOC-I LOC-I LOC-I LOC-I DAT-B O CVL-B CVL-I AFW-B O AFW-B O O O O O
+[대구광역시] 파이널나인 홀덤펍 중구 동성로4길 57 2층 6/30 오전 5시~9시 방문하신 분은 임시선별검사소 및 보건소 예약 에서 검사 받으시기 바랍니다.	ORG-B STO-B STO-B LOC-B LOC-I LOC-I LOC-I DAT-B TIM-B TIM-I CVL-B CVL-B AFW-B O AFW-B O O O O O
+[강서구청] 6.26.~7.1. 고투헬스 우장산점 송화쇼핑센터 9층 이용자는 가까운 선별진료소에서 코로나19 검사받으시기 바랍니다.	ORG-B DAT-B STO-B LOC-B LOC-I LOC-I CVL-B O AFW-B TRM-B O O
+"[중대본] ""6.22(화),"" 6.27(일) 부산서면 그루브 중앙대로680번가길 52 방문자는 보건소에서 코로나19 검사를 받으시기 바랍니다 ""☎120,1339"""	O DAT-B DAT-B LOC-B STO-B LOC-B LOC-I CVL-B AFW-B TRM-B O O O O
+"[강진군청] 의정부시 확진자 동선 ""관련,"" 6월 28일(월) 12:40~13:20 남도탕 남탕 이용자께서는 즉시 보건소에서 검사 받으시기 바랍니다."	ORG-B LOC-B CVL-B O O DAT-B DAT-I TIM-B STO-B LOC-B CVL-B O AFW-B O O O
+"""[남양주시청]6.20,21,23,28,29"" 별내면WA PC ZONE방문자중 유증상자/흡연실 이용자는 가까운 선별진료소에서 검사 바랍니다."	ORG-B STO-B LOC-B LOC-I CVL-B CVL-B O AFW-B O O
+[광주광역시] 6.25(금) 26(토) 28(월) 29(화) 12:15~13:30 신반디기사식당 북구 운암동 414-2 방문자는 보건소에서 검사 바랍니다.	LOC-B DAT-B DAT-I DAT-I DAT-I TIM-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B O O
+[포항시청]2 6.27 01:45~02:19 라라BAR 대잠동 앞→죽도동 경유 양덕동 해당시간 대리운전 이용자는 보건소에서 검사바랍니다	ORG-B DAT-B TIM-B STO-B LOC-B LOC-B O LOC-B O O CVL-B AFW-B O
+[포항시청]코로나19 확진자 동선 안내 대리운전 이용자 1 6.26 22:55~23:11 뱃고동 장성동 앞→용흥동	ORG-B CVL-B O O AFW-B CVL-B NUM-B DAT-B TIM-B STO-B LOC-B O
+[대구광역시] 클럽 프로그 중구 동성로4길 25 6/27~6/30일 00시~06시 방문하신 분은 가까운 보건소 예약 후 반드시 검사 받으시기 바랍니다.	ORG-B LOC-B STO-B LOC-B LOC-I LOC-I DAT-B TIM-B O CVL-B O AFW-B O O O O O O
+"[대구광역시] SK당구장 달서구 구마로 176 3층 6/26 ""11~18시,6/27"" 14~23시 방문하신분은 가까운 보건소 예약 후 반드시 검사 받으시기 바랍니다."	ORG-B STO-B LOC-B LOC-I LOC-I LOC-I DAT-B TIM-B TIM-B CVL-B O AFW-B O O O O O O
+[장흥군청] 정정 광주확진자 방문 관련 6.24(목) 12:00~13:00 코뚜레식당 토요시장 이용자분께서는 즉시 보건소에서 검사바랍니다.	ORG-B O CVL-B O O DAT-B TIM-B STO-B LOC-B CVL-B O AFW-B O
+"[광주광역시] 6.18.(금)~6.30.(수) 보보스 BOBOS 호프 대자로 ""72-1,"" 운암동 에 방문하신 분은 거주지 보건소에서 검사받으시기 바랍니다."	ORG-B DAT-B STO-B LOC-B LOC-B LOC-I LOC-I LOC-I O O CVL-B O AFW-B O O
+[함양군청]함양거주자 타지역보건소 검사에서 확진 ▷6월27일부터 30일까지 06:45 ~ 08:15 하얏트목욕탕 ▷남탕 방문자는 가까운 선별진료소 검사바랍니다	ORG-B O O O DAT-B DAT-I TIM-B O TIM-B STO-B LOC-B CVL-B O AFW-B O
+[포항시청]코로나19 확진자 동선 안내 6.26 02:00~04:00 그녀의당구클럽 상도동 615 해당시간 방문자는 보건소에서 검사바랍니다.	ORG-B CVL-B O O DAT-B TIM-B STO-B LOC-B LOC-I O CVL-B AFW-B O
+[포항시청]2 6.30 120번버스 죽도시장정류장08:00→양덕사거리정류장08:25 탑승객은 보건소에서 검사바랍니다.	ORG-B DAT-B STO-B LOC-B CVL-B AFW-B O
+[고양시청] 6.25.(금)~6.30.(수) 퍼줄래막줄래 덕양구 원당로 61 방문자는 가까운 보건소에서 코로나 검사를 받으시기 바랍니다.	ORG-B DAT-B STO-B LOC-B LOC-I LOC-I CVL-B O AFW-B TRM-B O O O
+[포항시청]코로나19 확진자 동선 안내 6.26 06:42~07:57 보경옻닭해장국 용흥동 613-12 해당시간 방문객은 보건소에서 검사바랍니다.	ORG-B CVL-B O O DAT-B TIM-B STO-B LOC-B LOC-I O CVL-B AFW-B O
+[남원시]도통동 소재 굴세상 시청남로 12-1)6.28일(월) 12:10~13:10 동시간대 방문자는 7.1일 20시까지 남원시보건소 선별진료소에서 검사 바랍니다	ORG-B O STO-B LOC-B LOC-I TIM-B O CVL-B DAT-B TIM-B AFW-B AFW-B O O
+"[울산광역시]6.23.(수) 8시~12시 경남 통영수협 동호동 본소위판장 경남 통영시 동호안길 ""33,"" 소독완료 방문자는 가까운 임시선별검사소에서 검사 바랍니다."	ORG-B TIM-B LOC-B LOC-I LOC-I STO-B LOC-B LOC-I LOC-I LOC-I O CVL-B O AFW-B O O
+[송파구청] 6.27~6.29 신천동 나루역쭈꾸미 올림픽로35길 94 방문자는 가까운 선별진료소에서 검사 받으시길 바랍니다.	ORG-B DAT-B LOC-B STO-B LOC-B LOC-I CVL-B O AFW-B O O O
+"[송파구청] 6.24 ""08:00~19:00,"" 6.26 ""10:00~18:00,"" 6.29 09:00~10:00 문정동 카페그린나래 법원로128 방문자는 검사바랍니다."	ORG-B DAT-B TIM-B DAT-B TIM-B DAT-B TIM-B LOC-B STO-B LOC-B CVL-B O
+[의정부시청]6.17.~6.30.제일시장 지하 음식백화점 태평로73번길 20 방문자는 선별진료소에서 코로나검사받으시기 바랍니다	ORG-B LOC-B STO-B LOC-B LOC-I CVL-B AFW-B O O
+[화성시청] 6. 27.(일)~6. 30.(수) 세시봉 송산면 사강로 208 방문자는 주소지 관할 선별진료소에서 코로나19 검사를 받으시기 바랍니다.	ORG-B DAT-B DAT-I DAT-I STO-B LOC-B LOC-I LOC-I CVL-B O O AFW-B TRM-B O O O
+[순천시청] 6.27.(일) 새벽 02:00~04:30 플렉스룸소주방 조례동 방문자는 금일 중 보건소 선별진료소에서 검사하시기 바랍니다.	ORG-B DAT-B TIM-B TIM-B STO-B LOC-B CVL-B DAT-B O AFW-B AFW-B O O
+"[천안시청] 가요쑈7080 성정동 소재 확진자 ""발생관련,"" 6.18(금) ~ 6.28(월) 방문자는 금일내로 인근 보건소 선별진료소에서 검사 받으시기 바랍니다"	ORG-B STO-B LOC-B O CVL-B O DAT-B O DAT-I CVL-B DAT-B O AFW-B AFW-B O O O
+"[광주광역시] ""6.26(토),"" ""6.28(월),"" 6.29(화) 오로지 백반만 남구 ""금화로409,"" 월산동 에 방문하신 분은 거주지 보건소에서 검사 받으시기 바랍니다."	ORG-B DAT-B DAT-B DAT-B LOC-B STO-B LOC-B LOC-I LOC-B O O CVL-B O AFW-B O O O
+[경남도청]6월23일(수) 08시~12시 통영수협 동호동 본소위판장을 방문하신 분들은 가까운 보건소 선별진료소를 방문하여 검사받아 주시기 바랍니다.	ORG-B TIM-B LOC-B LOC-I STO-B O CVL-B O AFW-B AFW-B O O O O
+[대구광역시] 마비정황토방식당 화원읍 마비정길 259-16 7/12 11:30~13:30 방문하신분은 임시선별검사소 및 보건소 예약 에서 검사받으시기 바랍니다.	ORG-B STO-B LOC-B LOC-I LOC-I DAT-B TIM-B CVL-B AFW-B O AFW-B O O O O
+[의정부시청]7.11.(일) 16:00~17:30에 사계절흑염소 신곡1동 방문자는 선별진료소에서 코로나19검사를 받으시기 바랍니다. 031-870-6011~4	ORG-B TIM-B STO-B LOC-B CVL-B AFW-B TRM-B O O O
+"""[용산구청]7/9(금),"" ""7/10(토),"" 7/12(월) 영광정육식당 서빙고로91나길104 방문자는 가까운 선별진료소에서 코로나19 검사를 받으시기 바랍니다."	ORG-B DAT-B DAT-B STO-B LOC-B CVL-B O AFW-B TRM-B O O O
+[광주광역시]7.10(토)~7.11(일) 18:00~19:30 북구 오치동 NS휘트니스 북구 설죽로 358 방문자는 거주지 보건소에서 검사받으시기 바랍니다.	ORG-B TIM-B LOC-B LOC-I STO-B LOC-B LOC-I LOC-I CVL-B O AFW-B O O
+[대구광역시] 삼거리식당 남구 희망로53 7/10 새벽 3:30~6:10 방문자는 임시선별검사소 및 보건소 예약 에서 반드시 검사받으시기 바랍니다.	ORG-B STO-B LOC-B LOC-I DAT-B TIM-B TIM-I CVL-B AFW-B O AFW-B O O O O O
+"[진주시청] 7월 ""9,"" ""10,"" 11일 가인베트남노래타운 평거동 방문자는 진주시보건소 055-749-5714 에서 검사 받으시기 바랍니다."	ORG-B DAT-B DAT-I DAT-I DAT-I STO-B LOC-B CVL-B AFW-B NUM-B O O O O
+[태안군청] 태안읍 소재 APEX 에이펙스 커피하우스에 7.12.(월) 12:30~13:00 방문자는 보건의료원에 방문하여 코로나19 선제검사 받으시기 바랍니다.	ORG-B LOC-B O LOC-B STO-B STO-I DAT-B TIM-B CVL-B AFW-B O TRM-B O O O
+"[고성군청]7.15.9시기준 확진자1명 고성27번 ""발생,"" 7.9(금)~7.14.(수)파머스마켓 이용자는 임시선별검사소인 파머스마켓 주차장에 방문하여 검사바랍니다."	ORG-B NUM-B O O DAT-B CVL-B AFW-B STO-B O O O
+[거제시청] 7/7(수)~7/14(수) 장승포동 장금이회식당 장승포로 33 을 방문하신 분은 가까운 선별진료소에서 검사바랍니다.	ORG-B DAT-B LOC-B STO-B LOC-B LOC-I O O CVL-B O AFW-B O
+[양평군청] 7.10(토) 12:00~13:00 7.11(일) 10:30~11:30 양평신내서울해장국 개군면 방문자는 선별진료소에서 코로나19 검사 받으세요.	ORG-B DAT-B TIM-B DAT-B TIM-B STO-B LOC-B CVL-B AFW-B TRM-B O O
+[예천군청]타지역확진자관련7.10.11:50~12:20/7.11.10:40~11:10한맥CC노블리아 남자사우나를 이용하신분은 가까운 선별진료소에서 검사바랍니다.	ORG-B STO-B CVL-B O AFW-B O
+[광양시청]▶ 7.12.부터 7.14. 오전까지 남부안전공구철물상사 중동 소재 방문자는 보건소 선별진료소에서 검사바랍니다.	ORG-B DAT-B DAT-B TIM-B STO-B LOC-B O CVL-B AFW-B AFW-B O
+[예산군청]7월10일(토)11시30분~13시30분 산마루가든 대흥면 노동리140-6 방문자는 보건소 선별진료소 339-6061 방문 후 코로나19 검사바랍니다.	ORG-B STO-B LOC-B LOC-I CVL-B AFW-B AFW-B NUM-B O O TRM-B O
+[군산시청] ▲7/10(토) 19:18~19:55 수송동 빽다방 수송동832-3 방문자는 보건소 선별진료소 09:00~18:00 검사 바랍니다.	ORG-B DAT-B TIM-B LOC-B STO-B LOC-B CVL-B AFW-B AFW-B TIM-B O O
+"[완도군청]완도읍확진자 동선관련 ②7. 12.(월) 18:55 국밥1번지 ""22,000원"" 현금결제 하신분은 보건의료원에서 검사요망/이외 접촉자는 파악후 개별안내 중"	ORG-B O DAT-B DAT-I TIM-B STO-B NUM-B O CVL-B AFW-B O CVL-B O O O
+[완도군청]완도읍 확진자 동선관련 ① 7. 11. (일) 20:30~20:48 완도농협하나로마트 방문자는 보건의료원에서 검사하시기 바랍니다.	LOC-B CVL-B O DAT-B DAT-B DAT-I DAT-I TIM-B STO-B O AFW-B O O
+[의왕시청]스타벅스 의왕청계DT점 의왕시 안양판교로246 7.9(금)~13(화) 매장 내 이용자 중 유증상자는 가까운 보건소에서 코로나19 검사 받기 바랍니다.	ORG-B STO-B LOC-B LOC-I DAT-B O O CVL-B O O O AFW-B TRM-B O O O
+[완도군청]금일읍관련 3명 추가확진. 안심숙소 격리 중 2명 발생. 전수검사에서 1명 발생▶7.15. (목)10:00~11:30금일문화창조센터 임시선별진료소 운영	ORG-B NUM-B O STO-B O O NUM-B O O NUM-B DAT-B TIM-B AFW-B O
+[나주시청] ▲7.10(토)12:00~14:00 문암가든 다시면 에 방문하신 분은 거주지보건소에서 코로나19검사 받으시기 바랍니다.	ORG-B DAT-B STO-B LOC-B O O CVL-B AFW-B TRM-B O O
+[나주시청] ▲7.11(일)~7.12(월)청학동(송월동)12:00~14:00시에 방문하신 분은 거주지보건소에서 코로나19검사 받으시기 바랍니다.	ORG-B STO-B O CVL-B AFW-B TRM-B O O
+"[강북구청]7.2.(금)~14.(수) 나원뮤지션음악학원 노해로 109 3층 방문자는 강북보건소 ""평일9~20:30,주말9~17:30"" 검사바랍니다.☎901-7704"	ORG-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B TIM-B O
+[대구광역시] 마비정황토방식당 화원읍 마비정길 259-16 7/12 11:30~13:30 방문하신분은 임시선별검사소 및 보건소 예약 에서 검사받으시기 바랍니다.	ORG-B STO-B LOC-B LOC-I LOC-I DAT-B TIM-B CVL-B AFW-B O AFW-B O O O O
+[의정부시청]7.11.(일) 16:00~17:30에 사계절흑염소 신곡1동 방문자는 선별진료소에서 코로나19검사를 받으시기 바랍니다.	ORG-B TIM-B STO-B LOC-B CVL-B AFW-B TRM-B O O
+"""[용산구청]7/9(금),"" ""7/10(토),"" 7/12(월) 영광정육식당 서빙고로91나길104 방문자는 가까운 선별진료소에서 코로나19 검사를 받으시기 바랍니다."	ORG-B DAT-B DAT-B STO-B LOC-B CVL-B O AFW-B TRM-B O O O
+[광주광역시]7.10(토)~7.11(일) 18:00~19:30 북구 오치동 NS휘트니스 북구 설죽로 358 방문자는 거주지 보건소에서 검사받으시기 바랍니다.	ORG-B TIM-B LOC-B LOC-I STO-B LOC-B LOC-I LOC-I CVL-B O AFW-B O O
+[대구광역시] 삼거리식당 남구 희망로53 7/10 새벽 3:30~6:10 방문자는 임시선별검사소 및 보건소 예약 에서 반드시 검사받으시기 바랍니다.	ORG-B STO-B LOC-B LOC-I DAT-B TIM-B TIM-I CVL-B AFW-B O AFW-B O O O O O
+"[진주시청] 7월 ""9,"" ""10,"" 11일 가인베트남노래타운 평거동 방문자는 진주시보건소 055-749-5714 에서 검사 받으시기 바랍니다."	ORG-B DAT-B DAT-I DAT-I DAT-I STO-B LOC-B CVL-B AFW-B NUM-B O O O O
+[태안군청] 태안읍 소재 APEX 에이펙스 커피하우스에 7.12.(월) 12:30~13:00 방문자는 보건의료원에 방문하여 코로나19 선제검사 받으시기 바랍니다.	ORG-B LOC-B O LOC-B STO-B STO-B DAT-B TIM-B CVL-B AFW-B O TRM-B O O O
+"[고성군청]7.15.9시기준 확진자1명 고성27번 ""발생,"" 7.9(금)~7.14.(수)파머스마켓 이용자는 임시선별검사소인 파머스마켓 주차장에 방문하여 검사바랍니다."	ORG-B CVL-B O O DAT-B CVL-B AFW-B STO-B O O O
+[거제시청] 7/7(수)~7/14(수) 장승포동 장금이회식당 장승포로 33 을 방문하신 분은 가까운 선별진료소에서 검사바랍니다.	ORG-B DAT-B LOC-B STO-B LOC-B LOC-I O O CVL-B O AFW-B O
+[양평군청] 7.10(토) 12:00~13:00 7.11(일) 10:30~11:30 양평신내서울해장국 개군면 방문자는 선별진료소에서 코로나19 검사 받으세요.	ORG-B DAT-B TIM-B DAT-B TIM-B STO-B LOC-B CVL-B AFW-B TRM-B O O
+[예천군청]타지역확진자관련7.10.11:50~12:20/7.11.10:40~11:10한맥CC노블리아 남자사우나를 이용하신분은 가까운 선별진료소에서 검사바랍니다.	STO-B LOC-B CVL-B O AFW-B O
+[광양시청]▶ 7.12.부터 7.14. 오전까지 남부안전공구철물상사 중동 소재 방문자는 보건소 선별진료소에서 검사바랍니다.	ORG-B DAT-B DAT-B TIM-B STO-B LOC-B O CVL-B AFW-B AFW-B O
+[예산군청]7월10일(토)11시30분~13시30분 산마루가든 대흥면 노동리140-6 방문자는 보건소 선별진료소 339-6061 방문 후 코로나19 검사바랍니다.	ORG-B STO-B LOC-B LOC-B CVL-B AFW-B AFW-B NUM-B O O TRM-B O
+[군산시청] ▲7/10(토) 19:18~19:55 수송동 빽다방 수송동832-3 방문자는 보건소 선별진료소 09:00~18:00 검사 바랍니다.	ORG-B DAT-B TIM-B LOC-B STO-B LOC-B CVL-B AFW-B AFW-B TIM-B O O
+"[완도군청]완도읍확진자 동선관련 ②7. 12.(월) 18:55 국밥1번지 ""22,000원"" 현금결제 하신분은 보건의료원에서 검사요망/이외 접촉자는 파악후 개별안내 중"	ORG-B O NUM-B DAT-I TIM-B STO-B NUM-B O CVL-B ORG-B O CVL-B O O O
+[완도군청]완도읍 확진자 동선관련 ① 7. 11. (일) 20:30~20:48 완도농협하나로마트 방문자는 보건의료원에서 검사하시기 바랍니다.	ORG-B CVL-B O O DAT-B DAT-I DAT-I TIM-B STO-B CVL-B AFW-B O O
+[의왕시청]스타벅스 의왕청계DT점 의왕시 안양판교로246 7.9(금)~13(화) 매장 내 이용자 중 유증상자는 가까운 보건소에서 코로나19 검사 받기 바랍니다.	STO-B LOC-B LOC-B LOC-I DAT-B O O CVL-B O O O AFW-B TRM-B O O O
+[나주시청] ▲7.10(토)12:00~14:00 문암가든 다시면 에 방문하신 분은 거주지보건소에서 코로나19검사 받으시기 바랍니다.	ORG-B DAT-B STO-B LOC-B O O CVL-B AFW-B TRM-B O O
+[나주시청] ▲7.11(일)~7.12(월)청학동(송월동)12:00~14:00시에 방문하신 분은 거주지보건소에서 코로나19검사 받으시기 바랍니다.	ORG-B STO-B O CVL-B AFW-B TRM-B O O
+"[강북구청]7.2.(금)~14.(수) 나원뮤지션음악학원 노해로 109 3층 방문자는 강북보건소 ""평일9~20:30,주말9~17:30"" 검사바랍니다.☎901-7704"	ORG-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B TIM-B O
+"[광주광역시]6.19(토)~6.26(토) 의류 판매점 블룸하우스 bloom house) 서구 풍금로 ""71,"" 금호동 방문자는 보건소에서 검사 받으시기 바랍니다."	ORG-B O O STO-B LOC-B LOC-I LOC-B LOC-I LOC-I LOC-B CVL-B AFW-B O O O
+[남해군청] 6.20(일) 17:30~19:00 남해읍 소재 가천숯불갈비 방문자 중 홀 이용객은 보건소에서 코로나19 검사 받으시기 바랍니다.	ORG-B DAT-B TIM-B LOC-B O STO-B CVL-B O O CVL-B AFW-B TRM-B O O O
+[남해군청]▶6.23(수)8:25남해→설천경유→부산행(남흥 70아8723)▶6.23(수)8:45 남해→부산행 경전 70아6691 탑승자는보건소에서코로나검사바랍니다	ORG-B STO-B LOC-B LOC-B STO-B O
+[고양시청] 6월 13일 이후 고양시 관내 노래방 방문자 중 유증상자는 반드시 코로나 검사를 받으시기 바랍니다.	ORG-B DAT-B DAT-I O LOC-B O STO-B CVL-B O O O TRM-B O O O
+[속초시청]6.24.(목) 11:40~12:30 노학동 소재 할머니한식뷔페 방문자는 선별검사소 속초시생활체육관 주차장 에서 검사받으시기 바랍니다 17시까지 운영	ORG-B TIM-B LOC-B O STO-B CVL-B AFW-B STO-B LOC-B O O O TIM-B O
+"[부산시]06.11/18/19/21/22일 19:00~23:00 세미나 유흥주점 해운대로 ""570번길43,"" 4층 에 방문하신 손님 해운대보건소에 상담 바랍니다."	ORG-B TIM-B STO-B LOC-B LOC-B LOC-I LOC-I O O CVL-B AFW-B O O
+[광양시청]21. 6.25.(금)21:44～23:19 중마동 1982연탄 중동점 방문자는 6.27(일)보건소 선별진료소 광양읍 검사바랍니다.	ORG-B DAT-B LOC-B STO-B LOC-B CVL-B DAT-B AFW-B LOC-B O
+[광양시청]6.25. 동서울터미널 16:30출발 21:10 중마터미널 도착 한일고속 탑승자는 6.27.(일)광양읍 소재 보건소 선별진료소에서 검사받으시기 바랍니다	ORG-B AFW-B TIM-B TIM-B AFW-B O STO-B CVL-B DAT-B O AFW-B AFW-B O O
+[고양시청]고양시 노래연습장 집합금지 행정명령 발령 ▶기간:6.26.~7.2. 24:00 7일간 ▶코로나19 감염확산 방지를 위해 노래연습장 이용이 금지됩니다.	ORG-B STO-B O O O DAT-B TIM-B DAT-B TRM-B O O O O O O
+"[강남구청] 19~24일 논현동 ‘수토피아 불가마 사우나’ 봉은사로 25길 ""5,"" 2층 남자 방문자는 검체검사를 받아주시기 바랍니다."	ORG-B DAT-B LOC-B STO-B STO-I LOC-I LOC-B LOC-I LOC-I LOC-I O CVL-B O O O
+"[강남구청] 18~23일 논현동 ‘호텔더디자이너스 엘스프링 사우나 봉은사로 ""113,"" 지하3층 남자 방문자는 검사를 받아주시기 바랍니다."	ORG-B DAT-B LOC-B STO-B STO-I STO-B LOC-B LOC-I NUM-B O CVL-B O O O
+[고양시청] 6.21.(월) 16시~20시 탑당구장 덕양구 도래울로 105 방문자는 코로나 검사를 받으시기 바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I CVL-B TRM-B O O O
+"[고양시청]6.12.~6.25. ◎주교동 소재 노래방 ""훈이네,벤츠,입큰개구리,쥬얼리"" ◎장항동 소재 노래방 ""로티플,둥지,커플"" 방문자는 검사를 받으시기 바랍니다."	ORG-B LOC-B O LOC-B STO-B LOC-I O LOC-B STO-B CVL-B O O O
+"[고양시청]6.12.~6.25. 성사동 소재 노래방 ""싸이,궁,디지털우리,핑클산소,하나로"" 방문자는 코로나 검사를 받으시기 바랍니다."	ORG-B LOC-B O LOC-B STO-B CVL-B TRM-B O O O
+[울진군청]울진17번 확진자 관련. 6.25.(금) 오전 11:00~11:45 울진읍 “동명탕”남탕을 이용하신분은 울진군보건소로 연락 바랍니다. 789-5055	ORG-B CVL-B O DAT-B TIM-B TIM-I LOC-B STO-B CVL-B AFW-B O O NUM-B
+[진주시청] 6.19(토) ~ 6.23.(수) 화랑집 다찌 신평공원길7번길 8-1 방문자는 진주시보건소 749-5714 에서 검사 받으시기 바랍니다.	ORG-B DAT-B O DAT-B STO-B STO-B LOC-B LOC-I CVL-B AFW-B NUM-B O O O O
+"""[진주시청]6.23.(수)굿모닝랜드(평거동소재)15:20~16:04헬스장,16:04~16:38사우나(여탕)이용자는진주시보건소(749-5714)로"" 연락바랍니다."	ORG-B O
+"""[진주시청]6.22.(화)굿모닝랜드(평거동소재)13:52~14:55헬스장,14:55~16:02사우나(여탕)이용자는진주시보건소(749-5714)로"" 연락바랍니다."	ORG-B O
+[송파구청] 6.21(월) 17:30~20:00 잠실6동 나루터 올림픽로35길 104 방문자는 가까운 선별진료소에서 검사 받으시길 바랍니다.	ORG-B DAT-B TIM-B LOC-B STO-B LOC-B LOC-I CVL-B O AFW-B O O O
+[인천광역시] 6.10.~6.22. 부평구 소재 노래방에서 도우미와 동석한 방문자 및 근무자는 신분증 지참후 주소지 보건소에서 코로나19 검사받으시기 바랍니다.	LOC-B DAT-B LOC-B O O CVL-B O CVL-B O CVL-B O O O O TRM-B O O
+"[광주광역시] 6.22(화) ""15시~20시,"" 6.23(수) 11시~20시 곡물창고 남구 효천안길 ""61,"" 임암동 에 방문하신 분은 거주지 보건소에서 검사바랍니다"	ORG-B DAT-B TIM-I DAT-B TIM-I STO-B LOC-B LOC-I LOC-I LOC-I O O CVL-B O AFW-B O
+[진주시청]6.22.(화)~6.24.(목) 경남14바1415 은색소나타 택시 탑승자는 진주시보건소 749-5714 로 연락바랍니다.	ORG-B STO-B LOC-B AFW-B CVL-B AFW-B NUM-B O O
+"[파주시청]제2차 긴급생활안정지원금 신청마감안내 6월30일까지 "","" 방문신청 행정복지센터 및 온라인신청"	ORG-B CVL-B O LOC-B LOC-B O LOC-B O O
+[광명시청] 6월 15일 20시~22시 역전할머니맥주 광명사거리점 방문자는 거주지 보건소에서 코로나19 검사를 받으시기 바랍니다	ORG-B DAT-B DAT-I TIM-B STO-B LOC-B CVL-B O AFW-B TRM-B O O O
+"[춘천시청][추가안내] 6.14~20일 온의동롯데마트 방문자 검사/6.26~27 9~18시 ""/도보-보건소,호반체육관/드라이브스루-봄내체육관,베어스타운호텔"" 앞주차장"	ORG-B DAT-B STO-B CVL-B DAT-B TIM-B LOC-B O
+[고양시청]6.19.(토)~6.23.(수) 쥬얼리노래연습장 덕양구 호국로789번길 32 방문자는 가까운 보건소에서 코로나 검사를 받으시기 바랍니다.	ORG-B STO-B LOC-B LOC-I LOC-I CVL-B O AFW-B TRM-B O O O
+"[고양시청]6.19.(토)~6.23.(수) 벤츠노래연습장 덕양구 마상로134번길 ""75,"" 5층 방문자는 가까운 보건소에서 코로나 검사를 받으시기 바랍니다."	ORG-B STO-B LOC-B LOC-I LOC-I LOC-I CVL-B O AFW-B TRM-B O O O
+"[춘천시청][온의동 롯데마트 방문자 코로나 검사연장]선별검사소 6.26~27일 9~18시 ""/도보-보건소,호반체육관,드라이브스루-봄내체육관,베어스타운호텔"" 앞 주차장"	ORG-B STO-B CVL-B TRM-B AFW-I DAT-B TIM-B LOC-B O O
+[함평군청]광주 2901 확진자 관련 6.21.(월) 13:50~14:30 함평읍 화랑식당 방문자는 보건소에서 코로나 검사 받으시기 바랍니다. 시설 소독완료	ORG-B NUM-B CVL-B O DAT-B TIM-B LOC-B STO-B CVL-B AFW-B TRM-B O O O LOC-B O
+"""[연수구청]6.19,"" 6.22.~6.24 00:00~08:00 세븐일레븐송도랜시티점 랜드마크로68 방문자는 가까운 보건소 선별진료소에서 코로나19검사바랍니다."	ORG-B DAT-B TIM-B STO-B LOC-B CVL-B O AFW-B O O
+"[수원시청] 6.16.(수)~6.22.(화) 지중해3 라이브 팔달구 장다리로 ""245,"" 지하1층 방문자는 가까운 보건소에서 코로나19 검사를 받으시기 바랍니다."	ORG-B DAT-B LOC-B STO-B STO-B LOC-I LOC-I LOC-I CVL-B O AFW-B TRM-B O O O
+"[울산광역시] 6.20.(일) 17시~18시 피자스쿨 반구홈플러스점 중구 번영로 ""478,"" 소독완료 방문자는 반드시 문의 후 검사 받으시기 바랍니다."	ORG-B DAT-B TIM-B STO-B LOC-B LOC-B LOC-I LOC-I O CVL-B O O O O O O
+"[광주광역시]6.16일 ""17시~18:30,"" 6.19일 ""17시~19:30,"" 6.23일 19시~20:30 오로지백반만 남구월산동971-6 방문자 보건소 중구보건소"	ORG-B TIM-B DAT-B TIM-B DAT-B TIM-B STO-B LOC-B CVL-B AFW-B AFW-B
+"[광주광역시] 6.16(수)~6.23(수) 광주 60자 7633 택시 ""LF소나타,"" 회색 를 탑승하신 검사바랍니다 거주지 보건소에서 코로나 검사받으시기 바랍니다."	ORG-B DAT-B LOC-B NUM-B NUM-I AFW-B LOC-B O O O O O AFW-B TRM-B O O
+[김천시청] 6.19.(토) 15:20~16:20 설빙 김천 신음점 을 이용하신 분들은 가까운 분은 검사 후 보건소로 연락바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I O O CVL-B O CVL-B O O AFW-B O
+[진주시청] 6.19(토) ~ 6.23.(수) 화랑집 다찌 신평공원길7번길 8-1 방문자는 진주시보건소 선별진료소에서 에서 검사 받으시기 바랍니다.	ORG-B DAT-B O DAT-B STO-B STO-I LOC-B LOC-I CVL-B AFW-B AFW-B O O O O
+[춘천시청] 정정 6.21 온의동 롯데마트 춘천점을 이용하신분들은 6.25(금) 13시~18시까지 호반체육관 055-749-5714 진단검사 받으시기 바랍니다	ORG-B O DAT-B LOC-B STO-B LOC-B CVL-B DAT-B TIM-B AFW-B NUM-B O O O
+[춘천시청] 6.18(금)부터 온의동 롯데마트 춘천점을 이용하신 분들은 6.25(금) 17시까지 호반체육관 주차장에서 진단검사 받으시기 바랍니다.	ORG-B DAT-B LOC-B STO-B LOC-B O CVL-B DAT-B TIM-B AFW-B O O O O
+[광주광역시] 6.17(목)~6.22(화) 북구 일곡동 질러넷게임방 동전노래방 송해로 70-9 을 방문하신 분은 거주지 보건소에서 검사받으시기 바랍니다.	LOC-B DAT-B LOC-B LOC-I STO-B STO-B LOC-B LOC-I O O CVL-B O AFW-B O O
+"[고흥군청]타지역 확진자 ""관련,"" 6.18.(금) 녹동 10:00 "","" 고흥 10:30 출발~서울센트럴시티 15:00 도착 버스탑승자는 보건소에서 검사 바랍니다."	ORG-B CVL-B O DAT-B LOC-B LOC-B LOC-B LOC-B LOC-B LOC-B LOC-B O CVL-B O O O
+[공주시청] 6.16(수)~6.23(수) 신관연합정형외과의원 신관동 702호 병실 방문자는 가까운 보건소에서 코로나19 검사를 받으시기 바랍니다.	ORG-B DAT-B STO-B LOC-B LOC-I O CVL-B O AFW-B TRM-B O O O
+[중대본] 6.12~6.16 경기 의정부시 민락로 416 착한산슬촌 방문자는 가까운 보건소 선별진료소에서 코로나19 검사를 받으시기 바랍니다	ORG-B DAT-B LOC-B LOC-B LOC-I LOC-I STO-B CVL-B O AFW-B AFW-B TRM-B O O O
+[부천시청]6.19(토)18~19시 복사골공원농구장 중동 1212 6.20(일)20~21시 꿈마을어린이공원풋살장 중동 1097-2 방문자모두 코로나검사바랍니다.	ORG-B STO-B LOC-B LOC-I DAT-B STO-B LOC-B LOC-B CVL-B O
+[서초구청] 6.18(금) 23시~6.20(일) 05시30분까지 골드 노래방 언남길 79 방문자는 가까운 보건소에서 코로나19 검사 받으시기 바랍니다.	ORG-B DAT-B TIM-B TIM-B STO-B STO-I LOC-B LOC-I CVL-B O AFW-B TRM-B O O O
+"[통영시청] 6.20.(일) 16:09~17:06 통영 바다소리횟집을 이용하신 분은 ""3명,"" 현금결제 가까운 보건소에서 검사받으시기 바랍니다."	ORG-B DAT-B TIM-B LOC-B STO-B O CVL-B NUM-B O O AFW-B O O
+"[진주시청]6.19(토) ~ 6.23.(수) 빨간바지 촉석로202번길 ""12,"" 대안동 소재 보세의류 방문자는 보건소 749-5714 에서 검사 받으시기 바랍니다."	ORG-B O DAT-B O LOC-B LOC-I LOC-I O STO-B CVL-B AFW-B NUM-B O O O O
+[구미시청]6/11(금) 13:30~15:00 구미시 차량등록사업소 고아읍 방문자중 코로나19증상 발열·기침·근육통 등 이 있는분은 선별진료소에서 검사바랍니다.	ORG-B TIM-B LOC-B AFW-B STO-B CVL-B TRM-B O O O O AFW-B O
+[광주광역시] 6.17(목)~6.20(일) 북구 일곡동 질러넷게임방 동전노래방 송해로 70-9 을 방문하신 분은 거주지 보건소에서 검사받으시기 바랍니다.	ORG-B DAT-B LOC-B LOC-I STO-B STO-B LOC-B LOC-I O O CVL-B O AFW-B O O
+[고양시청] 6.19.(토)~6.23.(수) 입큰개구리 노래방 덕양구 호국로 789번길 6 방문자는 가까운 보건소에서 코로나 검사 받으시기 바랍니다.	ORG-B DAT-B STO-B STO-I LOC-B LOC-I LOC-I LOC-I CVL-B O AFW-B TRM-B O O O
+[남해군청] 6.20.(일) 11:15~12:30 이동면 소재 남해전복물회 방문자는 보건소에서 코로나19 검사 받으시기 바랍니다.	ORG-B DAT-B TIM-B LOC-B O STO-B CVL-B AFW-B TRM-B O O O
+[광주광역시] 6.19(토) 18:00~21:30 북구 매곡동 블루오션PC방 북구 하백로6번길 20 을 방문하신 분은 거주지 보건소에서 검사받으시기 바랍니다.	ORG-B DAT-B TIM-B LOC-B LOC-I STO-B LOC-B LOC-I LOC-I O O CVL-B O AFW-B O O
+[김천시청] 6.20.(일) 15:00~17:30 스파밸리 여탕 를 이용하신 분들은 가까운 선별진료소에서 검사받으시기 바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B O O CVL-B O AFW-B O O
+"[남해군청] ""6.21.(월),"" 6.22.(화) 12:00~12:30 서면소재 상록숯불갈비 방문자는 보건소에서 코로나19 검사를 받으시기 바랍니다."	ORG-B DAT-B DAT-B TIM-B LOC-B STO-B CVL-B AFW-B TRM-B O O O
+[포항시청]2 6.23 시외버스 마산시외버스터미널07:10→포항시외버스터미널09:30 해당버스 탑승객은 보건소 검사바랍니다	ORG-B DAT-B AFW-B STO-B O CVL-B AFW-B O
+[포항시청]6월 이후 세명기독병원을 방문하신 시민께서는 선별진료소에서 검사바랍니다. 위기의 순간마다 하나 되어 동참해주신 시민여러분께 다시 한번 감사드립니다.	ORG-B O STO-B O CVL-B AFW-B O O O O O O CVL-B O O O
+"[구미시청] 6/18(금) 12:00~12:50 가보자쭈꾸미 ""신평동,"" 구미대로 402 방문자는 가까운 선별진료소를 방문하여 코로나19 검사 바랍니다."	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I CVL-B O AFW-B O TRM-B O O
+[경주시청②] 동시간대 방문자는 선별진료소 검사 권고 드립니다.	ORG-B O CVL-B AFW-B O O O
+[용산구청] 6.17.(목) 12시~13시 하회마을 용산구 한강대로88길 6-1 방문자는 가까운 선별진료소에서 코로나19 검사를 받으시기 바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I CVL-B O AFW-B TRM-B O O O
+"[문경시청]2-② 6.20(일) 16:50~19:20 ""상주버스터미널출발,"" 성남 야탑 버스터미널 ""도착,"" 대원고속을 이용하신 분은 보건소 선별진료소에서 검사바랍니다."	ORG-B DAT-B TIM-B STO-B LOC-B O AFW-B O AFW-B O CVL-B AFW-B AFW-B O
+[미추홀구청]6.17.~6.23. 기간 중 미추홀구청 위생과 4층 방문자는 가까운 거주지 선별진료소를 방문하셔서 코로나19 검사를 받으시기 바랍니다.	ORG-B O O LOC-B O LOC-B CVL-B O O AFW-B O TRM-B O O O
+[함평군청]의정부1546 확진자 관련 6.20(일) 12:00~13:00 양서파충류생태공원 방문자는 보건소에서 검사 받으십시오. 시설소독완료	ORG-B CVL-B O DAT-B TIM-B STO-B CVL-B AFW-B O O O
+"[부천시청] 6.14(월)~6.22(화) 가림독서실 부흥로 ""398,"" 5층/심곡동 방문자는 증상유무에 관계없이 선별진료소에서 코로나19 검사를 받으시기 바랍니다."	ORG-B DAT-B STO-B LOC-B LOC-I LOC-I CVL-B O O AFW-B TRM-B O O O
+[홍성군청]6월23일(수) 18시 기준 확진자 1명 홍성104번 발생. 타지역 거주자로 홍성보건소 선별진료소 방문검사. 의심증상 발현시 보건소 검사바랍니다	ORG-B TIM-B O CVL-B NUM-B NUM-B O O CVL-B AFW-B AFW-B O O O AFW-B O
+"[강릉시청]6월 14일(월) 19:36 ~ ""20:44,"" 솔올통나무집닭갈비 하슬라로232번길 ""14-5,"" 교동 이용자는 내일 보건소에서 검사바랍니다."	ORG-B DAT-I TIM-B O TIM-B STO-B LOC-B LOC-I LOC-B CVL-B DAT-B AFW-B O
+[양산시청] 양산시 덕계동 두명1터널 화재진화완료로 이용가능합니다.	ORG-B LOC-B LOC-B AFW-B O O
+[포항시청]네이처컬렉션유강점 유강리 591-5 6.18 10:30~16:00 6.19~6.21 15:30~21:00 해당시간 방문자는 보건소에서 검사바랍니다.	ORG-B STO-B LOC-I DAT-B TIM-B DAT-B TIM-B O CVL-B AFW-B O
+[함평군청] 의정부1546 확진자 관련 6.20(일) 13:20~14:20 함평읍 경복궁 방문자는 보건소에서 검사 받으시기 바랍니다 시설 소독완료	ORG-B ORG-B CVL-B O DAT-B TIM-B LOC-B STO-B CVL-B AFW-B O O O LOC-B O
+"[창원시청] 정정 6.18.(금) 15:00~18:00 팔룡어울림운동장 내 탁구장 의창구 사화로 ""불가하오니,"" 2층 방문자는 관할보건소에서 예약 후 검사바랍니다."	ORG-B O DAT-B NUM-B STO-B O LOC-B LOC-B LOC-I O LOC-I CVL-B ORG-B O O O
+[남해군청] 6.18.(금) 12시~14시 남해읍소재 청수탕 여탕 방문자는 보건소에서 코로나19 검사 받으시기 바랍니다.	ORG-B DAT-B TIM-B LOC-B STO-B LOC-B CVL-B AFW-B TRM-B O O O
+[포항시청]2 6.21 206번 버스 우현우방아파트정류장14:55→청구아파트사거리정류장15:25 해당시간 탑승자는 보건소에서 검사바랍니다	ORG-B DAT-B NUM-B O STO-B TIM-B CVL-B AFW-B O
+[창원시청] 6.18.(금) 15:00~18:00 팔룡동행정복지센터 의창구 팔용로 435 방문자는 관할보건소에서 예약 후 검사받으시기 바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B O O O O
+[경주시청]▲6.9(수)~6.21(월) 양북대왕온천 문무대왕면 감은로17 동시간대 방문자는 양북면 임시선별진료소 6.23 권고 드립니다.	ORG-B STO-B LOC-B LOC-B TIM-B CVL-B LOC-B AFW-B DAT-B O O
+[남해군청] 6.21.(월) 12:20 ~ 13:05 남해읍 송담추어탕 방문자는 보건소에서 코로나19 검사받으시기 바랍니다.	ORG-B DAT-B TIM-B O TIM-B LOC-B STO-B CVL-B AFW-B TRM-B O O
+"[하동군청] 6.20(일) 11:50 남해→진교→진주행 70아8752 "","" 18:40 진주→진교→남해행 70아8707 시외버스 탑승객은 코로나검사 받으세요."	ORG-B DAT-B TIM-B LOC-B NUM-B O TIM-B LOC-B NUM-B AFW-B CVL-B TRM-B O
+[김천시청] 6.15(화) 13:30~14:50 남면행정복지센터 면사무소 를 이용하신 민원인은 보건소 선별검사소에서 코로나19 검사바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B O O CVL-B AFW-B AFW-B TRM-B O
+[김천시청] 6.18.(금) 17:30~22:00 쿠우쿠우 김천혁신점을 방문하신 분은 가까운 선별진료소에서 코로나검사를 받으시길 바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B O CVL-B O AFW-B O O O
+"[김천시청] 6.18.(금) 18:20~19:37 쿠우쿠우김천혁신점 카운터 근처 테이블 이용자 남성: ""검정상의,여성:"" 옥색상의 은 검사후 보건소 연락바랍니다."	ORG-B DAT-B TIM-B STO-B AFW-I O O CVL-B CVL-B CVL-B O O O O O
+"[김천시청]318번 ""관련,"" 6.15(화) 11:40~13:30 스파밸리사우나 남탕 이용자는 김천시보건소 선별진료소를 이용하여 방문시간 기재후 코로나검사바랍니다."	ORG-B O DAT-B TIM-B STO-B LOC-B CVL-B AFW-B AFW-B O TIM-B O O
+[김천시청] 6.19.(토) 18:40~20:10 황금코다리 교동 방문하신 분은 가까운 선별진료소를 방문하여 코로나19 검사받으시기 바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B O CVL-B O AFW-B O TRM-B O O
+"[김천시청]6.19(토) 18:40~20:10황금코다리 교동 방문자중 여성2명 ""흰모자,빨간모자"" "",빨간색티"" 코로나검사후 보건소연락바랍니다."	ORG-B STO-B LOC-B CVL-B CVL-B O O O O
+[진주시청] 6.20(일) 17:50~18:10 진주콜라텍 촉석로 216 방문자는 진주시보건소 749-5714 로 연락바랍니다.	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I CVL-B AFW-B NUM-B O O
+"[진주시청] 6.20(일) 12:50~15:30 광장콜라텍 진주대로1040번길 ""9,"" 2층 방문자는 진주시보건소 749-5714 로 연락바랍니다."	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B NUM-B O O
+"[진주시청] 6.20(일) 17:10~17:50 대호포차 촉석로212번길 ""3-5,"" 1층 방문자는 진주시보건소 749-5714 로 연락바랍니다."	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B NUM-B O O
+"[진주시청] 6.20(일) 16:00~17:10 마포종점 촉석로212번길 ""3-7,"" 1층 방문자는 진주시보건소 749-5714 로 연락바랍니다."	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B NUM-B O O
+"[진주시청] 6.20(일) 15:30~16:00 별미식당 촉석로212번길 ""3-10,"" 1층 일부 방문자는 진주시보건소 749-5714 로 연락바랍니다."	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I O CVL-B AFW-B NUM-B O O
+"[울산광역시]6.17(목) ""11~12시,"" 6.19(토) 8~9시 양북대왕온천 경주시 문무대왕면 감은로 ""17,소독완료"" 여탕방문자는 임시선별검사소에서 검사바랍니다."	ORG-B TIM-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I LOC-I CVL-B AFW-B O
+"[울산광역시]6.13(일) ""16~17시,"" 6.15(화) 9~11시 양북대왕온천 경주시 문무대왕면 감은로 ""17,소독완료"" 여탕방문자는 임시선별검사소에서 검사바랍니다"	ORG-B TIM-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-I LOC-I CVL-B AFW-B O
+"[용산구청]6.11. ""20시~22시,"" 6.12. 15시~19시 coley  녹사평대로214 방문자는 가까운 선별진료소에서 코로나 검사를 받으시기 바랍니다."	ORG-B TIM-B DAT-B TIM-B STO-B LOC-B CVL-B O AFW-B TRM-B O O O
+"[광명시청] ""6월14일~6월20일,"" 광명동 3POP PC방 광명삼거리점 방문자는 거주지 보건소에서 코로나19 검사 바랍니다."	ORG-B DAT-B LOC-B STO-B LOC-I LOC-I CVL-B O AFW-B TRM-B O O
+[포항시청]6. 1(화) 이후 포항세명기독병원 방문자는 가까운 보건소에서 코로나19검사 받으시기 바랍니다.	ORG-B DAT-B O STO-B CVL-B O AFW-B TRM-B O O
+"""[고양시청]6월14~17,21일"" 17~20시 돈앤카우 덕양구 화정동 900 방문자는 코로나검사를 받으시기 바랍니다."	ORG-B TIM-B STO-B LOC-B LOC-I LOC-I CVL-B O O O
+"[강남구청] 14~18일 역삼동 ‘정성가득한집’ 논현로 ""75길4,"" 1층 방문자는 보건소나 임시검사소에서 검체검사를 받아주시기 바랍니다."	ORG-B DAT-B LOC-B STO-B LOC-B LOC-I LOC-I CVL-B AFW-B AFW-B O O O
+[영덕군청] ② 해당시간 시외버스 이용자는 영덕군보건소 선별진료소에서 검사바랍니다. ☎054-730-6893~5	ORG-B O O AFW-B CVL-B AFW-B AFW-B O O
+[포항시청]2 6.20 시외버스 포항시외버스터미널11:20→부산서부터미널 경주경유 13:00 해당시간 이용객은 보건소에서 검사바랍니다.	ORG-B DAT-B AFW-B AFW-B STO-B TIM-B O CVL-B AFW-B O
+"[중대본] 6.10~6.22 강남구 논현동 도산대로6길 ""5,"" 지하1층 라운지 ‘초선’ 방문자는 보건소에서 코로나19 검사를 받으시기 바랍니다 ""☎120,1339"""	ORG-B DAT-B LOC-B LOC-I LOC-I LOC-I LOC-I O STO-B CVL-B AFW-B TRM-B O O O NUM-B
+"[김천시청] 318번 ""관련,"" 6.15.(화) 13:30~14:50 남면행정복지센터 남면사무소 를 방문하신 민원인은 보건소 선별검사소에서 코로나19 검사바랍니다."	ORG-B NUM-B O DAT-B TIM-B STO-B LOC-B O O CVL-B AFW-B AFW-B TRM-B O
+[김해시청] 6.17.(목) ~ 6.20.(일) 경남18바 2198 검은색 그랜저 택시 탑승자는 인근 보건소에서 코로나19 검사 받으시기 바랍니다.	ORG-B DAT-B O DAT-B STO-B LOC-B O O O CVL-B O AFW-B TRM-B O O O
+"[김천시청]318번 ""관련,"" 6.15(화) 11:32~11:43 한촌설렁탕 성내동 방문자 ""남자1명,"" 회색티 는 코로나검사후 보건소 433-4000 연락바랍니다."	ORG-B O DAT-B TIM-B STO-B LOC-B CVL-B CVL-B O O O AFW-B NUM-B O
+[남해군청] 6.20.(일) 21:30~22:12 남해읍 소재 대구연탄막창 방문자는 보건소에서 검사를 받으시기 바랍니다.	ORG-B DAT-B TIM-B LOC-B O STO-B CVL-B O O O O
+[경주시청①]▲6.9(수)~6.21(월) 사는동안 문무대왕면 감은로 53-8 동시간대 방문자는 문무대왕면사무소 임시선별진료소 검사 권고 드립니다.	ORG-B O STO-B LOC-B LOC-I O CVL-B LOC-B AFW-B O O O
+"[남해군청] 6.19.(토) ""06:00~18:00,"" 6.21.(월) ""06:00~12:40,"" 남해읍 소재 신흥이용원 방문자는 보건소에서 검사를 받으시기 바랍니다."	ORG-B DAT-B TIM-B DAT-B TIM-B LOC-B O STO-B CVL-B AFW-B O O O
+"""[남해군청]6.20(일)11:50~12:30남해→진주(70아8752),18:40~19:20진주→남해(70아8707),"" 버스탑승객은 보건소에서 검사받으시기 바랍니다"	ORG-B CVL-B AFW-B O O
+[이천시청] 6.18(금)18:00~22:00 보통의 술집 이천시 어재연로 25 방문자 중 유증상자는 거주지 선별진료소에서 검사받으시기 바랍니다.	ORG-B DAT-B STO-B LOC-B LOC-B LOC-I LOC-I CVL-B O O O AFW-B O O
+[진도군청]▲6.17(목) 21:04~21:18 쏠비치 더펍▲6.18(금) 20:20~21:32 쏠비치 인피니티풀 방문자는 보건소 선별진료소 방문·검사 바랍니다	ORG-B TIM-B STO-B DAT-B TIM-B LOC-B STO-B CVL-B AFW-B AFW-B O O
+"[무안군청]타지역 확진자관련 6.17.(목)무안컨트리클럽 ""남자샤워실11:35~11:50,"" 여자샤워실11:34~11:55 이용자는 인근 선별진료소에서 검사바랍니다."	ORG-B O STO-B TIM-B TIM-B CVL-B O AFW-B O
+[진도군청]▲6.16(수) 20:22~20:49 쏠비치 씨푸드테이블▲6.18.(금) 17:37~19:33 의신송군 바닷가그집 방문자는 선별진료소 방문검사 바랍니다	ORG-B TIM-B STO-B STO-I TIM-B LOC-B STO-B CVL-B AFW-B O O
+[진도군청] 인천 부평구 1339번 확진자 동선안내▲6.18(금)11:50~12:35 진도읍 이화식당 방문자께서는 진도군 보건소 선별진료소 방문·검사 바랍니다	ORG-B LOC-B LOC-I NUM-B CVL-B O LOC-B STO-B CVL-B LOC-B AFW-B AFW-B O O
+[해남군청②] ▶6.18. 14:30~16:30 현산면 포레스트수목원 방문자는 해남군 보건소 선별진료소에서 검사 바랍니다.	ORG-B DAT-B TIM-B LOC-B STO-B CVL-B LOC-B AFW-B AFW-B O O
+[서산시청] 6월 14일 ~ 6월 20일까지 서산시장애인복지관 예천동 을 이용하신 분은 서산시 보건소선별진료소에서 코로나19 진단검사를 받으시기 바랍니다.	ORG-B DAT-B DAT-I O DAT-B DAT-I STO-B LOC-B O O CVL-B LOC-B AFW-B TRM-B O O O
+[남해군청]남해32번 확진자이동동선▶6.17~18 2일간 16시~23시 ▶6.19(토)16시~21시▶남해읍소재 황금정식당을 방문하신분은 코로나검사받으시기바랍니다.	ORG-B CVL-B NUM-B TIM-B DAT-B STO-B CVL-B O
+"""[경주시청②]6.17(목)11:24~11:52,"" 6.19(토)08:16~08:46 양북대왕온천 여탕 문무대왕면 감은로17 동시간대 방문자는 검사 권고"	ORG-B DAT-B STO-B LOC-B LOC-B LOC-I O CVL-B O O
+[충주시청] 6.10.(목)~6.18.(금) 기간 중 앙성면 소재 허수아비에 방문하신분은 증상유무에 관계없이 가까운보건소에서 코로나 진단검사를 받으시기 바랍니다.	ORG-B DAT-B O O LOC-B O STO-B CVL-B O O AFW-B TRM-B O O O
+[대구광역시] 토담건강한밥상 동구 동부로 30길92-1 6/7~6/18 17시~19시 방문하신 분은 임시선별검사소 및 보건소 예약 에서 검사 받으시기 바랍니다.	LOC-B STO-B LOC-B LOC-I LOC-I DAT-B TIM-B O CVL-B AFW-B O AFW-B O O O O O
+[횡성군청]6월15일~6월20일까지 둔내가구 벽지나라 둔내로9-6 방문자는 내일 보건소 선별진료소 09:00~18:00 에서 검사를 보건소 받으시기 바랍니다	ORG-B STO-B STO-I LOC-B CVL-B DAT-B AFW-B AFW-B TIM-B O O AFW-B O O
+[안동시청] 안동 275번 확진자관련 ▲6.17.(목) 18:50~20:50 용상마뜰실내포장 전거리길71 방문자는 선별진료소 방문하여 코로나19 검사 바랍니다.	ORG-B LOC-B NUM-B O DAT-B TIM-B STO-B LOC-B CVL-B AFW-B O TRM-B O O
+"[시흥시청] 6월 14일~6월 18일 정왕동 오이도마사지 ""오이도어시장로5,"" 4층 방문자 가까운 선별검사소에서 코로나19 검사 받으시기 바랍니다."	ORG-B DAT-B DAT-I DAT-I LOC-B STO-B LOC-B LOC-I CVL-B O AFW-B TRM-B O O O
+"[사천시청]6.19.(토) 14시 이후 확진자 2명 타지역 방문 확진자 접촉 2명 ""발생,"" 6.20.(일) 확진자 없음▲의심 증상시 반드시 검사바랍니다."	ORG-B TIM-B O CVL-B NUM-B LOC-B O CVL-B O NUM-B O DAT-B CVL-B O O O O
+[포항시청]코로나19 확진자 동선안내 6.18(금) 9000번버스 호미곶면민회관정류장18:35→남구보건소정류장19:15 해당시간 탑승객은 보건소에서 검사바랍니다.	ORG-B CVL-B O DAT-B AFW-B LOC-B O CVL-B AFW-B O
+"[평택시]6.14~6.17일 세비체210 쇼핑로 ""12,"" 신장동 소재 방문하신분은 가까운 선별진료소에서 코로나19검사를 받으시기 바랍니다."	ORG-B STO-B LOC-B LOC-I LOC-I O CVL-B O AFW-B TRM-B O O
+[송파구청] 6.15 15:00~18:00 가락본동 거송노래연습장 가락동 82-2 방문자는 가까운 선별진료소에서 검사 받으시길 바랍니다.	ORG-B DAT-B TIM-B LOC-B STO-B LOC-B LOC-I CVL-B O AFW-B O O O
+"[강남구청] 13일 논현동 ‘나무불한증막’ ""봉은사로143,"" 지하1층 방문자는 보건소나 임시선별검사소에서 검체검사를 받아주시기 바랍니다."	ORG-B DAT-B LOC-B STO-B LOC-B LOC-I CVL-B AFW-B AFW-B O O O
+[광주광역시] 6.10(목) 9:30~11:10 남구 백운동 조이헤어 남구 독립로 4 에 방문하신 분은 거주지 보건소에서 검사받으시기 바랍니다.	LOC-B DAT-B TIM-B LOC-B LOC-I STO-B LOC-B LOC-I LOC-I O O ORG-B O AFW-B O O
+[진천군청] 에이블스터디카페 진천혁신도시 이용객은 가까운 선별진료소 코로나19 검사를 받으시기 바랍니다.	ORG-B STO-B LOC-B CVL-B O AFW-B TRM-B O O O
+[진천군청] 세븐스타코인노래방 진천혁신도시 이용객은 가까운 선별진료소 코로나19 검사를 받으시기 바랍니다.	ORG-B STO-B LOC-B CVL-B O AFW-B TRM-B O O O
+"[창원시청] 6.14.(월)~6.15.(화) 수향상사 의창구 의안로49번길 ""31,"" 방역완료 방문자는 관할보건소에서 예약 후 검사받으시기 바랍니다."	ORG-B DAT-B STO-B LOC-B LOC-I LOC-I O CVL-B AFW-B O O O O
+[안동시청]타지역확진자관련 6.8~6.13 '트리플AAA' 복주2길 80 2층 방문자는 가까운 선별진료소 방문하여 코로나19검사 바랍니다.	ORG-B DAT-B STO-B LOC-B LOC-I LOC-I CVL-B O AFW-B O TRM-B O
+[부산시]6.13(일)~6.15(화)스마일베이커리(사상구 사상로295 방문자는 가까운보건소에서 코로나검사 받으시기바랍니다. 소독완료	STO-B LOC-B CVL-B AFW-B O O O
+"[광주광역시] 6.12(토) 12:30~13:40 위더스웨딩홀 4층 뷔페식당 아델라홀 죽봉대로 ""153,"" 광천동 방문자는 보건소에서 검사받으시기 바랍니다."	ORG-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-B LOC-B LOC-I LOC-I CVL-B AFW-B O O
+"""[광주광역시]6.4,"" ""6.8~9,"" 6.16일 11:30~11:50 광주과학기술진흥원 1층 구내식당 북구 ""첨단과기로339,대촌동"" 방문자는 보건소 검사 바랍니다."	ORG-B DAT-B DAT-B TIM-B STO-B LOC-B LOC-I LOC-B LOC-I CVL-B AFW-B O O
+[구로구청] 6/5(토)~16(수) 구로 오류동 오류24시사우나 여탕이용자는 거주지 임시선별진료소에서 코로나19 검사받으시기 바랍니다 ☎02-860-2012~5	ORG-B DAT-B LOC-B LOC-B STO-B LOC-B LOC-B AFW-B TRM-B O O NUM-B
+"[아산시청]6월17일 확진자 2명 ""아산697~698번,"" 조사중2 /6/10~15 매직마켓센터 신창면 읍내남길 ""12,"" 2층 방문자는 이순신운동장에서 코로나검사실시"	ORG-B CVL-B NUM-B NUM-B O DAT-B STO-B LOC-B LOC-I LOC-I LOC-I CVL-B O O

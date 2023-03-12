@@ -81,22 +81,22 @@ def _read_sms_file(file_path):
     return sentences
 
 def subway_loader(name):
-    file_path = './sms_ner_pkg/data/dictionary/subway_station_names.xlsx'
+    file_path = '../sms_ner_pkg/data/dictionary/subway_station_names.xlsx'
     return _read_subway_file(file_path, name)
 
 def sigu_loader():
-    file_path = './sms_ner_pkg/data/dictionary/sigu_names.xlsx'
+    file_path = '../sms_ner_pkg/data/dictionary/sigu_names.xlsx'
     return _read_sigu_file(file_path)
 
 def store_loader():
-    dir_path = './sms_ner_pkg/data/dictionary/store_names'
+    dir_path = '../sms_ner_pkg/data/dictionary/store_names'
     return _read_store_files(dir_path)
 
 def store_loader_with_city(city):
-    file_path = './sms_ner_pkg/data/dictionary/store_data' + city + '.csv'
+    file_path = '../sms_ner_pkg/data/dictionary/store_data' + city + '.csv'
     df = pd.read_csv(file_path)
     return df
 
 def sms_data_loader():
-    file_path = './sms_ner_pkg/data/input/sms_data.txt'
+    file_path = '../sms_ner_pkg/data/input/sms_data.txt'
     return _read_sms_file(file_path)

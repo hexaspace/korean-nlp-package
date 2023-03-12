@@ -18,7 +18,7 @@ def loc_detector(message):
     road_location = _get_road_address(message)
     if road_location and _get_only_location(road_location): # 도로명 주소가 존재한다면
         rex_loc.append(road_location)
-        return road_location
+        return [road_location]
 
     city_loc = _get_city_location(message)  # 도시 장소 사전탐색
 
@@ -37,11 +37,11 @@ def loc_detector(message):
     subway_loc = _get_subway_location(konlp_loc)  #지하철명 장소 사전탐색
 
     # _location = list(set(rex_loc)) + list(set(subway_loc)) + list(set(store_loc) + list(set(city_loc)))
-    print(rex_loc, subway_loc, store_loc)
+    # print(rex_loc, subway_loc, store_loc)
     _location = list(set(rex_loc + subway_loc + store_loc+ city_loc))
     # location = city_loc.join(_location)
-    accuracy = measure_accuracy(_location)
-    print("정확도 : ", accuracy)
+    # accuracy = measure_accuracy(_location)
+    # print("정확도 : ", accuracy)
     return _location
     # return city_loc
 def _get_store_location(locations):
@@ -95,7 +95,7 @@ def _get_city_location(sentence):
                 match_si = list(sigu_df[sigu_df['GU']==gu_name]['SI'])
                 # short_match_si = short_name[long_name.index(match_si[0])]
                 # match_si.append(short_match_si)
-                print(gu_name)
+                # print(gu_name)
                 match_si.append("")
                 if si_string in match_si:
                     city_list.append(gu_name)

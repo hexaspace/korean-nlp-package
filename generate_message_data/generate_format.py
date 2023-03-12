@@ -142,7 +142,7 @@ def message_tail():
     examine_adverb = ["즉시"] # O (0.2)
     tail_array = random_array(tail_array, examine_adverb, 0.2, None, "O")
     examine_verb_head = ["코로나", "코로나19"]    # TRM (0.7)
-    tail_array = random_array(tail_array, examine_verb_head, 0.7, None, "TRM")
+    tail_array = random_array(tail_array, examine_verb_head, 0.7, None, "TRM-B")
 
     examine_verb = ["검사받으세요.", "검사 바랍니다.",
                     "검사 받으시기 바랍니다.", "검사받으시기 바랍니다.",  "검사를 받으시기 바랍니다.", "검사를 받기바랍니다.",
@@ -165,12 +165,12 @@ if __name__ == "__main__":
     addresses = get_addresses(address_data_path)        # 도로명 주소
 
     # write TSV files
-    with open('./data/train_generated_man.tsv', 'w', encoding='utf-8', newline='') as f:
+    with open('./data/train_generated_hund_thous.tsv', 'w', encoding='utf-8', newline='') as f:
         tw = csv.writer(f, delimiter='\t')
         # tw.writerow(['source', 'target', 'value'])
         # tw.writerow(['A', 'B', 10])
         
-        for i in range(10000):
+        for i in range(100000):
             head = [message_head(sigungu_all_data)]
             random_store = random.choice(store_name_data)
             middle = message_middle(sigungu_local_data, random_store, addresses)

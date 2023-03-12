@@ -26,9 +26,9 @@ import csv
 
 
 if __name__ == "__main__":
-    f = open("./data/disaster_tagged_sto.txt", 'r')
+    f = open("./data/disaster_tagged_sto_all.txt", 'r')
 
-    with open('./data/test_data_sto.tsv', 'w', encoding='utf-8', newline='') as fw:
+    with open('./data/test_data_sto_all.tsv', 'w', encoding='utf-8', newline='') as fw:
         tw = csv.writer(fw, delimiter='\t')
         # tw.writerow(['source', 'target', 'value'])
         # tw.writerow(['A', 'B', 10])
@@ -51,6 +51,6 @@ if __name__ == "__main__":
                 print("nonnooon ",len(tab_sent) , len(tab_tag), tab_sent)
                 # for i in range(len(tab_sent)-1):
                 #     print(tab_sent[i], tab_tag[i])
-                continue
+                # continue
             tw.writerow([str_sentence, str_tag_sentence])
 

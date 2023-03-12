@@ -81,27 +81,27 @@ class Trainer(object):
 
         train_iterator = trange(int(self.args.num_train_epochs), desc="Epoch")
 
+        # train 반복
         for _ in train_iterator:
             epoch_iterator = tqdm(train_dataloader, desc="Iteration")
             for step, batch in enumerate(epoch_iterator):
                 self.model.train()
-                batch = tuple(t.to(self.device) for t in batch)  # GPU or CPU
-                inputs = {'input_ids': batch[0],
-                          'attention_mask': batch[1],
-                          'labels': batch[3]}
+                batch = tuple(t.to(self.device) for t in batch)
+                inputs = {'input_ids': batch[0],    # token embedding vector
+                          'attention_mask': batch[1],   # relation
+                          'labels': batch[3]}   # label id
                 if self.args.model_type != 'distilkobert':
-                    inputs['token_type_ids'] = batch[2]
+                    inputs['token_type_ids'] = batch[2] # sentence seperate
                 outputs = self.model(**inputs)
+                # 오차
                 loss = outputs[0]
 
                 if self.args.gradient_accumulation_steps > 1:
                     loss = loss / self.args.gradient_accumulation_steps
-
                 loss.backward()
-
                 tr_loss += loss.item()
-                if (step + 1) % self.args.gradient_accumulation_steps == 0:
-                    torch.nn.utils.clip_grad_norm_(self.model.parameters(), self.args.max_grad_norm)
+                if (step + 1) % self.args.gradient_accumulation_steps == 0: # 일정 gradient vector 후에 최적화 진행
+                    torch.nn.utils.clip_grad_norm_(self.model.parameters(), self.args.max_grad_norm)    # clipping
 
                     optimizer.step()
                     scheduler.step()  # Update learning rate schedule
@@ -109,7 +109,7 @@ class Trainer(object):
                     global_step += 1
 
                     if self.args.logging_steps > 0 and global_step % self.args.logging_steps == 0:
-                        self.evaluate("test", global_step)
+                        self.evaluate("test", global_step)  # evaluation
 
                     if self.args.save_steps > 0 and global_step % self.args.save_steps == 0:
                         self.save_model()

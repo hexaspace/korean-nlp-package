@@ -20,7 +20,7 @@ if __name__ == "__main__":
             tag_sentence = f.readline()
             dump = f.readline()
             # 탭으로 잘라서 array 만들기
-            tab_sent = sentence.split("\t")
+            tab_sentence = sentence.split("\t")
             tab_tag = tag_sentence.split("\t")
             # 공백원소와 마지막원소 (\n) 제거
             tab_sent = [w for w in tab_sent if w][:-1]
